@@ -1,0 +1,33 @@
+name = Commemorations
+description = Sub-theme for ANZAC Portal
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/commemorations.reset.css
+stylesheets[all][] = css/commemorations.styles.css
+stylesheets[print][] = css/commemorations.print.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/commemorations.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[help] = Help
+regions[content] = Content
+regions[footer] = Footer
+
+; ========================================
+; Plugins
+; ========================================
+plugins[panels][layouts] = panels/layouts

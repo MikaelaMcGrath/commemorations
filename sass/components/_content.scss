@@ -1,0 +1,38 @@
+.l-content {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: $vert-spacing-unit 0;
+    background-color: $white;
+    .media {
+        align: center;
+        padding: $all-round;
+        border: 1px solid $light-base;
+        img {
+            height: auto;
+        }
+        .caption {
+            font-size: $small-font-size;
+        }
+    }
+    .media-middle {
+        max-width: 265px;
+    }
+    .media-full {
+        max-width: 645px;
+        margin: 0 auto;
+    }
+    .media-thumbnail {
+        max-width: 170px;
+    }
+    blockquote {
+        margin: 0 0 0 $horz-spacing-unit;
+        font-style: italic;
+    }
+    .normal, cite {
+        font-style: normal;
+    }
+    cite {
+        font-size: $small-font-size;
+    }
+} 
