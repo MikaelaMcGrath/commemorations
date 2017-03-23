@@ -67,20 +67,31 @@
       $('.l-content', context).once('node__content', function () {
         // Now, we are invoking the previously declared theme function using two
         // settings as arguments.replace(/ /g,'')
+        
         $('.gallery').each(function (i) {
           var $gallery = $(this).index();
           $(this).parents('.media').addClass('gallery-' + $gallery);
-          $($('.gallery-' + $gallery).attr('class').split(' ')).each(function() {
-            if (this.indexOf($gallery) >= 0) {
-              if ($('.gallery-' + $gallery).length > 1) {
-                if ($('.image-gallery').children('.gallery-' + $gallery).length === 0) {
-                  $('.gallery-' + $gallery).wrapAll('<div class="image-gallery" />');
-                }
-              }
-            }
-          });
         });
+        if ($('.gallery-1').length > 1) {
+          $('.gallery-1').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-2').length > 1) {
+          $('.gallery-2').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-3').length > 1) {
+          $('.gallery-3').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-4').length > 1) {
+          $('.gallery-4').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-5').length > 1) {
+          $('.gallery-5').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-6').length > 1) {
+          $('.gallery-6').wrapAll('<div class="image-gallery" />');
+        }
       });
+      
     }
   };
 })(jQuery);
