@@ -10,7 +10,7 @@
    * In most cases, there is no good reason to NOT wrap your markup producing
    * JavaScript in a theme function.
    */
-  Drupal.theme.prototype.commemorationsExampleButton = function (path, title) {
+   Drupal.theme.prototype.commemorationsExampleButton = function (path, title) {
     // Create an anchor element with jQuery.
     return $('<a href="' + path + '" title="' + title + '">' + title + '</a>');
   };
@@ -38,7 +38,7 @@
    *   Drupal.settings directly you should use this because of potential
    *   modifications made by the Ajax callback that also produced 'context'.
    */
-  Drupal.behaviors.commemorationsExampleBehavior = {
+   Drupal.behaviors.commemorationsExampleBehavior = {
     attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
       // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
@@ -56,5 +56,31 @@
       });
     }
   };
-
+  Drupal.behaviors.commemorationsGallery = {
+    attach: function (context, settings) {
+      // By using the 'context' variable we make sure that our code only runs on
+      // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
+      // we don't run the same piece of code for an HTML snippet that we already
+      // processed previously. By using .once('foo') all processed elements will
+      // get tagged with a 'foo-processed' class, causing all future invocations
+      // of this behavior to ignore them.
+      $('.l-content', context).once('node__content', function () {
+        // Now, we are invoking the previously declared theme function using two
+        // settings as arguments.replace(/ /g,'')
+        $('.gallery').each(function (i) {
+          var $gallery = $(this).index();
+          $(this).parents('.media').addClass('gallery-' + $gallery);
+          $($('.gallery-' + $gallery).attr('class').split(' ')).each(function() {
+            if (this.indexOf($gallery) >= 0) {
+              if ($('.gallery-' + $gallery).length > 1) {
+                if ($('.image-gallery').children('.gallery-' + $gallery).length === 0) {
+                  $('.gallery-' + $gallery).wrapAll('<div class="image-gallery" />');
+                }
+              }
+            }
+          });
+        });
+      });
+    }
+  };
 })(jQuery);

@@ -58,7 +58,6 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-  <script src="<?php print base_path() . path_to_theme() . '/js/flashtest.js' ?>"></script>
 </head>
 <body<?php print $attributes;?>>
   <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
