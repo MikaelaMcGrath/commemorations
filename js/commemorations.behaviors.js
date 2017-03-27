@@ -69,10 +69,8 @@
         // settings as arguments.replace(/ /g,'')
         $('.gallery').each(function (i) {
           var $gallery = $(this).text().replace(/ /g, '');
-          console.log($gallery);
           $(this).parents('.media').addClass('gallery-' + $gallery);
           var $galleryNum = $('.gallery-' + $gallery).index();
-          console.log($galleryNum);
           $(this).parents('.media').addClass('gallery-' + $galleryNum);
         });
         if ($('.gallery-1').length > 1) {
@@ -141,7 +139,44 @@
         if ($('.gallery-22').length > 1) {
           $('.gallery-22').wrapAll('<div class="image-gallery" />');
         }  
-
+        if ($('.gallery-23').length > 1) {
+          $('.gallery-23').wrapAll('<div class="image-gallery" />');
+        }  
+        if ($('.gallery-23').length > 1) {
+          $('.gallery-23').wrapAll('<div class="image-gallery" />');
+        }  
+        if ($('.gallery-24').length > 1) {
+          $('.gallery-24').wrapAll('<div class="image-gallery" />');
+        }  
+        if ($('.gallery-25').length > 1) {
+          $('.gallery-25').wrapAll('<div class="image-gallery" />');
+        }  
+        if ($('.gallery-26').length > 1) {
+          $('.gallery-26').wrapAll('<div class="image-gallery" />');
+        }  
+        if ($('.gallery-27').length > 1) {
+          $('.gallery-27').wrapAll('<div class="image-gallery" />');
+        }  
+        if ($('.gallery-28').length > 1) {
+          $('.gallery-28').wrapAll('<div class="image-gallery" />');
+        }  
+        if ($('.gallery-29').length > 1) {
+          $('.gallery-29').wrapAll('<div class="image-gallery" />');
+        }  
+        if ($('.gallery-30').length > 1) {
+          $('.gallery-30').wrapAll('<div class="image-gallery" />');
+        }  
+      });
+    }
+  };
+  Drupal.behaviors.commemorationsMasonry = {
+    attach: function (context, settings) {
+      $('.l-content', context).once('node__content', function () {
+        var elem = document.querySelector('.image-gallery');
+        var msnry = new Masonry( elem, {
+          itemSelector: '.media',
+          columnWidth: 300
+        });
       });
     }
   };

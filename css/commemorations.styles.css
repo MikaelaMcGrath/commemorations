@@ -392,3 +392,13 @@ ul.breadcrumb {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/ANZACPortal\/docroot\/sites\/all\/themes\/custom\/commemorations\/sass\/components\/_breadcrumbs\.scss}line{font-family:\0000317}}
   ul.breadcrumb li:last-child:after {
     content: ''; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/ANZACPortal\/docroot\/sites\/all\/themes\/custom\/commemorations\/sass\/components\/_images\.scss}line{font-family:\000032}}
+.l-content .image-gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/ANZACPortal\/docroot\/sites\/all\/themes\/custom\/commemorations\/sass\/components\/_images\.scss}line{font-family:\000037}}
+  .l-content .image-gallery .media {
+    width: 30%; }
