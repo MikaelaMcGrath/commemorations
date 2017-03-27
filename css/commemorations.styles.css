@@ -10,7 +10,7 @@ button, [type='button'], [type='reset'], [type='submit'], .button {
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.8em;
   -webkit-font-smoothing: antialiased;
   font-weight: 500;
@@ -63,7 +63,7 @@ input,
 select,
 textarea {
   display: block;
-  font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/ANZACPortal\/docroot\/sites\/all\/themes\/custom\/commemorations\/sass\/base\/_forms\.scss}line{font-family:\0000328}}
@@ -217,7 +217,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.2;
   margin: 0.75em 0 0.75em;
   color: #474747;
@@ -328,7 +328,7 @@ body {
   margin: 0;
   padding: 0;
   color: #262626;
-  font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/ANZACPortal\/docroot\/sites\/all\/themes\/custom\/commemorations\/sass\/components\/_page\.scss}line{font-family:\000038}}

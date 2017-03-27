@@ -67,10 +67,13 @@
       $('.l-content', context).once('node__content', function () {
         // Now, we are invoking the previously declared theme function using two
         // settings as arguments.replace(/ /g,'')
-        
         $('.gallery').each(function (i) {
-          var $gallery = $(this).index();
+          var $gallery = $(this).text().replace(/ /g, '');
+          console.log($gallery);
           $(this).parents('.media').addClass('gallery-' + $gallery);
+          var $galleryNum = $('.gallery-' + $gallery).index();
+          console.log($galleryNum);
+          $(this).parents('.media').addClass('gallery-' + $galleryNum);
         });
         if ($('.gallery-1').length > 1) {
           $('.gallery-1').wrapAll('<div class="image-gallery" />');
@@ -90,8 +93,56 @@
         if ($('.gallery-6').length > 1) {
           $('.gallery-6').wrapAll('<div class="image-gallery" />');
         }
+        if ($('.gallery-7').length > 1) {
+          $('.gallery-7').wrapAll('<div class="image-gallery" />');
+        }  
+        if ($('.gallery-8').length > 1) {
+          $('.gallery-8').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-9').length > 1) {
+          $('.gallery-9').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-10').length > 1) {
+          $('.gallery-10').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-11').length > 1) {
+          $('.gallery-11').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-12').length > 1) {
+          $('.gallery-12').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-13').length > 1) {
+          $('.gallery-13').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-14').length > 1) {
+          $('.gallery-14').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-15').length > 1) {
+          $('.gallery-15').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-16').length > 1) {
+          $('.gallery-16').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-17').length > 1) {
+          $('.gallery-17').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-18').length > 1) {
+          $('.gallery-18').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-19').length > 1) {
+          $('.gallery-19').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-20').length > 1) {
+          $('.gallery-20').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-21').length > 1) {
+          $('.gallery-21').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-22').length > 1) {
+          $('.gallery-22').wrapAll('<div class="image-gallery" />');
+        }  
+
       });
-      
     }
   };
 })(jQuery);
