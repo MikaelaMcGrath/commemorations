@@ -165,6 +165,141 @@
         }  
         if ($('.gallery-30').length > 1) {
           $('.gallery-30').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-31').length > 1) {
+          $('.gallery-31').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-32').length > 1) {
+          $('.gallery-32').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-33').length > 1) {
+          $('.gallery-33').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-34').length > 1) {
+          $('.gallery-34').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-35').length > 1) {
+          $('.gallery-35').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-36').length > 1) {
+          $('.gallery-36').wrapAll('<div class="image-gallery" />');
+        }    
+        if ($('.gallery-37').length > 1) {
+          $('.gallery-37').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-38').length > 1) {
+          $('.gallery-38').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-39').length > 1) {
+          $('.gallery-39').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-40').length > 1) {
+          $('.gallery-40').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-41').length > 1) {
+          $('.gallery-41').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-42').length > 1) {
+          $('.gallery-42').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-43').length > 1) {
+          $('.gallery-43').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-44').length > 1) {
+          $('.gallery-44').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-45').length > 1) {
+          $('.gallery-45').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-46').length > 1) {
+          $('.gallery-46').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-47').length > 1) {
+          $('.gallery-47').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-48').length > 1) {
+          $('.gallery-48').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-49').length > 1) {
+          $('.gallery-49').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-50').length > 1) {
+          $('.gallery-50').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-51').length > 1) {
+          $('.gallery-51').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-52').length > 1) {
+          $('.gallery-52').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-53').length > 1) {
+          $('.gallery-53').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-54').length > 1) {
+          $('.gallery-54').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-55').length > 1) {
+          $('.gallery-55').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-56').length > 1) {
+          $('.gallery-56').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-57').length > 1) {
+          $('.gallery-57').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-58').length > 1) {
+          $('.gallery-58').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-59').length > 1) {
+          $('.gallery-59').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-60').length > 1) {
+          $('.gallery-60').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-61').length > 1) {
+          $('.gallery-61').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-62').length > 1) {
+          $('.gallery-62').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-63').length > 1) {
+          $('.gallery-63').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-64').length > 1) {
+          $('.gallery-64').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-65').length > 1) {
+          $('.gallery-65').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-66').length > 1) {
+          $('.gallery-66').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-67').length > 1) {
+          $('.gallery-67').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-68').length > 1) {
+          $('.gallery-68').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-69').length > 1) {
+          $('.gallery-69').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-70').length > 1) {
+          $('.gallery-70').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-71').length > 1) {
+          $('.gallery-71').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-72').length > 1) {
+          $('.gallery-72').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-73').length > 1) {
+          $('.gallery-73').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-74').length > 1) {
+          $('.gallery-74').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-75').length > 1) {
+          $('.gallery-75').wrapAll('<div class="image-gallery" />');
         }  
       });
     }
