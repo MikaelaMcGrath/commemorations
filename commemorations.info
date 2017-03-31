@@ -20,7 +20,6 @@ scripts[] = js/commemorations.behaviors.js
 ; ========================================
 ; Regions
 ; ========================================
-regions[branding] = Branding
 regions[header] = Header
 regions[navigation] = Navigation
 regions[help] = Help

@@ -73,37 +73,47 @@
 <div class="l-page">
   <header class="l-header" role="banner">
   	<div class="header-menu">
-		<?php $header_menu = module_invoke('menu', 'block_view', 'menu-header-menu'); ?>
-        <?php print render($header_menu['content']); ?>
+		  <?php $header_menu = module_invoke('menu', 'block_view', 'menu-header-menu'); ?>
+      <?php print render($header_menu['content']); ?>
     </div>
-    <br>
-	<div class="menu-wrapper">
-    	<div class="logo">
-			<?php if ($logo): ?>
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-            <?php endif; ?>
+    
+	  <div class="l-branding">
+    	<div class="logos">
+        <div class="aus-crest">
+          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
+            <img src="<?php print base_path() . path_to_theme() . '/images/logo-gov.png' ?>" alt="<?php print t('Home'); ?>" />
+          </a>
         </div>
+        <div class="centenary">
+          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
+            <img src="<?php print base_path() . path_to_theme() . '/images/logo-anzac.png' ?>" alt="<?php print t('Home'); ?>" />
+          </a>
+        </div>
+      </div>
+      <div class="menu-wrapper">
         <div class="main-menu">
-            <?php $main_menu = module_invoke('menu_block', 'block_view', '1'); ?>
-            <?php print render($main_menu['content']); ?>
+              <?php $main_menu = module_invoke('menu_block', 'block_view', '1'); ?>
+              <?php print render($main_menu['content']); ?>
         </div>
-        <div class="search">
+      </div>
+      <div class="search">
         	<?php $search = module_invoke('search', 'block_view', 'search-block-form'); ?>
-            <?php print render($search['content']); ?>
-        </div>
+          <?php print render($search['content']); ?>
+      </div>
     </div>
-    <div class="l-branding">
-      <?php if ($site_name): ?>
+    
+      
           <h1 class="site-name">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
           </h1>
-      <?php endif; ?>
-      
-      <?php print render($page['branding']); ?>
-    </div>
 
-    <?php print render($page['header']); ?>
-    <?php print render($page['navigation']); ?>
+      
+
+    </div>
+    <div class="header">
+      <?php print render($page['header']); ?>
+      <?php print render($page['navigation']); ?>
+    </div>
   </header>
 
   <div class="l-main">

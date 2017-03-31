@@ -1,3 +1,7 @@
+body {
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+}
 h1,
 h2,
 h3,
@@ -8,11 +12,10 @@ h6 {
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing;
   color: $heading-font-color;
-  font-weight: 500;
 }
 h1 {
   font-size: $base-font-size * 2.1;
-  font-weight: 300;
+  font-weight: $light-font-weight;
   margin: 0 0 $small-spacing;
 }
 h2 {
@@ -62,8 +65,11 @@ a {
   }
   
 }
+em {
+  font-style: italic;
+}
 strong {
-  font-weight: 500;
+  font-weight: $bold-font-weight;
 }
 hr {
   border-bottom: $base-border;

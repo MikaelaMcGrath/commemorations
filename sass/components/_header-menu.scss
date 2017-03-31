@@ -1,0 +1,21 @@
+.l-header {
+	.header-menu {
+		width: 100%;
+		background: $dark-base;
+		font-weight: $light-font-weight;
+		padding: 0 $horz-spacing-unit;
+		a {
+			color: $white;
+		}
+		ul {
+			display: flex;
+			flex-wrap: nowrap;
+			
+			li {
+				list-style-type: none;
+				list-style-image: none;
+				padding: $vert-spacing-unit /2 $horz-spacing-unit;
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.menu-wrapper {
+	.main-menu {
+		display: flex;
+		flex-wrap: nowrap;
+		ul {
+			li {
+				list-style: none;
+			}
+		}
+	}
+}

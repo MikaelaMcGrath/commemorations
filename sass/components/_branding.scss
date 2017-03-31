@@ -1,0 +1,16 @@
+.l-branding {
+	background: $accent;
+	padding: 0 $horz-spacing-unit;
+	display: flex;
+	flex-wrap: nowrap;
+	.logos {
+		display: flex;
+		flex-wrap: nowrap;
+		.aus-crest {
+			width: 200px;
+		}
+		.centenary {
+			width: 70px;
+		}
+	}
+}
