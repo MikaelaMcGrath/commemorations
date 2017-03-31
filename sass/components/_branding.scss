@@ -1,17 +1,39 @@
 .l-branding {
 	background: $accent;
-	padding: 0 $horz-spacing-unit;
-	display: flex;
-	flex-wrap: nowrap;
 	.logos {
 		display: flex;
 		flex-wrap: nowrap;
 		align-items: center;
+		position: absolute;
+		padding: 0 $horz-spacing-unit;
+		top: 5px;
 		.aus-crest {
-			width: 200px;
+			width: 130px;
 		}
 		.centenary {
-			width: 70px;
+			width: 40px;
+			margin-left: $horz-spacing-unit;
+		}
+		img {
+			display: block;
+		}
+	}
+}
+@include breakpoint(tablet) {
+	.l-branding {
+		display: flex;
+		flex-wrap: nowrap;
+		padding: 0 $horz-spacing-unit;
+		.logos {
+			padding: 0;
+			position: relative;
+			top: 0;
+			.aus-crest {
+				width: 200px;
+			}
+			.centenary {
+				width: 70px;
+			}
 		}
 	}
 }

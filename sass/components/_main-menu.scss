@@ -3,22 +3,33 @@
 		height: 100%;
 		.menu-block-wrapper {
 			height: 100%;
-		ul {
-			display: flex;
-			flex-wrap: nowrap;
-			height: 100%;
-			li {
-				list-style: none;
-				a {
-					display: flex;
-					flex-direction: column;
-					justify-content: center;
-					text-align: center;
-					height: 100%;
-					padding: 0 $horz-spacing-unit;
+			ul {
+				display: flex;
+				flex-wrap: nowrap;
+				height: 100%;
+				li {
+					list-style: none;
+					a {
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						text-align: center;
+						height: 100%;
+						padding: 0 $horz-spacing-unit;
+					}
 				}
 			}
 		}
 	}
+}
+.mean-container { 
+	.mean-bar {
+		background: transparent;
+		a {
+			background: $base;
+		}
+	}
+	.mean-nav {
+		margin-top: 42px;
 	}
 }

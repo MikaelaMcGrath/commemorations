@@ -1,9 +1,12 @@
 .l-header {
+	
 	.header-menu {
+		display: none;
 		width: 100%;
 		background: $dark-base;
 		font-weight: $light-font-weight;
 		padding: 0 $horz-spacing-unit;
+		font-size: $small-font-size;
 		a {
 			color: $white;
 		}
@@ -14,8 +17,15 @@
 			li {
 				list-style-type: none;
 				list-style-image: none;
-				padding: $vert-spacing-unit /2 $horz-spacing-unit;
+				padding: $vert-spacing-unit /2 $horz-spacing-unit/2;
 			}
+		}
+	}
+}
+@include breakpoint(tablet) {
+	.l-header {
+		.header-menu {
+			display: block;
 		}
 	}
 }
