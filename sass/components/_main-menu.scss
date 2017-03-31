@@ -3,6 +3,7 @@
 		height: 100%;
 		.menu-block-wrapper {
 			height: 100%;
+			text-transform: uppercase;
 			ul {
 				display: flex;
 				flex-wrap: nowrap;
@@ -17,7 +18,9 @@
 						height: 100%;
 						padding: 0 $horz-spacing-unit;
 					}
+
 				}
+
 			}
 		}
 	}
@@ -25,11 +28,39 @@
 .mean-container { 
 	.mean-bar {
 		background: transparent;
+		padding-bottom: 0;
 		a {
 			background: $base;
+			&.meanmenu-reveal {
+				
+			}
 		}
 	}
 	.mean-nav {
 		margin-top: 42px;
+		ul li {
+			a {
+				border-top: 1px solid $base;
+				padding: $vert-spacing-unit/2 2.5%;
+				width: 95%;
+				background: $light-base;
+				font-weight: $light-font-weight;
+			}
+		}
+	}
+}
+@include breakpoint(tablet) {
+	.menu-wrapper {
+		.main-menu {
+			.menu-block-wrapper {
+				ul {
+					li {
+						ul {
+							display: none;
+						}
+					}
+				}
+			}
+		}
 	}
 }

@@ -1,22 +1,25 @@
 .l-header {
 	.search {
 		width: 100%;
+		background: $base;
+		clear: both;
+		padding: $vert-spacing-unit/2 $horz-spacing-unit/2;
+		border-top: 1px solid $dark-base;
 		.form-submit {
-				display: none;
-			}
+			display: none;
+		}
+		.form-text {
+			margin-bottom: 0;
+		}
 	}
 }
 @include breakpoint(tablet) {
 	.l-header {
 		.search {
+			border-top: none;
+			background: $accent;
 			display: flex;
 			align-items: center;
-			.form-submit {
-				display: none;
-			}	
-			.form-text {
-				margin-bottom: 0;
-			}
 		}
 	}
 }

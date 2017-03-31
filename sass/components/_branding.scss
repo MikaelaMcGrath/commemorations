@@ -6,7 +6,7 @@
 		align-items: center;
 		position: absolute;
 		padding: 0 $horz-spacing-unit;
-		top: 5px;
+		top: 2px;
 		.aus-crest {
 			width: 130px;
 		}
@@ -24,6 +24,7 @@
 		display: flex;
 		flex-wrap: nowrap;
 		padding: 0 $horz-spacing-unit;
+		justify-content: space-between;
 		.logos {
 			padding: 0;
 			position: relative;
