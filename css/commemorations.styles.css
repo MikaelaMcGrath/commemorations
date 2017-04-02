@@ -481,7 +481,12 @@ body {
     border-top: none;
     background: #fefce8;
     display: flex;
-    align-items: center; } }
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 1 25%; }
+    /* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_search.scss */
+    .l-header .search .search-block-form {
+      max-width: 250px; } }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_breadcrumbs.scss */
 ul.breadcrumb {
@@ -512,23 +517,23 @@ ul.breadcrumb {
     align-items: center;
     position: absolute;
     padding: 0 1rem;
-    top: 2px; }
-    /* line 10, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */
+    top: 2px;
+    flex: 2 0 auto; }
+    /* line 11, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */
     .l-branding .logos .aus-crest {
       width: 130px; }
-    /* line 13, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */
+    /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */
     .l-branding .logos .centenary {
       width: 40px;
       margin-left: 1rem; }
-    /* line 17, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */
+    /* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */
     .l-branding .logos img {
       display: block; }
 
 @media (min-width: 768px) {
-  /* line 23, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */
+  /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */
   .l-branding {
     display: flex;
-    flex-wrap: nowrap;
     padding: 0 1rem;
     justify-content: space-between; }
     /* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */

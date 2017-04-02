@@ -20,6 +20,11 @@
 			background: $accent;
 			display: flex;
 			align-items: center;
+			justify-content: flex-end;
+			flex: 0 1 25%;
+			.search-block-form {
+				max-width: 250px;
+			}
 		}
 	}
 }

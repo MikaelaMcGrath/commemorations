@@ -7,6 +7,7 @@
 		position: absolute;
 		padding: 0 $horz-spacing-unit;
 		top: 2px;
+		flex: 2 0 auto;
 		.aus-crest {
 			width: 130px;
 		}
@@ -22,7 +23,6 @@
 @include breakpoint(tablet) {
 	.l-branding {
 		display: flex;
-		flex-wrap: nowrap;
 		padding: 0 $horz-spacing-unit;
 		justify-content: space-between;
 		.logos {
