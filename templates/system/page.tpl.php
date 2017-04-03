@@ -142,6 +142,10 @@
             <?php $main_menu = module_invoke('menu', 'block_view', 'menu-footer-menu'); ?>
             <?php print render($main_menu['content']); ?>
         </div>
+        <div class="subscribe">
+            <?php $subscribe = module_invoke('block', 'block_view', '1'); ?>
+            <?php print render($subscribe['content']); ?>
+        </div>
         <div class="social">
         </div>
     <?php print render($page['footer']); ?>

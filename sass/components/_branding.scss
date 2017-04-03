@@ -12,10 +12,11 @@
 		flex: 2 1 auto;
 		.aus-crest {
 			width: 130px;
+			margin-right: $horz-spacing-unit;
 		}
 		.centenary {
 			width: 40px;
-			margin-left: $horz-spacing-unit;
+
 		}
 		img {
 			display: block;
@@ -36,9 +37,20 @@
 			flex-wrap: wrap;
 			.aus-crest {
 				width: 200px;
+				display: none;
 			}
 			.centenary {
 				width: 55px;
+				padding: $vert-spacing-unit/4 0;
+			}
+		}
+	}
+}
+@include breakpoint(desktop) {
+	.l-branding {
+		.logos {
+			.aus-crest {
+				display: block;
 			}
 		}
 	}

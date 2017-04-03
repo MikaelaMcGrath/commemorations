@@ -21,13 +21,13 @@
 			display: flex;
 			align-items: center;
 			justify-content: flex-end;
-			flex: 0 1 20%;
+			flex: 0 1 23%;
 			form {
 				max-width: 200px;
 				min-width: 125px;
 				.form-item {
 					input {
-						border-radius: 10px;
+						border-radius: 7px;
 						padding: 0.2em 0.5em;	
 						color: $mid-grey;
 						border: 1px solid $mid-grey;

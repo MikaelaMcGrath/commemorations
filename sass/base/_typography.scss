@@ -19,11 +19,10 @@ h1 {
   margin: 0 0 $small-spacing;
 }
 h2 {
-  font-weight: 400;
+  font-weight: $light-font-weight;
   font-size: $base-font-size * 1.8;
 }
 h3 {
-
   font-size: $base-font-size * 1.6;
 }
 h4 {
@@ -31,14 +30,16 @@ h4 {
 }
 h5 {
   font-size: $base-font-size * 1.2;
+  font-weight: $bold-font-weight;
 }
 h6 {
   text-transform: uppercase;
+  font-weight: $bold-font-weight;
   font-size: $base-font-size;
 }
 p {
   margin: 0 0 $small-spacing;
-  color: $dark-grey;
+  color: $base-font-color;
 }
 
 a {
