@@ -23,7 +23,7 @@
 						padding: 0 $horz-spacing-unit;
 
 					}
-					&:hover, &:focus {
+					&:hover, &:focus, &.active-trail {
 							background: $base;
 							a {
 								color: $white;

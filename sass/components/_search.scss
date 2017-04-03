@@ -21,9 +21,24 @@
 			display: flex;
 			align-items: center;
 			justify-content: flex-end;
-			flex: 0 1 25%;
-			.search-block-form {
-				max-width: 250px;
+			flex: 0 1 20%;
+			form {
+				max-width: 200px;
+				min-width: 125px;
+				.form-item {
+					input {
+						border-radius: 10px;
+						padding: 0.2em 0.5em;	
+						color: $mid-grey;
+						border: 1px solid $mid-grey;
+						font-weight: $light-font-weight;
+						font-size: $base-font-size *0.9;
+						&:focus {
+							color: $black;
+							border: 1px solid $base;
+						}
+					}
+				}	
 			}
 		}
 	}

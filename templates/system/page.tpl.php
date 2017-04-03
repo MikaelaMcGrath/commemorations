@@ -135,7 +135,7 @@
 
   <footer class="l-footer" role="contentinfo">
         <div class="footer-main-menu">
-            <?php $main_menu = module_invoke('menu_block', 'block_view', '1'); ?>
+            <?php $main_menu = module_invoke('menu_block', 'block_view', '3'); ?>
             <?php print render($main_menu['content']); ?>
         </div>
         <div class="sub-footer-menu">

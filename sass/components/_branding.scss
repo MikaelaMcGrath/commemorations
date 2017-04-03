@@ -9,7 +9,7 @@
 		position: absolute;
 		padding: 0 $horz-spacing-unit;
 		top: 2px;
-		flex: 2 0 auto;
+		flex: 2 1 auto;
 		.aus-crest {
 			width: 130px;
 		}
@@ -27,15 +27,18 @@
 		display: flex;
 		padding: 0 $horz-spacing-unit;
 		justify-content: space-between;
+		overflow: hidden;
 		.logos {
 			padding: 0;
 			position: relative;
 			top: 0;
+			display: flex;
+			flex-wrap: wrap;
 			.aus-crest {
 				width: 200px;
 			}
 			.centenary {
-				width: 70px;
+				width: 55px;
 			}
 		}
 	}
