@@ -1,0 +1,11 @@
+.l-footer {
+	background: $dark-grey;
+	display: flex;
+	flex-wrap: wrap;
+	a {
+		color: $white;
+	}
+	li.first {
+		font-weight: $bold-font-weight;
+	}
+}

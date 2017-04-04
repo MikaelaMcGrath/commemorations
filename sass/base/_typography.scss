@@ -45,15 +45,12 @@ p {
 a {
   color: $action-color;
   text-decoration: none;
-  transition: color $base-duration $base-timing;
-
-  &:active {
-    color: $dark-base;
-  }
   &:focus,
   &:hover {
+    color: $alert;
+  }
+  &:visited {
     color: $light-base;
-
   }
 }
 .l-content {

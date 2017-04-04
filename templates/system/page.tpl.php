@@ -103,7 +103,7 @@
     </div>
     
       
-          <h1 class="site-name">
+          <h1 class="site-name element-invisible">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
           </h1>
 
@@ -147,6 +147,8 @@
             <?php print render($subscribe['content']); ?>
         </div>
         <div class="social">
+            <?php $social = module_invoke('block', 'block_view', '2'); ?>
+            <?php print render($social['content']); ?>
         </div>
     <?php print render($page['footer']); ?>
   </footer>

@@ -300,7 +300,100 @@
         }
         if ($('.gallery-75').length > 1) {
           $('.gallery-75').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-76').length > 1) {
+          $('.gallery-76').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-77').length > 1) {
+          $('.gallery-77').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-78').length > 1) {
+          $('.gallery-78').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-79').length > 1) {
+          $('.gallery-79').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-80').length > 1) {
+          $('.gallery-80').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-81').length > 1) {
+          $('.gallery-81').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-82').length > 1) {
+          $('.gallery-82').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-83').length > 1) {
+          $('.gallery-83').wrapAll('<div class="image-gallery" />');
         }  
+        if ($('.gallery-84').length > 1) {
+          $('.gallery-84').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-85').length > 1) {
+          $('.gallery-85').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-86').length > 1) {
+          $('.gallery-86').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-87').length > 1) {
+          $('.gallery-87').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-88').length > 1) {
+          $('.gallery-88').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-89').length > 1) {
+          $('.gallery-89').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-90').length > 1) {
+          $('.gallery-90').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-91').length > 1) {
+          $('.gallery-91').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-92').length > 1) {
+          $('.gallery-92').wrapAll('<div class="image-gallery" />');
+        }
+        if ($('.gallery-93').length > 1) {
+          $('.gallery-93').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-94').length > 1) {
+          $('.gallery-94').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-95').length > 1) {
+          $('.gallery-95').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-96').length > 1) {
+          $('.gallery-96').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-97').length > 1) {
+          $('.gallery-97').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-98').length > 1) {
+          $('.gallery-98').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-99').length > 1) {
+          $('.gallery-99').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-100').length > 1) {
+          $('.gallery-100').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-101').length > 1) {
+          $('.gallery-101').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-102').length > 1) {
+          $('.gallery-102').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-103').length > 1) {
+          $('.gallery-103').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-104').length > 1) {
+          $('.gallery-104').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-105').length > 1) {
+          $('.gallery-105').wrapAll('<div class="image-gallery" />');
+        } 
+        if ($('.gallery-106').length > 1) {
+          $('.gallery-106').wrapAll('<div class="image-gallery" />');
+        } 
       });
     }
   };
