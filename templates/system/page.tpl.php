@@ -128,9 +128,6 @@
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </div>
-
-    <?php print render($page['sidebar_first']); ?>
-    <?php print render($page['sidebar_second']); ?>
   </div>
 
   <footer class="l-footer" role="contentinfo">
