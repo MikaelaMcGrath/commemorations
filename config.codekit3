@@ -82,6 +82,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/images\/down-arrow.png": {
+		"ft": 32768,
+		"iS": 21051,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/down-arrow.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/logo-anzac.png": {
 		"ft": 32768,
 		"iS": 29454,
@@ -98,6 +108,46 @@
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/logo-gov.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/right-arrow.png": {
+		"ft": 32768,
+		"iS": 20878,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/right-arrow.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/social\/icn-facebook.png": {
+		"ft": 32768,
+		"iS": 15226,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/social\/icn-facebook.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/social\/icn-twitter.png": {
+		"ft": 32768,
+		"iS": 16193,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/social\/icn-twitter.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/social\/icn-youtube.png": {
+		"ft": 32768,
+		"iS": 16188,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/social\/icn-youtube.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100

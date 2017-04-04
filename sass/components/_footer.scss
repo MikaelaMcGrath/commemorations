@@ -2,10 +2,27 @@
 	background: $dark-grey;
 	display: flex;
 	flex-wrap: wrap;
+	padding: $all-round;
 	a {
 		color: $white;
 	}
-	li.first {
+	li.first a {
 		font-weight: $bold-font-weight;
+	}
+	.footer-main-menu, .sub-footer-menu {
+		flex: 0 1 50%;
+		text-transform: uppercase;
+		ul {
+			li {
+				list-style: none;
+				padding: $vert-spacing-unit /4 0;
+			}
+		}
+	}
+	.footer-main-menu {
+		order: 3;
+	}
+	.sub-footer-menu {
+		order: 4;
 	}
 }

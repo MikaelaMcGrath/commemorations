@@ -45,6 +45,7 @@ p {
 a {
   color: $action-color;
   text-decoration: none;
+  font-weight: $light-font-weight;
   &:focus,
   &:hover {
     color: $alert;

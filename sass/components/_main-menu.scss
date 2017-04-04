@@ -11,6 +11,7 @@
 				li {
 					list-style: none;
 					border-left: 1px solid $base;
+					transition: background $base-duration ease;
 					&.last {
 						border-right: 1px solid $base;
 					}
@@ -21,15 +22,14 @@
 						text-align: center;
 						height: 100%;
 						padding: 0 $horz-spacing-unit;
-
+						font-weight: $base-font-weight;
 					}
 					&:hover, &:focus, &.active-trail {
-							background: $base;
-							a {
-								color: $white;
-							}
+						background: $base;
+						a {
+							color: $white;
 						}
-
+					}
 				}
 
 			}
@@ -56,6 +56,51 @@
 				width: 95%;
 				background: $light-base;
 				font-weight: $light-font-weight;
+				&:hover, &:focus {
+					background: $secondary;
+				}
+				&.mean-expand, &.mean-clicked {
+					background-size: auto 10px;
+					overflow: hidden;
+					text-indent: 200%;
+					width: 16px;
+					height: 16px;
+				}
+				&.mean-expand {
+					background: url('../images/right-arrow.png') no-repeat center;
+					background-size: auto 10px;
+					border: 0 !important;
+					&:hover {
+						background: $light-secondary url('../images/right-arrow.png') no-repeat center;
+						background-size: auto 10px;
+					}
+				}
+				&.mean-clicked {
+					background: url('../images/down-arrow.png') no-repeat center;
+					background-size: auto 10px;
+					&:hover {
+						background: $light-secondary url('../images/down-arrow.png') no-repeat center;
+						background-size: auto 10px;
+					}
+				}
+
+			}
+			li {
+				a {
+					background: $base;
+					padding: $vert-spacing-unit/2 5%;
+					width: 90%;
+					opacity: 1;
+					border-top: 1px solid $light-base;
+				}
+				li {
+					a {
+						background: $dark-base;
+						padding: $vert-spacing-unit/2 7.5%;
+						width: 85%;
+						border-top: 1px solid lighten($dark-base, 5%);
+					}
+				}
 			}
 		}
 	}
