@@ -610,8 +610,9 @@ body {
     order: 1;
     flex: 0 1 69%;
     display: flex;
-    flex-wrap: wrap; }
-  /* line 55, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+    flex-wrap: wrap;
+    align-content: flex-start; }
+  /* line 56, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
   .l-footer .footer-right {
     order: 2;
     flex: 0 1 30%; } }
@@ -740,7 +741,7 @@ ul.breadcrumb {
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto 15px;
-        transition: all 0.2s ease-in-out; }
+        transition: all 200ms ease-in-out; }
         /* line 45, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
         .social .account-list div.facebook a:hover, .social .account-list div.facebook a:focus {
           background-size: auto 20px; }
@@ -750,7 +751,7 @@ ul.breadcrumb {
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto 15px;
-        transition: all 0.2s ease-in-out; }
+        transition: all 200ms ease-in-out; }
         /* line 45, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
         .social .account-list div.twitter a:hover, .social .account-list div.twitter a:focus {
           background-size: auto 20px; }
@@ -760,7 +761,7 @@ ul.breadcrumb {
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto 15px;
-        transition: all 0.2s ease-in-out; }
+        transition: all 200ms ease-in-out; }
         /* line 45, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
         .social .account-list div.youtube a:hover, .social .account-list div.youtube a:focus {
           background-size: auto 20px; }
