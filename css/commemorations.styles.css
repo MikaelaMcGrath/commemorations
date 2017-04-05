@@ -576,17 +576,30 @@ body {
   /* line 12, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
   .l-footer .footer-main-menu, .l-footer .sub-footer-menu {
     flex: 0 1 50%;
-    text-transform: uppercase; }
-    /* line 16, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+    text-transform: uppercase;
+    padding: 1rem 1rem; }
+    /* line 17, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
     .l-footer .footer-main-menu ul li, .l-footer .sub-footer-menu ul li {
       list-style: none;
       padding: 0.25rem 0; }
-  /* line 22, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+  /* line 23, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
   .l-footer .footer-main-menu {
     order: 3; }
-  /* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+  /* line 26, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
   .l-footer .sub-footer-menu {
     order: 4; }
+
+@media (min-width: 768px) {
+  /* line 33, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+  .l-footer .footer-main-menu ul, .l-footer .sub-footer-menu ul {
+    display: flex;
+    flex-direction: row; }
+  /* line 38, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+  .l-footer .footer-main-menu {
+    order: 1; }
+  /* line 41, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+  .l-footer .sub-footer-menu {
+    order: 2; } }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_breadcrumbs.scss */
 ul.breadcrumb {
@@ -660,79 +673,97 @@ ul.breadcrumb {
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_subscribe.scss */
 .subscribe {
+  padding: 1rem 1rem;
   order: 1; }
-  /* line 3, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_subscribe.scss */
+  /* line 4, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_subscribe.scss */
   .subscribe label {
     text-transform: uppercase;
     color: #FFFFFF; }
+
+@media (min-width: 768px) {
+  /* line 11, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_subscribe.scss */
+  .subscribe {
+    order: 3; } }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
 .social {
   display: flex;
   order: 2;
-  width: 100%; }
-  /* line 5, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
-  .social label {
-    text-transform: uppercase;
-    color: #FFFFFF;
-    display: flex;
-    align-items: stretch; }
-  /* line 11, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+  width: 100%;
+  padding: 1rem 1rem; }
+  /* line 6, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+  .social p {
+    height: 100%; }
+    /* line 8, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+    .social p label {
+      text-transform: uppercase;
+      color: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      padding-right: 1rem; }
+  /* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
   .social .account-list {
     align-items: stretch;
     display: flex;
     justify-content: center; }
-    /* line 15, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+    /* line 22, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
     .social .account-list div {
       flex: 0 0 auto;
       margin: 5px;
       height: 30px;
       width: 30px; }
-      /* line 20, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+      /* line 27, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
       .social .account-list div a {
         display: block;
         height: 100%;
         text-indent: 200%;
         width: 100%;
         overflow: hidden; }
-      /* line 31, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+      /* line 38, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
       .social .account-list div.facebook a {
         background: url("../images/social/icn-facebook.png"), #000000;
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto 15px;
         transition: all 0.2s ease-in-out; }
-        /* line 37, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+        /* line 44, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
         .social .account-list div.facebook a:hover, .social .account-list div.facebook a:focus {
           background-size: auto 20px; }
-      /* line 31, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+      /* line 38, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
       .social .account-list div.twitter a {
         background: url("../images/social/icn-twitter.png"), #000000;
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto 15px;
         transition: all 0.2s ease-in-out; }
-        /* line 37, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+        /* line 44, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
         .social .account-list div.twitter a:hover, .social .account-list div.twitter a:focus {
           background-size: auto 20px; }
-      /* line 31, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+      /* line 38, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
       .social .account-list div.youtube a {
         background: url("../images/social/icn-youtube.png"), #000000;
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto 15px;
         transition: all 0.2s ease-in-out; }
-        /* line 37, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+        /* line 44, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
         .social .account-list div.youtube a:hover, .social .account-list div.youtube a:focus {
           background-size: auto 20px; }
-      /* line 42, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+      /* line 49, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
       .social .account-list div .desktop {
         display: none;
         visibility: hidden; }
-      /* line 46, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+      /* line 53, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
       .social .account-list div .mobile {
         display: block;
         visibility: visible; }
+
+@media (min-width: 768px) {
+  /* line 61, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
+  .social {
+    order: 4; } }
 
 /* line 2, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_images.scss */
 .l-content .image-gallery {

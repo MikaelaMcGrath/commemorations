@@ -2,11 +2,18 @@
 	display: flex;
 	order: 2;
 	width: 100%;
-	label {
-		text-transform: uppercase;
-		color: $white;
-		display: flex;
-		align-items: stretch;
+	padding: $all-round;
+	p {
+		height: 100%;
+		label {
+			text-transform: uppercase;
+			color: $white;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			height: 100%;
+			padding-right: $horz-spacing-unit;
+		}
 	}
 	.account-list {
 		align-items: stretch;
@@ -48,5 +55,10 @@
 				visibility: visible;
 			}
 		}
+	}
+}
+@include breakpoint(tablet) {
+	.social {
+		order: 4;
 	}
 }

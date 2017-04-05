@@ -12,6 +12,7 @@
 	.footer-main-menu, .sub-footer-menu {
 		flex: 0 1 50%;
 		text-transform: uppercase;
+		padding: $all-round;
 		ul {
 			li {
 				list-style: none;
@@ -24,5 +25,21 @@
 	}
 	.sub-footer-menu {
 		order: 4;
+	}
+}
+@include breakpoint(tablet) {
+	.l-footer {
+		.footer-main-menu, .sub-footer-menu {
+			ul {
+				display: flex;
+				flex-direction: row;
+			}
+		}
+		.footer-main-menu {
+			order: 1;
+		}
+		.sub-footer-menu {
+			order: 2;
+		}
 	}
 }

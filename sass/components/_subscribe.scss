@@ -1,8 +1,14 @@
 .subscribe {
+	padding: $all-round;
 	order: 1;
 	label {
 		text-transform: uppercase;
 		color: $white;
 
+	}
+}
+@include breakpoint(tablet) {
+	.subscribe {
+		order: 3;
 	}
 }

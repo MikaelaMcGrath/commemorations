@@ -129,7 +129,7 @@
 		"oA": 0,
 		"oAP": "\/images\/social\/icn-facebook.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/social\/icn-twitter.png": {
@@ -139,7 +139,7 @@
 		"oA": 0,
 		"oAP": "\/images\/social\/icn-twitter.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/social\/icn-youtube.png": {
@@ -149,7 +149,7 @@
 		"oA": 0,
 		"oAP": "\/images\/social\/icn-youtube.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/js\/commemorations.behaviors.js": {
