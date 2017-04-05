@@ -131,6 +131,7 @@
   </div>
 
   <footer class="l-footer" role="contentinfo">
+    <div class="footer-left">
         <div class="footer-main-menu">
             <?php $main_menu = module_invoke('menu_block', 'block_view', '3'); ?>
             <?php print render($main_menu['content']); ?>
@@ -139,6 +140,8 @@
             <?php $main_menu = module_invoke('menu', 'block_view', 'menu-footer-menu'); ?>
             <?php print render($main_menu['content']); ?>
         </div>
+    </div>
+    <div class="footer-right">
         <div class="subscribe">
             <?php $subscribe = module_invoke('block', 'block_view', '1'); ?>
             <?php print render($subscribe['content']); ?>
@@ -147,6 +150,7 @@
             <?php $social = module_invoke('block', 'block_view', '2'); ?>
             <?php print render($social['content']); ?>
         </div>
+    </div>
     <?php print render($page['footer']); ?>
   </footer>
 </div>

@@ -3,11 +3,22 @@
 	display: flex;
 	flex-wrap: wrap;
 	padding: $all-round;
+	width: 100%;
 	a {
 		color: $white;
 	}
 	li.first a {
 		font-weight: $bold-font-weight;
+	}
+	.footer-left, .footer-right {
+		width: 100%;
+	}
+	.footer-left{
+		order: 2;
+		display: flex;
+	}
+	.footer-right {
+		order: 1;
 	}
 	.footer-main-menu, .sub-footer-menu {
 		flex: 0 1 50%;
@@ -20,26 +31,31 @@
 			}
 		}
 	}
-	.footer-main-menu {
-		order: 3;
-	}
-	.sub-footer-menu {
-		order: 4;
-	}
+	
 }
 @include breakpoint(tablet) {
 	.l-footer {
+		
 		.footer-main-menu, .sub-footer-menu {
+			flex: 0 1 100%;
 			ul {
 				display: flex;
-				flex-direction: row;
+				flex-wrap: wrap;
+				li {
+					padding: 0 $horz-spacing-unit;
+				}
 			}
 		}
-		.footer-main-menu {
+		.footer-left{
 			order: 1;
+			flex: 0 1 69%;
+			display: flex;
+			flex-wrap: wrap;
 		}
-		.sub-footer-menu {
+		.footer-right {
 			order: 2;
+			flex: 0 1 30%;
 		}
+
 	}
 }

@@ -1,10 +1,10 @@
 .social {
 	display: flex;
-	order: 2;
 	width: 100%;
 	padding: $all-round;
 	p {
 		height: 100%;
+		margin-bottom: 0;
 		label {
 			text-transform: uppercase;
 			color: $white;
@@ -13,6 +13,7 @@
 			justify-content: center;
 			height: 100%;
 			padding-right: $horz-spacing-unit;
+			margin: 5px 0;
 		}
 	}
 	.account-list {
@@ -21,7 +22,7 @@
 		justify-content: center;
 		div {
 			flex: 0 0 auto;
-			margin: 5px;
+			margin: 0 5px;
 			height: 30px;
 			width: 30px;
 			a {
@@ -59,6 +60,5 @@
 }
 @include breakpoint(tablet) {
 	.social {
-		order: 4;
-	}
+			}
 }

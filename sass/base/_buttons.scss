@@ -1,7 +1,7 @@
 #{$all-buttons}, .button, .button-secondary {
   appearance: none;
   background-color: $light-base;
-  border: 0;
+  border: 1px solid $white;
   color: $white;
   cursor: pointer;
   display: inline-block;
