@@ -81,12 +81,12 @@
     	<div class="logos">
         <div class="aus-crest">
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-            <img src="<?php print base_path() . path_to_theme() . '/images/logo-gov.png' ?>" alt="<?php print t('Home'); ?>" />
+            <img src="<?php print base_path() . path_to_theme() . '/images/logo-gov.svg' ?>" alt="<?php print t('Home'); ?>" />
           </a>
         </div>
         <div class="centenary">
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-            <img src="<?php print base_path() . path_to_theme() . '/images/logo-anzac.png' ?>" alt="<?php print t('Home'); ?>" />
+            <img src="<?php print base_path() . path_to_theme() . '/images/logo-anzac.svg' ?>" alt="<?php print t('Home'); ?>" />
           </a>
         </div>
       </div>
@@ -94,6 +94,7 @@
         <div class="main-menu">
               <?php $main_menu = module_invoke('menu_block', 'block_view', '1'); ?>
               <?php print render($main_menu['content']); ?>
+
         </div>
       </div>
       <div class="search">
@@ -133,12 +134,12 @@
   <footer class="l-footer" role="contentinfo">
     <div class="footer-left">
         <div class="footer-main-menu">
-            <?php $main_menu = module_invoke('menu_block', 'block_view', '3'); ?>
-            <?php print render($main_menu['content']); ?>
+            <?php $footer_main_menu = module_invoke('menu_block', 'block_view', '3'); ?>
+            <?php print render($footer_main_menu['content']); ?>
         </div>
         <div class="sub-footer-menu">
-            <?php $main_menu = module_invoke('menu', 'block_view', 'menu-footer-menu'); ?>
-            <?php print render($main_menu['content']); ?>
+            <?php $sub_footer_menu = module_invoke('menu', 'block_view', 'menu-footer-menu'); ?>
+            <?php print render($sub_footer_menu['content']); ?>
         </div>
     </div>
     <div class="footer-right">

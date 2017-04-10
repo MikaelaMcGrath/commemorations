@@ -82,16 +82,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/images\/down-arrow.png": {
-		"ft": 32768,
-		"iS": 21051,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/images\/down-arrow.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/logo-anzac.png": {
 		"ft": 32768,
 		"iS": 29454,
@@ -110,16 +100,6 @@
 		"oAP": "\/images\/logo-gov.png",
 		"oF": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/images\/right-arrow.png": {
-		"ft": 32768,
-		"iS": 20878,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/images\/right-arrow.png",
-		"oF": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"\/images\/social\/icn-facebook.png": {
@@ -1494,6 +1474,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_leaflet.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/components\/_left-menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_left-menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

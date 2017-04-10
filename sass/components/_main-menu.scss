@@ -67,20 +67,40 @@
 					height: 16px;
 				}
 				&.mean-expand {
-					background: url('../images/right-arrow.png') no-repeat center;
-					background-size: auto 10px;
+
+					//background: url('../images/right-arrow.png') no-repeat center;
+					//background-size: auto 10px;
+					background: transparent;
 					border: 0 !important;
+					&:after {
+						content: '\025B8';
+						color: $white;
+						font-size: $base-font-size * 1.2;
+						position: absolute;
+						top: 3px;
+						left: 0;
+						margin-left: -20px;
+					}
 					&:hover {
-						background: $light-secondary url('../images/right-arrow.png') no-repeat center;
-						background-size: auto 10px;
+						background-color: $light-secondary;
+						//background-size: auto 10px;
 					}
 				}
 				&.mean-clicked {
-					background: url('../images/down-arrow.png') no-repeat center;
-					background-size: auto 10px;
+					background: transparent;
+					//background-size: auto 10px;
+					&:after {
+						content: '\025BE';
+						color: $white;
+						font-size: $base-font-size * 1.2;
+						position: absolute;
+						top: 3px;
+						left: 0;
+						margin-left: -20px;
+					}
 					&:hover {
-						background: $light-secondary url('../images/down-arrow.png') no-repeat center;
-						background-size: auto 10px;
+						background-color: $light-secondary;
+						//background-size: auto 10px;
 					}
 				}
 
