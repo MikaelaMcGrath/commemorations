@@ -81,12 +81,12 @@
     	<div class="logos">
         <div class="aus-crest">
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-            <img src="<?php print base_path() . path_to_theme() . '/images/logo-gov.svg' ?>" alt="<?php print t('Home'); ?>" />
+            <img src="<?php print base_path() . path_to_theme() . '/images/logo-gov.png' ?>" alt="<?php print t('Home'); ?>" />
           </a>
         </div>
         <div class="centenary">
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-            <img src="<?php print base_path() . path_to_theme() . '/images/logo-anzac.svg' ?>" alt="<?php print t('Home'); ?>" />
+            <img src="<?php print base_path() . path_to_theme() . '/images/logo-anzac.png' ?>" alt="<?php print t('Home'); ?>" />
           </a>
         </div>
       </div>
