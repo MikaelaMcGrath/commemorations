@@ -147,19 +147,23 @@ body {
   content: "";
   display: block; }
 
+/* line 23, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_layout.scss */
+.middle-wrapper .right-sidebar-wrapper {
+  padding: 1rem 1rem; }
+
 @media (min-width: 768px) {
-  /* line 23, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_layout.scss */
+  /* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_layout.scss */
   .middle-wrapper {
     display: flex;
     justify-content: space-around; }
-    /* line 26, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_layout.scss */
+    /* line 31, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_layout.scss */
     .middle-wrapper .left-sidebar-wrapper {
       flex: 0 1 25%;
       padding: 0 1rem 0 0; }
-    /* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_layout.scss */
+    /* line 35, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_layout.scss */
     .middle-wrapper .right-sidebar-wrapper {
       flex: 0 1 75%;
-      padding: 0 0 0 1rem; } }
+      padding: 1rem 3rem; } }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_lists.scss */
 ul,
@@ -355,44 +359,56 @@ body {
   body .element-invisible {
     font-size: 0; }
 
-/* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-.l-content {
+/* line 3, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content .content-wrapper {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0;
   background-color: #FFFFFF; }
-  /* line 7, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-  .l-content .media {
-    align: center;
-    padding: 1rem 1rem;
-    border: 1px solid #6c2e37; }
-    /* line 11, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-    .l-content .media img {
-      height: auto; }
-    /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-    .l-content .media .caption {
-      font-size: 0.7em; }
+
+/* line 9, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content .full-width {
+  background-color: #fefce8;
+  box-shadow: 0px 1px 10px 0px #e6e6e6;
+  position: relative; }
+
+/* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content .media {
+  align: center;
+  padding: 1rem 1rem;
+  border: 1px solid #6c2e37; }
   /* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-  .l-content .media-middle {
-    max-width: 265px; }
+  .l-content .media img {
+    height: auto; }
   /* line 21, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-  .l-content .media-full {
-    max-width: 645px;
-    margin: 0 auto; }
-  /* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-  .l-content .media-thumbnail {
-    max-width: 170px; }
-  /* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-  .l-content blockquote {
-    margin: 0 0 0 1rem;
-    font-style: italic; }
-  /* line 32, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-  .l-content .normal, .l-content cite {
-    font-style: normal; }
-  /* line 35, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-  .l-content cite {
+  .l-content .media .caption {
     font-size: 0.7em; }
+
+/* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content .media-middle {
+  max-width: 265px; }
+
+/* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content .media-full {
+  max-width: 645px;
+  margin: 0 auto; }
+
+/* line 32, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content .media-thumbnail {
+  max-width: 170px; }
+
+/* line 35, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content blockquote {
+  margin: 0 0 0 1rem;
+  font-style: italic; }
+
+/* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content .font-normal, .l-content cite {
+  font-style: normal; }
+
+/* line 42, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content cite {
+  font-size: 0.7em; }
 
 /* line 2, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header-menu.scss */
 .l-header .header-menu {
@@ -641,12 +657,16 @@ ul.breadcrumb {
   padding-bottom: 0; }
   /* line 8, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_breadcrumbs.scss */
   ul.breadcrumb a {
-    border-bottom: none; }
-  /* line 12, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_breadcrumbs.scss */
+    border-bottom: none;
+    color: #000000; }
+  /* line 13, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_breadcrumbs.scss */
   ul.breadcrumb li:after {
-    content: '\000BB';
+    content: '\0003E';
     padding: 0 0.375em; }
-  /* line 17, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_breadcrumbs.scss */
+  /* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_breadcrumbs.scss */
+  ul.breadcrumb li:last-child a {
+    font-weight: 600; }
+  /* line 21, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_breadcrumbs.scss */
   ul.breadcrumb li:last-child:after {
     content: ''; }
 

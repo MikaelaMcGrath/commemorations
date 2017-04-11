@@ -19,6 +19,11 @@ body {
 .l-header, .l-content {
 	@include clearfix;
 }
+.middle-wrapper {
+	.right-sidebar-wrapper {
+		padding: $all-round;
+	}
+}
 @include breakpoint(tablet) {
 	.middle-wrapper {
 		display: flex;
@@ -29,7 +34,7 @@ body {
 		}
 		.right-sidebar-wrapper {
 			flex: 0 1 75%;
-			padding: 0 0 0 $horz-spacing-unit;
+			padding: $vert-spacing-unit $horz-spacing-unit *3;
 		}
 	}
 }
