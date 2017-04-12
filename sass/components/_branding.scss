@@ -28,7 +28,7 @@
 		display: flex;
 		padding: 0 $horz-spacing-unit;
 		justify-content: space-between;
-		overflow: hidden;
+		height: $menu-height;
 		.logos {
 			padding: 0;
 			position: relative;

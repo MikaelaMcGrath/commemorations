@@ -6,7 +6,6 @@
 			text-transform: uppercase;
 			ul {
 				display: flex;
-				flex-wrap: nowrap;
 				height: 100%;
 				li {
 					list-style: none;
@@ -19,10 +18,13 @@
 						display: flex;
 						flex-direction: column;
 						justify-content: center;
-						text-align: center;
 						height: 100%;
 						padding: 0 $horz-spacing-unit;
 						font-weight: $base-font-weight;
+						border-bottom: none;
+						&:visited {
+							color: $black;
+						}
 					}
 					&:hover, &:focus, &.active-trail {
 						background: $base;
@@ -42,9 +44,6 @@
 		padding-bottom: 0;
 		a {
 			background: $base;
-			&.meanmenu-reveal {
-				
-			}
 		}
 	}
 	.mean-nav {
@@ -67,9 +66,6 @@
 					height: 16px;
 				}
 				&.mean-expand {
-
-					//background: url('../images/right-arrow.png') no-repeat center;
-					//background-size: auto 10px;
 					background: transparent;
 					border: 0 !important;
 					&:after {
@@ -83,12 +79,10 @@
 					}
 					&:hover {
 						background-color: $light-secondary;
-						//background-size: auto 10px;
 					}
 				}
 				&.mean-clicked {
 					background: transparent;
-					//background-size: auto 10px;
 					&:after {
 						content: '\025BE';
 						color: $white;
@@ -100,7 +94,6 @@
 					}
 					&:hover {
 						background-color: $light-secondary;
-						//background-size: auto 10px;
 					}
 				}
 

@@ -92,6 +92,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/logo-anzac.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-anzac.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/logo-gov.png": {
 		"ft": 32768,
 		"iS": 36498,
@@ -101,6 +111,16 @@
 		"oF": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/logo-gov.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-gov.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/social\/icn-facebook.png": {
 		"ft": 32768,
@@ -1526,6 +1546,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_search.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/components\/_secondary-menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_secondary-menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
