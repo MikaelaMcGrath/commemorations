@@ -1,37 +1,90 @@
 .left-sidebar-wrapper {
-	.left-menu {
+	.left-menu, .conflicts-menu, .left-menu-footer {
 		background-color: $light-base;
 		ul {
 			padding: 0;
 			&> li {
 				list-style: none;
 				a {
+					padding: $vert-spacing-unit/1.5 $horz-spacing-unit;
+					display: block;
+					position: relative;
 					color: $white;
 					border-bottom: 0;
-					//&:after {
-					//	content: '\025BE';
-					//	color: $white;
-					//	font-size: $base-font-size * 1.2;
-					//}
-				}
-				&.expanded {
-					&> a {
-						&:after {
-							content: '\025BE';
-							color: $white;
-							font-size: $base-font-size * 1.2;
-						}
+					&.active {
+						font-weight: $bold-font-weight;
 					}
 				}
-				ul {
-					background-color: $base;
-					li {
+				&> ul {
+					background-color: $light-base;
+					&> li {
+						&.expanded {
+							background-color: $base;
+							&> a {
+								padding-right: $horz-spacing-unit *2;
+								&:after {
+									content: '\025BE';
+									position: absolute;
+									right: $horz-spacing-unit;
+									top: 7px;
+									color: $white;
+									font-size: $base-font-size * 1.2;
+								}
+							}
+							&.active-trail {
+								font-weight: $bold-font-weight;
+							}
+						}
+						&.collapsed {
+							&> a {
+								padding-right: $horz-spacing-unit *2;
+								&:after {
+									content: '\025B8';
+									position: absolute;
+									right: $horz-spacing-unit;
+									top: 7px;
+									color: $white;
+									font-size: $base-font-size * 1.2;
+								}
+							}
+						}
 						ul {
 							background-color: $dark-base;
+							li {
+								a {
+									padding: $vert-spacing-unit/2 $horz-spacing-unit $vert-spacing-unit/2 $horz-spacing-unit*2;
+								}
+							}
 						}
 					}
 				}
 			}
+		}
+	}
+	.left-menu {
+		display: none;
+		ul {
+			&> li {
+				display: none;
+				&.active-trail {
+					display: list-item;
+				}
+				ul {
+					&> li {
+						display: list-item;
+					}
+				}
+			}
+		}
+	}
+	.conflicts-menu {
+		
+	}
+}
+@include breakpoint(tablet) {
+	.left-sidebar-wrapper {
+		.left-menu {
+			display: block;
 		}
 	}
 }
