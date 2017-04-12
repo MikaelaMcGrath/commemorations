@@ -1,23 +1,44 @@
 .left-sidebar-wrapper {
 	.left-menu, .conflicts-menu, .left-menu-footer {
 		background-color: $light-base;
+		display: none;
 		ul {
 			padding: 0;
-			&> li {
+			li {
 				list-style: none;
 				a {
 					padding: $vert-spacing-unit/1.5 $horz-spacing-unit;
 					display: block;
 					position: relative;
 					color: $white;
-					border-bottom: 0;
+					border-bottom: 1px solid lighten($dark-base, 5%);
 					&.active {
 						font-weight: $bold-font-weight;
 					}
+					&:hover, &:focus {
+						background-color: $secondary;
+					}
+				}
+				ul {
+					background-color: $base;
+					ul {
+						background-color: $dark-base;
+					}
+				}
+			}
+		}
+	}
+	.left-menu {
+		ul {
+			&> li {
+				display: none;
+				&.active-trail {
+					display: list-item;
 				}
 				&> ul {
 					background-color: $light-base;
 					&> li {
+						display: list-item;
 						&.expanded {
 							background-color: $base;
 							&> a {
@@ -61,29 +82,60 @@
 			}
 		}
 	}
-	.left-menu {
-		display: none;
-		ul {
-			&> li {
-				display: none;
-				&.active-trail {
-					display: list-item;
+	.conflicts-menu {
+		ul li {
+			&.expanded {
+				&> a {
+					padding-right: $horz-spacing-unit *2;
+					&:after {
+						content: '\025BE';
+						position: absolute;
+						right: $horz-spacing-unit;
+						top: 7px;
+						color: $white;
+						font-size: $base-font-size * 1.2;
+					}
 				}
-				ul {
-					&> li {
-						display: list-item;
+				&.active-trail {
+					font-weight: $bold-font-weight;
+				}
+			}
+			&.collapsed {
+				&> a {
+					padding-right: $horz-spacing-unit *2;
+					&:after {
+						content: '\025B8';
+						position: absolute;
+						right: $horz-spacing-unit;
+						top: 7px;
+						color: $white;
+						font-size: $base-font-size * 1.2;
+					}
+				}
+			}
+			ul {
+				li {
+					a {
+						padding: $vert-spacing-unit/2 $horz-spacing-unit $vert-spacing-unit/2 $horz-spacing-unit*2;
+					}
+					ul li {
+						a {
+							padding: $vert-spacing-unit/2 $horz-spacing-unit $vert-spacing-unit/2 $horz-spacing-unit*3;
+						}
+						ul li {
+							a {
+								padding: $vert-spacing-unit/2 $horz-spacing-unit $vert-spacing-unit/2 $horz-spacing-unit*4;
+							}
+						}
 					}
 				}
 			}
 		}
 	}
-	.conflicts-menu {
-		
-	}
 }
 @include breakpoint(tablet) {
 	.left-sidebar-wrapper {
-		.left-menu {
+		.left-menu, .conflicts-menu, .left-menu-footer {
 			display: block;
 		}
 	}
