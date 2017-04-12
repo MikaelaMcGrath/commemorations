@@ -1,5 +1,5 @@
 .full-width {
-	.secondary-menu, .education-secondary-menu {
+	.secondary-menu, .education-secondary-menu, .conflicts-secondary-menu {
 		height: $menu-height;
 		box-shadow: 0px 1px 10px 0px $black;
 		border-bottom: none;
@@ -76,7 +76,7 @@
 }
 @include breakpoint(tablet) {
 	.full-width {
-		.secondary-menu, .education-secondary-menu {
+		.secondary-menu, .education-secondary-menu, .conflicts-secondary-menu {
 			display: block;
 		}
 	}
