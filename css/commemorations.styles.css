@@ -344,6 +344,10 @@ sub {
     .l-content ol ol ol {
       list-style-type: lower-roman; }
 
+/* line 114, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_typography.scss */
+.l-content .small-font {
+  font-size: 0.7em; }
+
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_page.scss */
 body {
   margin: 0;
@@ -876,7 +880,7 @@ ul.breadcrumb {
       list-style: none; }
       /* line 9, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
       .left-sidebar-wrapper .left-menu ul li a, .left-sidebar-wrapper .conflicts-menu ul li a, .left-sidebar-wrapper .left-menu-footer ul li a {
-        padding: 0.6666666667rem 1rem;
+        padding: 0.5rem 1rem;
         display: block;
         position: relative;
         color: #FFFFFF;
@@ -917,7 +921,7 @@ ul.breadcrumb {
             content: '\025BE';
             position: absolute;
             right: 1rem;
-            top: 7px;
+            top: 5px;
             color: #FFFFFF;
             font-size: 1.2em; }
         /* line 55, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
@@ -931,41 +935,38 @@ ul.breadcrumb {
           content: '\025B8';
           position: absolute;
           right: 1rem;
-          top: 7px;
+          top: 5px;
           color: #FFFFFF;
           font-size: 1.2em; }
       /* line 72, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
       .left-sidebar-wrapper .left-menu ul > li > ul > li ul {
         background-color: #200206; }
-        /* line 75, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-        .left-sidebar-wrapper .left-menu ul > li > ul > li ul li a {
-          padding: 0.5rem 1rem 0.5rem 2rem; }
 
 /* line 88, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-.left-sidebar-wrapper .conflicts-menu ul li.expanded > a {
+.left-sidebar-wrapper .conflicts-menu ul li.expanded > a, .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail > a {
   padding-right: 2rem; }
   /* line 90, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-  .left-sidebar-wrapper .conflicts-menu ul li.expanded > a:after {
+  .left-sidebar-wrapper .conflicts-menu ul li.expanded > a:after, .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail > a:after {
     content: '\025BE';
     position: absolute;
     right: 1rem;
-    top: 7px;
+    top: 5px;
     color: #FFFFFF;
     font-size: 1.2em; }
 
 /* line 99, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-.left-sidebar-wrapper .conflicts-menu ul li.expanded.active-trail {
+.left-sidebar-wrapper .conflicts-menu ul li.expanded.active-trail, .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail.active-trail {
   font-weight: 600; }
 
 /* line 104, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-.left-sidebar-wrapper .conflicts-menu ul li.collapsed > a {
+.left-sidebar-wrapper .conflicts-menu ul li.collapsed > a, .left-sidebar-wrapper .conflicts-menu ul li.has-children > a {
   padding-right: 2rem; }
   /* line 106, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-  .left-sidebar-wrapper .conflicts-menu ul li.collapsed > a:after {
+  .left-sidebar-wrapper .conflicts-menu ul li.collapsed > a:after, .left-sidebar-wrapper .conflicts-menu ul li.has-children > a:after {
     content: '\025B8';
     position: absolute;
     right: 1rem;
-    top: 7px;
+    top: 5px;
     color: #FFFFFF;
     font-size: 1.2em; }
 
