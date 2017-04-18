@@ -777,7 +777,7 @@ ul.breadcrumb {
         overflow: hidden; }
       /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
       .social .account-list div.facebook a {
-        background: url("../images/social/icn-facebook.png"), #000000;
+        background: url("../images/social/icn-facebook.svg"), #000000;
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto 15px;
@@ -787,7 +787,7 @@ ul.breadcrumb {
           background-size: auto 20px; }
       /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
       .social .account-list div.twitter a {
-        background: url("../images/social/icn-twitter.png"), #000000;
+        background: url("../images/social/icn-twitter.svg"), #000000;
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto 15px;
@@ -797,7 +797,7 @@ ul.breadcrumb {
           background-size: auto 20px; }
       /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_social-media.scss */
       .social .account-list div.youtube a {
-        background: url("../images/social/icn-youtube.png"), #000000;
+        background: url("../images/social/icn-youtube.svg"), #000000;
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto 15px;

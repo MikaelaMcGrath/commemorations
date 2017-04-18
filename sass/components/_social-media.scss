@@ -37,7 +37,7 @@
 
 			@each $account in $social-media {
 				&.#{$account} a {
-					background: url('../images/social/icn-#{$account}.png'), $black;
+					background: url('../images/social/icn-#{$account}.svg'), $black;
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: auto 15px;
