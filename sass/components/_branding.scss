@@ -8,18 +8,20 @@
 		align-items: center;
 		position: absolute;
 		padding: 0 $horz-spacing-unit;
-		top: 2px;
+		top: 0;
 		flex: 2 1 auto;
+		height: 45px;
 		.aus-crest {
 			width: 130px;
 			margin-right: $horz-spacing-unit;
+			height: 100%;
 		}
 		.centenary {
 			width: 40px;
-
 		}
 		img {
 			display: block;
+			height: 100%;
 		}
 	}
 }
@@ -32,14 +34,14 @@
 		.logos {
 			padding: 0;
 			position: relative;
-			top: 0;
+			//top: 2;
+			height: 70px;
 			.aus-crest {
 				width: 200px;
 				display: none;
 			}
 			.centenary {
-				width: 55px;
-				padding: $vert-spacing-unit/4 0;
+				width: 50px;
 			}
 		}
 	}
@@ -49,6 +51,9 @@
 		.logos {
 			.aus-crest {
 				display: block;
+			}
+			.centenary {
+				width: 65px;
 			}
 		}
 	}
