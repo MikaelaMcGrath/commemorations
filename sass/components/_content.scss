@@ -42,12 +42,19 @@
     cite {
         font-size: $small-font-size;
     }
-    .middle-left {
+    .middle {
         max-width: 265px;
+    }
+    .full {
+        max-width: 645px;
+    }
+    .left {
         float: left;
     }
-    .middle-right {
-        max-width: 265px;
-        float: right;
+    .right {
+        float: right
+    }
+    .center {
+        margin: 0 auto;
     }
 } 
