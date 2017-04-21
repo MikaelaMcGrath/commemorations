@@ -1,5 +1,5 @@
 .left-sidebar-wrapper {
-	.left-menu, .conflicts-menu, .left-menu-footer {
+	.left-menu, .conflicts-menu, .left-menu-footer, .left-book-menu {
 		background-color: $light-base;
 		display: none;
 		ul {
@@ -12,6 +12,7 @@
 					position: relative;
 					color: $white;
 					border-bottom: 1px solid lighten($dark-base, 5%);
+					text-decoration: none;
 					&.active {
 						font-weight: $bold-font-weight;
 					}
@@ -132,10 +133,21 @@
 			}
 		}
 	}
+	.sf-accordion {
+		&> li {
+			display: none;
+		}
+		li.active-trail {
+			display: list-item;
+		}
+		.sf-clone-parent {
+			display: none;
+		}
+	}
 }
 @include breakpoint(tablet) {
 	.left-sidebar-wrapper {
-		.left-menu, .conflicts-menu, .left-menu-footer {
+		.left-menu, .conflicts-menu, .left-menu-footer, .left-book-menu {
 			display: block;
 		}
 	}

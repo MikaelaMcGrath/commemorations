@@ -9,4 +9,37 @@
 
 		}
 	}
+	.full-width {
+        background-color: $accent;
+        box-shadow: 0px 1px 10px 0px $light-grey;
+        position: relative;
+    }
+    .media {
+        align: center;
+        border: 1px solid $light-grey;
+        img {
+            height: auto;
+        }
+        a {
+        	border-bottom: 0;
+        }
+        .caption {
+            font-size: $small-font-size;
+            padding: $all-round;
+            p {
+            	margin: -8px 0 -5px 0;
+            }
+        }
+    }
+    .media-middle {
+        max-width: 265px;
+    }
+    .media-full {
+        max-width: 645px;
+        margin: $vert-spacing-unit auto;
+    }
+    .media-thumbnail {
+        max-width: 170px;
+    }
+    
 }

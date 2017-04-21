@@ -395,17 +395,47 @@
           $('.gallery-106').wrapAll('<div class="image-gallery" />');
         } 
       });
-    }
-  };
-  Drupal.behaviors.commemorationsMasonry = {
-    attach: function (context, settings) {
-      $('.l-content', context).once('node__content', function () {
-        var elem = document.querySelector('.image-gallery');
-        var msnry = new Masonry( elem, {
-          itemSelector: '.media',
-          columnWidth: 300
-        });
-      });
-    }
-  };
+//$('div.media[class*="gallery-"]').css('background-color', 'red');
+//if ($('div.media[class*="gallery-"]').length > 1) {
+//          console.log(this);
+//           $('div.media[class*="gallery-"]').wrapAll('<div class="image-gallery-new" />');
+//         }
+//}
+}
+};
+Drupal.behaviors.commemorationsReadMore = {
+  attach: function (context, settings) {
+      // By using the 'context' variable we make sure that our code only runs on
+      // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
+      // we don't run the same piece of code for an HTML snippet that we already
+      // processed previously. By using .once('foo') all processed elements will
+      // get tagged with a 'foo-processed' class, causing all future invocations
+      // of this behavior to ignore them.
+      $('.content-wrapper', context).once('accordion', function () {
+        var expand = $('<input type="button" class="expand" value="Expand"/>');
+        $('.read-more').prepend(expand);
+        $('.read-more p').addClass('inactive');
+        $('p.inactive').slideUp();
+        $('.expand').on('click', function(e){
+          console.log('here');
+          if($(this).find('.inactive')) {
+            console.log(this);
+            e.preventDefault();
+            $('p.inactive').removeClass('inactive').addClass('active').slideDown().removeData();
+            $(this).removeClass('expand').addClass('collapse').val('Collapse');
+            
+          }
+          $('.collapse').on('click', function(e) {
+            if($(this).find('.active')) {
+              e.preventDefault();
+              console.log('poo');
+              $('p.active').removeClass('active').addClass('inactive').slideUp().removeData();
+              $(this).removeClass('collapse').addClass('expand').val('Expand');
+            }
+          })
+      })
+    });
+}
+};
 })(jQuery);
+
