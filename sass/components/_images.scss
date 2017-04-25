@@ -17,13 +17,14 @@
     .media {
         align: center;
         border: 1px solid $light-grey;
+        text-align: left;
         img {
             height: auto;
         }
         a {
         	border-bottom: 0;
         }
-        .caption {
+        .caption, .read-more p {
             font-size: $small-font-size;
             padding: $all-round;
             p {

@@ -65,8 +65,8 @@
       // get tagged with a 'foo-processed' class, causing all future invocations
       // of this behavior to ignore them.
       $('.l-content', context).once('node__content', function () {
-        // Now, we are invoking the previously declared theme function using two
-        // settings as arguments.replace(/ /g,'')
+//        Now, we are invoking the previously declared theme function using two
+//        settings as arguments.replace(/ /g,'')
         $('.gallery').each(function (i) {
           var $gallery = $(this).text().replace(/ /g, '');
           $(this).parents('.media').addClass('gallery-' + $gallery);
@@ -395,12 +395,23 @@
           $('.gallery-106').wrapAll('<div class="image-gallery" />');
         } 
       });
-//$('div.media[class*="gallery-"]').css('background-color', 'red');
-//if ($('div.media[class*="gallery-"]').length > 1) {
-//          console.log(this);
-//           $('div.media[class*="gallery-"]').wrapAll('<div class="image-gallery-new" />');
-//         }
-//}
+
+//------------------------ jQuery gallery improved-----------
+// $('.gallery').each(function (i) {
+//   var $gallery = $(this).text().replace(/ /g, '');
+//   $(this).parents('.media').addClass('gallery-' + $gallery);
+//   var $galleryNum = $('.gallery-' + $gallery).index();
+//   $(this).parents('.media').addClass('gallery-' + $galleryNum);
+// });
+// $('div.media[class*="gallery-"]').css('background-color', 'red');
+// if ($('div.media[class*="gallery-"]').length > 1) {
+//  console.log(this);
+//  if ($('div.media[class*="gallery-"]') === ('div.media[class*="gallery-"]')) {
+//   console.log('here');
+//  $('div.media[class*="gallery-"]').wrapAll('<div class="image-gallery-new" />');
+// }
+// }
+//------------- End --------------
 }
 };
 Drupal.behaviors.commemorationsReadMore = {
@@ -411,31 +422,33 @@ Drupal.behaviors.commemorationsReadMore = {
       // processed previously. By using .once('foo') all processed elements will
       // get tagged with a 'foo-processed' class, causing all future invocations
       // of this behavior to ignore them.
-      $('.content-wrapper', context).once('accordion', function () {
-        var expand = $('<input type="button" class="expand" value="Expand"/>');
+      $('.middle-wrapper', context).once('readMore', function () {
+        var expand = $('<input type="button" class="button" value="Expand"/>');
         $('.read-more').prepend(expand);
-        $('.read-more p').addClass('inactive');
-        $('p.inactive').slideUp();
-        $('.expand').on('click', function(e){
-          console.log('here');
-          if($(this).find('.inactive')) {
-            console.log(this);
-            e.preventDefault();
-            $('p.inactive').removeClass('inactive').addClass('active').slideDown().removeData();
-            $(this).removeClass('expand').addClass('collapse').val('Collapse');
-            
+        $('.read-more p').slideUp();
+        $('.button').click(function() {
+          if($(this).attr('value') === 'Expand'){
+            $(this).attr('value', 'Collapse').next().slideDown();
           }
-          $('.collapse').on('click', function(e) {
-            if($(this).find('.active')) {
-              e.preventDefault();
-              console.log('poo');
-              $('p.active').removeClass('active').addClass('inactive').slideUp().removeData();
-              $(this).removeClass('collapse').addClass('expand').val('Expand');
-            }
-          })
-      })
-    });
-}
-};
+          else {
+            $(this).attr('value', 'Expand').next().slideUp();
+          }
+        });
+      });
+    }
+  };
+  Drupal.behaviors.commemorationsConflictMenu = {
+  attach: function (context, settings) {
+      // By using the 'context' variable we make sure that our code only runs on
+      // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
+      // we don't run the same piece of code for an HTML snippet that we already
+      // processed previously. By using .once('foo') all processed elements will
+      // get tagged with a 'foo-processed' class, causing all future invocations
+      // of this behavior to ignore them.
+      $('.left-sidebar-wrapper', context).once('conflictMenu', function () {
+
+      });
+    }
+  };
 })(jQuery);
 

@@ -115,7 +115,7 @@ sub {
       font-style: italic;
       border-left: 4px solid $light-grey;
       padding-left: $horz-spacing-unit;
-      .font-normal {
+      .normal-font {
         font-style: normal;
       }
       p {
@@ -124,6 +124,6 @@ sub {
       }
   }
   blockquote {
-    //font-size: $base-font-size;
+    font-size: $base-font-size * 0.9;
   }
 }
