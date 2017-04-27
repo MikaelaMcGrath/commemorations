@@ -1639,6 +1639,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/components\/_video.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_video.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/variables\/_colors.scss": {
 		"aP": 0,
 		"bl": 0,
