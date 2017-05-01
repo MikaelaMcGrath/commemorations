@@ -426,7 +426,7 @@ Drupal.behaviors.commemorationsReadMore = {
         var expand = $('<input type="button" class="button" value="Expand"/>');
         $('.read-more').prepend(expand);
         $('.read-more p').slideUp();
-        $('.button').click(function() {
+        $('.read-more').children('.button').click(function() {
           if($(this).attr('value') === 'Expand'){
             $(this).attr('value', 'Collapse').next().slideDown();
           }

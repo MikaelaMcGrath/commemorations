@@ -1731,6 +1731,12 @@
 		"oA": 2,
 		"oAP": "\/Thumbs.db",
 		"oF": 0
+		},
+	"\/views\/views-view-unformatted--child-content--panel-pane.tpl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/views-view-unformatted--child-content--panel-pane.tpl.php",
+		"oF": 0
 		}
 	},
 "hooks": [

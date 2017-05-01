@@ -33,14 +33,15 @@
             }
         }
         .read-more p {
-            //padding-top: 0;
+            margin-top: -$vert-spacing-unit;
         }
         .button {
-            margin: 0 $horz-spacing-unit $vert-spacing-unit 0;
+            margin: 0 $horz-spacing-unit $vert-spacing-unit;
         }
     }
     .media-middle {
         max-width: 265px;
+        width: 50%;
     }
     .media-full {
         max-width: 645px;
@@ -48,6 +49,7 @@
     }
     .media-thumbnail {
         max-width: 170px;
+        width: 50%;
     }
     
 }

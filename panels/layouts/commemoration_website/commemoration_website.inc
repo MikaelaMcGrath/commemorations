@@ -16,5 +16,6 @@ $plugin = array(
     'center' => t('Center'),
     'left-sidebar' => t('Left Sidebar'),
     'right-sidebar' => t('Right Sidebar'),
+    'sub-footer' => t('Sub Footer'),
   ),
 );

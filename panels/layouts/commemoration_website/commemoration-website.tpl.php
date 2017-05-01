@@ -20,3 +20,8 @@
 		</div>
 	</div>
 </div>
+<div class="sub-footer-wrapper">
+	<div class="sub-footer">
+		<?php print $content['sub-footer']; ?>
+	</div>
+</div>
