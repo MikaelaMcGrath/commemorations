@@ -1,5 +1,6 @@
 .l-content {
     //padding: 0;
+
     .content-wrapper {
         width: 100%;
         max-width: 1140px;
@@ -21,4 +22,13 @@
     .center {
         margin: 0 auto;
     }
+    .footnotes {
+        border-top: $base-border;
+        padding: $vert-spacing-unit  0 $vert-spacing-unit $horz-spacing-unit ;
+        margin: $vert-spacing-unit * 2 0 0;
+    }
+    .see-footnote:target, .footnotes .footnote:target {
+        background-color: $light-grey;
+    }
+    
 } 

@@ -158,7 +158,7 @@
           $('.gallery-27').wrapAll('<div class="image-gallery" />');
         }  
         if ($('.gallery-28').length > 1) {
-          $('.gallery-28').wrapAll('<div class="image-gallery" />');
+          $('.gallery-28').wrapAll('<div class="image-gallery" data-masonry=\'{ "itemSelector": ".masonry-item", "columnWidth": 200 }\' />');
         }  
         if ($('.gallery-29').length > 1) {
           $('.gallery-29').wrapAll('<div class="image-gallery" />');
@@ -395,7 +395,13 @@
           $('.gallery-106').wrapAll('<div class="image-gallery" />');
         } 
       });
+$('.image-gallery').children('.media[class*="gallery-"]').addClass('masonry-item');
 
+    $('.image-gallery').imagesLoaded(function () {
+       $('.image-gallery').masonry({
+          itemSelector: '.masonry-item'
+       });
+     }); 
 //------------------------ jQuery gallery improved-----------
 // $('.gallery').each(function (i) {
 //   var $gallery = $(this).text().replace(/ /g, '');
@@ -414,6 +420,7 @@
 //------------- End --------------
 }
 };
+
 Drupal.behaviors.commemorationsReadMore = {
   attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
@@ -450,5 +457,6 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
+  
 })(jQuery);
 

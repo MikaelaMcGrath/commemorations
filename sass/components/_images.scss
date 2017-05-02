@@ -1,11 +1,8 @@
 .l-content {
 	.image-gallery {
 		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		.media {
-			width: 30%;
+		.media[class*="gallery-"] {
+			//width: 200px;
 
 		}
 	}
@@ -15,11 +12,11 @@
         position: relative;
     }
     .media {
-        align: center;
-        border: 1px solid $light-grey;
+        border: $base-border;
         text-align: left;
         img {
             height: auto;
+            display: block;
         }
         a {
         	border-bottom: 0;
@@ -29,7 +26,7 @@
             padding: $all-round;
             margin: 0;
             p {
-            	margin: -8px 0 -5px 0;
+            	margin: 0;
             }
         }
         .read-more p {
@@ -51,5 +48,4 @@
         max-width: 170px;
         width: 50%;
     }
-    
 }

@@ -70,7 +70,9 @@
  * @see omega_preprocess_page()
  */
 ?>
+
 <div class="l-page">
+
   <header class="l-header" role="banner">
   	<div class="header-menu">
 		  <?php $header_menu = module_invoke('menu', 'block_view', 'menu-header-menu'); ?>

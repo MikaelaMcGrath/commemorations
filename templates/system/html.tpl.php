@@ -56,6 +56,9 @@
 <head>
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
+  <script href="<?php print base_path() . 'sites/all/libraries/imagesloaded/imagesloaded.pkgd.min.js' ?>"></script>
+  <script href="<?php print base_path() . 'sites/all/libraries/masonry/masonry.pkgd.min.js' ?>"></script>
+
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <link href="<?php print base_path() . path_to_theme() . '/fonts/open-sans.css' ?>" rel="stylesheet">
