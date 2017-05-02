@@ -397,11 +397,6 @@
       });
 $('.image-gallery').children('.media[class*="gallery-"]').addClass('masonry-item');
 
-    $('.image-gallery').imagesLoaded(function () {
-       $('.image-gallery').masonry({
-          itemSelector: '.masonry-item'
-       });
-     }); 
 //------------------------ jQuery gallery improved-----------
 // $('.gallery').each(function (i) {
 //   var $gallery = $(this).text().replace(/ /g, '');
@@ -431,9 +426,9 @@ Drupal.behaviors.commemorationsReadMore = {
       // of this behavior to ignore them.
       $('.middle-wrapper', context).once('readMore', function () {
         var expand = $('<input type="button" class="button" value="Expand"/>');
-        $('.read-more').prepend(expand);
-        $('.read-more p').slideUp();
-        $('.read-more').children('.button').click(function() {
+        $('.read-more').before(expand);
+        $('.read-more').slideUp();
+        $('.read-more').prev('.button').click(function() {
           if($(this).attr('value') === 'Expand'){
             $(this).attr('value', 'Collapse').next().slideDown();
           }

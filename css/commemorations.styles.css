@@ -838,15 +838,15 @@ ul.breadcrumb {
   .l-content .media a {
     border-bottom: 0; }
   /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_images.scss */
-  .l-content .media .caption, .l-content .media .read-more p {
+  .l-content .media .caption, .l-content .media .read-more {
     font-size: 0.7em;
     padding: 1rem 1rem;
     margin: 0; }
     /* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_images.scss */
-    .l-content .media .caption p, .l-content .media .read-more p p {
+    .l-content .media .caption p:last-child, .l-content .media .read-more p:last-child {
       margin: 0; }
   /* line 32, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_images.scss */
-  .l-content .media .read-more p {
+  .l-content .media .read-more p:first-child {
     margin-top: -1rem; }
   /* line 35, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_images.scss */
   .l-content .media .button {

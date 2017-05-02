@@ -21,15 +21,15 @@
         a {
         	border-bottom: 0;
         }
-        .caption, .read-more p {
+        .caption, .read-more {
             font-size: $small-font-size;
             padding: $all-round;
             margin: 0;
-            p {
+            p:last-child {
             	margin: 0;
             }
         }
-        .read-more p {
+        .read-more p:first-child {
             margin-top: -$vert-spacing-unit;
         }
         .button {
