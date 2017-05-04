@@ -438,7 +438,7 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
-  Drupal.behaviors.commemorationsConflictMenu = {
+  Drupal.behaviors.commemorationsParentHeader = {
   attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
       // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
@@ -446,8 +446,8 @@ Drupal.behaviors.commemorationsReadMore = {
       // processed previously. By using .once('foo') all processed elements will
       // get tagged with a 'foo-processed' class, causing all future invocations
       // of this behavior to ignore them.
-      $('.left-sidebar-wrapper', context).once('conflictMenu', function () {
-
+      $('.full-width', context).once('parentHeader', function () {
+        $('.full-width').find('div.header li.leaf[class*="menu-mlid-"] a').wrap('<div class="background-header" />');
       });
     }
   };

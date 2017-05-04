@@ -1881,10 +1881,10 @@
 		"oAP": "\/Thumbs.db",
 		"oF": 0
 		},
-	"\/views\/views-view-unformatted--child-content--panel-pane.tpl.php": {
+	"\/views\/views-view-unformatted--child-content--panel-pane(3).tpl.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/views\/views-view-unformatted--child-content--panel-pane.tpl.php",
+		"oAP": "\/views\/views-view-unformatted--child-content--panel-pane(3).tpl.php",
 		"oF": 0
 		}
 	},

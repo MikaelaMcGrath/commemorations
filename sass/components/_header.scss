@@ -18,18 +18,26 @@
 							background-size: cover;
 						}
 					}
-					a {
+					.background-header {
+						background: rgba($black, 0.5);
+						width: 100%;
 						position: absolute;
 						bottom: 0px;
-						background: rgba($black, 0.5);
-						font-size: $base-font-size * 2.3;
-						pointer-events: none;
-						cursor: default;
-						text-decoration: none;
-						color: $white;
-						width: 100%;
-						padding: 0 $horz-spacing-unit;
+						a {
+							display: block;
+							max-width: 1140px;
+							z-index: 99;
+							font-size: $base-font-size * 2.3;
+							pointer-events: none;
+							cursor: default;
+							text-decoration: none;
+							color: $white;
+							text-transform: uppercase;
+							margin: 0 auto;
+							padding: 0 $horz-spacing-unit;
+						}
 					}
+					
 				}
 			}
 		}

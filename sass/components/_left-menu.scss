@@ -85,6 +85,11 @@
 	}
 	.conflicts-menu {
 		ul li {
+			&.active-trail {
+				&> ul > li {
+					display: list-item;
+				}
+			}
 			&.expanded, &.has-children.active-trail {
 				&> a {
 					padding-right: $horz-spacing-unit *2;
@@ -116,10 +121,12 @@
 			}
 			ul {
 				li {
+					display: none;
 					a {
 						padding: $vert-spacing-unit/2 $horz-spacing-unit $vert-spacing-unit/2 $horz-spacing-unit*2;
 					}
 					ul li {
+
 						a {
 							padding: $vert-spacing-unit/2 $horz-spacing-unit $vert-spacing-unit/2 $horz-spacing-unit*3;
 						}

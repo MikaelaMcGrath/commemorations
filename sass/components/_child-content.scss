@@ -2,17 +2,18 @@
 	.view-content {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: space-around;
 		&> div {
 			border: $base-border;
-			flex: 0 1 49%;
-			margin-bottom: 5px;
+			flex: 0 1 40%;
+			margin: $vert-spacing-unit 0;
 			img {
 				width: 100%;
 				height: auto;
+				display: block;
 			}
 			h2, h3 {
-				font-size: $base-font-size;
+				font-size: $base-font-size * 1.1;
 				padding: 0 $horz-spacing-unit;
 				a {
 					display: inline-block;
@@ -22,21 +23,12 @@
 			}
 			p {
 				padding: 0 $horz-spacing-unit;
-				font-size: $small-font-size;
+				font-size: $base-font-size * 0.9;
 			}
 
 		}
 		h3 {
 				flex: 1 1 100%;
 			}
-	}
-}
-@include breakpoint(tablet) {
-	.child-content {
-		.view-content {
-			&> div {
-				flex: 0 1 30%;
-			}
-		}
 	}
 }
