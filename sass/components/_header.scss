@@ -27,7 +27,7 @@
 							display: block;
 							max-width: 1140px;
 							z-index: 99;
-							font-size: $base-font-size * 2.3;
+							font-size: $base-font-size * 2;
 							pointer-events: none;
 							cursor: default;
 							text-decoration: none;
@@ -49,6 +49,11 @@
 			ul {
 				li {
 					height: 300px;
+					.background-header {
+						a {
+							font-size: $base-font-size * 2.3;
+						}
+					}
 				}
 			}
 		}
