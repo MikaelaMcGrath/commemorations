@@ -27,7 +27,7 @@
 							display: block;
 							max-width: 1140px;
 							z-index: 99;
-							font-size: $base-font-size * 2;
+							font-size: $base-font-size * 1.8;
 							pointer-events: none;
 							cursor: default;
 							text-decoration: none;
@@ -49,9 +49,21 @@
 			ul {
 				li {
 					height: 300px;
-					.background-header {
-						a {
-							font-size: $base-font-size * 2.3;
+				}
+			}
+		}
+	} 
+}
+@include breakpoint(desktop) {
+	.full-width {
+		.menu-block-7, .menu-block-8 {
+			ul {
+				li {
+					&.active-trail {
+						.background-header {
+							a {
+								padding: 0;
+							}
 						}
 					}
 				}

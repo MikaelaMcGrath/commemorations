@@ -13,7 +13,7 @@
 				display: block;
 			}
 			h2, h3 {
-				font-size: $base-font-size * 1.1;
+				font-size: $base-font-size;
 				padding: 0 $horz-spacing-unit;
 				a {
 					display: inline-block;
@@ -23,7 +23,7 @@
 			}
 			p {
 				padding: 0 $horz-spacing-unit;
-				font-size: $base-font-size * 0.9;
+				font-size: $base-font-size * 0.8;
 			}
 
 		}

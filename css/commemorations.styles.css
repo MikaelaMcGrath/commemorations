@@ -521,7 +521,7 @@ body {
           display: block;
           max-width: 1140px;
           z-index: 99;
-          font-size: 2em;
+          font-size: 1.8em;
           pointer-events: none;
           cursor: default;
           text-decoration: none;
@@ -533,10 +533,12 @@ body {
 @media (min-width: 768px) {
   /* line 50, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
   .full-width .menu-block-7 ul li, .full-width .menu-block-8 ul li {
-    height: 300px; }
-    /* line 53, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
-    .full-width .menu-block-7 ul li .background-header a, .full-width .menu-block-8 ul li .background-header a {
-      font-size: 2.3em; } }
+    height: 300px; } }
+
+@media (min-width: 1120px) {
+  /* line 64, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+  .full-width .menu-block-7 ul li.active-trail .background-header a, .full-width .menu-block-8 ul li.active-trail .background-header a {
+    padding: 0; } }
 
 /* line 2, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header-menu.scss */
 .l-header .header-menu {
@@ -1349,7 +1351,7 @@ ul.breadcrumb {
       display: block; }
     /* line 15, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .child-content .view-content > div h2, .child-content .view-content > div h3 {
-      font-size: 1.1em;
+      font-size: 1em;
       padding: 0 1rem; }
       /* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .child-content .view-content > div h2 a, .child-content .view-content > div h3 a {
@@ -1359,7 +1361,7 @@ ul.breadcrumb {
     /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .child-content .view-content > div p {
       padding: 0 1rem;
-      font-size: 0.9em; }
+      font-size: 0.8em; }
   /* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .child-content .view-content h3 {
     flex: 1 1 100%; }
