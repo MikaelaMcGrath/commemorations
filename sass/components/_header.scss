@@ -1,0 +1,48 @@
+.full-width {
+	.menu-block-7, .menu-block-8 {
+		ul {
+			padding: 0;
+			li {
+				display: none;
+				height: 200px;
+				position: relative;
+				&.active-trail {
+					display: block;
+					$page-header: 219, 740, 752, 753, 754, 482, 469, 468, 465, 467, 466, 456, 891;
+
+					@each $header in $page-header {
+						&.menu-mlid-#{$header} {
+							background: url('../images/header/#{$header}.jpg'), $black;
+							background-repeat: no-repeat;
+							background-position: center;
+							background-size: cover;
+						}
+					}
+					a {
+						position: absolute;
+						bottom: 0px;
+						background: rgba($black, 0.5);
+						font-size: $base-font-size * 2.3;
+						pointer-events: none;
+						cursor: default;
+						text-decoration: none;
+						color: $white;
+						width: 100%;
+						padding: 0 $horz-spacing-unit;
+					}
+				}
+			}
+		}
+	}
+}
+@include breakpoint(tablet) {
+	.full-width {
+		.menu-block-7, .menu-block-8 {
+			ul {
+				li {
+					height: 300px;
+				}
+			}
+		}
+	} 
+}

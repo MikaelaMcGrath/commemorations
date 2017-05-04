@@ -396,7 +396,6 @@
         } 
       });
 $('.image-gallery').children('.media[class*="gallery-"]').addClass('masonry-item');
-
 //------------------------ jQuery gallery improved-----------
 // $('.gallery').each(function (i) {
 //   var $gallery = $(this).text().replace(/ /g, '');
