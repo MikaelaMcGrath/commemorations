@@ -1,4 +1,25 @@
-.view-content {
+.view-gallery {
 	width: 100%;
-	margin: 0 auto;
+	.view-content {
+		.masonry-item {
+			width: 31%;
+			padding: 0;
+			margin: 1%;
+			img {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+		}
+		
+	}
+}
+@include breakpoint(tablet) {
+	.view-gallery {
+		.view-content {
+			.masonry-item {
+				width: 23%;
+			}
+		}
+	}
 }
