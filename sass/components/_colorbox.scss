@@ -1,3 +1,71 @@
-.content {
+#cboxClose {
+	background: url('../images/close.png') no-repeat transparent;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 25px;
+	height: 25px;
+	overflow: hidden;
+	text-indent: 10000px;
+	background-size: 25px 25px;
+	border: none;
+	outline-color: none;
+}
+#cboxTitle {
+	font-size: $small-font-size;
+	background: $white;
+	padding: $vert-spacing-unit /1.5 $horz-spacing-unit $vert-spacing-unit;
+	width: 100%;
+}
+#cboxLoadedContent {
+	background: $white;
+	position: relative;
+}
+#cboxOverlay {
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background-color: $black;
+}
+#colorbox {
+	z-index: 10000;
+	outline-color: #262626;
+	margin-top: -50px;
+}
+.colorbox {
+	outline-color: $white;
+}
+#cboxPrevious, #cboxNext{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	overflow: hidden;
+	text-indent: 10000px;	
+	&:focus {
+		outline: transparent none 1px;
+	}
+}
+#cboxPrevious {
+	background: none;
+	border: none;
+	left: 0px;
+	transition: background-image $base-duration ease;
+	&:hover {
+		background: url('../images/left-arrow.png') no-repeat transparent 5% 50%;
+		background-size: 45px 45px;
+	}
 	
+}
+#cboxNext {
+	background: none;
+	right: 0px;
+	border: none;
+	&:hover {
+		background: url('../images/right-arrow.png') no-repeat transparent 95% 50%;
+		background-size: 45px 45px;
+	}
 }

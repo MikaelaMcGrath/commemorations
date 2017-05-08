@@ -217,28 +217,23 @@
 						content: '\025B8';
 						align-self: center;
 						font-size: $base-font-size * 1.2;
-						padding: 0 $horz-spacing-unit/2;
+						padding: 0 2.5%;
 					}
 				}
 				&.active {
 					&>div.submenu-title {
 						&:after {
 							content: '\025BE';
-							padding: 0 $horz-spacing-unit/2.2;
+							padding: 0 2.2%;
 						}
 					}
 				}
 				a {
-					width: 93%;
+					width: 95%;
 					padding: $vert-spacing-unit/3;
 					display: inline-block;
+					border-right: none;
 				}
-				&.has-children {
-					&> a, &> div a, li.item-with-ul > div a {
-						border-right: $base-border;
-					}
-				}
-
 			}
 		}
 	}
