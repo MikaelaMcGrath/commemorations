@@ -1113,10 +1113,10 @@ ul.breadcrumb {
   display: list-item; }
 
 /* line 94, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-.left-sidebar-wrapper .conflicts-menu ul li.expanded > a, .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail > a {
+.left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail > a, .left-sidebar-wrapper .conflicts-menu ul li.expanded.active-trail > a {
   padding-right: 2rem; }
   /* line 96, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-  .left-sidebar-wrapper .conflicts-menu ul li.expanded > a:after, .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail > a:after {
+  .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail > a:after, .left-sidebar-wrapper .conflicts-menu ul li.expanded.active-trail > a:after {
     content: '\025BE';
     position: absolute;
     right: 1rem;
@@ -1125,14 +1125,14 @@ ul.breadcrumb {
     font-size: 1.2em; }
 
 /* line 105, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-.left-sidebar-wrapper .conflicts-menu ul li.expanded.active-trail, .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail.active-trail {
+.left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail.active-trail, .left-sidebar-wrapper .conflicts-menu ul li.expanded.active-trail.active-trail {
   font-weight: 600; }
 
 /* line 110, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-.left-sidebar-wrapper .conflicts-menu ul li.collapsed > a, .left-sidebar-wrapper .conflicts-menu ul li.has-children > a {
+.left-sidebar-wrapper .conflicts-menu ul li.collapsed > a, .left-sidebar-wrapper .conflicts-menu ul li.has-children > a, .left-sidebar-wrapper .conflicts-menu ul li.expanded > a {
   padding-right: 2rem; }
   /* line 112, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-  .left-sidebar-wrapper .conflicts-menu ul li.collapsed > a:after, .left-sidebar-wrapper .conflicts-menu ul li.has-children > a:after {
+  .left-sidebar-wrapper .conflicts-menu ul li.collapsed > a:after, .left-sidebar-wrapper .conflicts-menu ul li.has-children > a:after, .left-sidebar-wrapper .conflicts-menu ul li.expanded > a:after {
     content: '\025B8';
     position: absolute;
     right: 1rem;

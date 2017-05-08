@@ -90,7 +90,7 @@
 					display: list-item;
 				}
 			}
-			&.expanded, &.has-children.active-trail {
+			&.has-children.active-trail, &.expanded.active-trail {
 				&> a {
 					padding-right: $horz-spacing-unit *2;
 					&:after {
@@ -106,7 +106,7 @@
 					font-weight: $bold-font-weight;
 				}
 			}
-			&.collapsed, &.has-children {
+			&.collapsed, &.has-children, &.expanded {
 				&> a {
 					padding-right: $horz-spacing-unit *2;
 					&:after {
