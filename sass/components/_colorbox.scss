@@ -16,6 +16,9 @@
 	background: $white;
 	padding: $vert-spacing-unit /1.5 $horz-spacing-unit $vert-spacing-unit;
 	width: 100%;
+	&:empty {
+		padding: 0;
+	}
 }
 #cboxLoadedContent {
 	background: $white;
