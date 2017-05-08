@@ -1388,8 +1388,11 @@ ul.breadcrumb {
 #cboxLoadedContent {
   background: #FFFFFF;
   position: relative; }
+  /* line 26, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+  #cboxLoadedContent img {
+    display: block; }
 
-/* line 27, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+/* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
 #cboxOverlay {
   position: fixed;
   width: 100%;
@@ -1400,44 +1403,44 @@ ul.breadcrumb {
   overflow: hidden;
   background-color: #000000; }
 
-/* line 37, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+/* line 40, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
 #colorbox {
   z-index: 10000;
   outline-color: #262626;
   margin-top: -50px; }
 
-/* line 42, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+/* line 45, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
 .colorbox {
   outline-color: #FFFFFF; }
 
-/* line 45, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+/* line 48, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
 #cboxPrevious, #cboxNext {
   position: absolute;
   top: 0;
   height: 100%;
   overflow: hidden;
   text-indent: 10000px; }
-  /* line 51, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+  /* line 54, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
   #cboxPrevious:focus, #cboxNext:focus {
     outline: transparent none 1px; }
 
-/* line 55, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+/* line 58, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
 #cboxPrevious {
   background: none;
   border: none;
   left: 0px;
   transition: background-image 200ms ease; }
-  /* line 60, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+  /* line 63, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
   #cboxPrevious:hover {
     background: url("../images/left-arrow.png") no-repeat transparent 5% 50%;
     background-size: 45px 45px; }
 
-/* line 66, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+/* line 69, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
 #cboxNext {
   background: none;
   right: 0px;
   border: none; }
-  /* line 70, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
+  /* line 73, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
   #cboxNext:hover {
     background: url("../images/right-arrow.png") no-repeat transparent 95% 50%;
     background-size: 45px 45px; }

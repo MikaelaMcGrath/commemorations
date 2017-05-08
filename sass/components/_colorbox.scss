@@ -23,6 +23,9 @@
 #cboxLoadedContent {
 	background: $white;
 	position: relative;
+	img {
+		display: block;
+	}
 }
 #cboxOverlay {
 	position: fixed;
