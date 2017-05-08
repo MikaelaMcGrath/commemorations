@@ -1319,17 +1319,46 @@ ul.breadcrumb {
   overflow: hidden; }
 
 /* line 7, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
-.full-video {
+.full-video, .middle-video {
   margin: 0 auto;
-  max-width: 645px; }
+  max-width: 645px;
+  border: 1px solid #e6e6e6; }
 
-/* line 11, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+/* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+.middle-video .caption, .middle-video .read-more, .full-video .caption, .full-video .read-more {
+  font-size: 0.7em;
+  padding: 1rem 1rem;
+  margin: 0; }
+  /* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+  .middle-video .caption p:last-child, .middle-video .read-more p:last-child, .full-video .caption p:last-child, .full-video .read-more p:last-child {
+    margin: 0; }
+
+/* line 22, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+.middle-video .read-more, .full-video .read-more {
+  padding-top: 0; }
+
+/* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+.middle-video .button, .full-video .button {
+  margin: 0 1rem 1rem; }
+
+/* line 29, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
 .video-player iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; }
+
+@media (min-width: 768px) {
+  /* line 37, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+  .middle-video {
+    max-width: 265px; }
+    /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+    .middle-video.right {
+      float: right; }
+    /* line 42, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+    .middle-video.left {
+      float: left; } }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_colorbox.scss */
 #cboxClose {
