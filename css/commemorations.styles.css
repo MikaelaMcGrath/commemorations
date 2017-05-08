@@ -199,22 +199,25 @@ picture {
 table {
   border-collapse: collapse;
   margin: 0.75em 0;
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
   table-layout: fixed;
   width: 100%; }
 
-/* line 8, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_tables.scss */
+/* line 10, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_tables.scss */
 th {
-  border-bottom: 1px solid #adadad;
+  border-bottom: 1px solid #cfcfcf;
   font-weight: 600;
   padding: 0.75em;
-  text-align: left; }
+  text-align: center;
+  background-color: #e6e6e6; }
 
-/* line 15, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_tables.scss */
+/* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_tables.scss */
 td {
   border-bottom: 1px solid #e6e6e6;
   padding: 0.75em; }
 
-/* line 20, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_tables.scss */
+/* line 23, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_tables.scss */
 tr,
 td,
 th {
@@ -1440,20 +1443,21 @@ ul.breadcrumb {
     .child-content .view-content > div img {
       width: 100%;
       height: auto;
-      display: block; }
-    /* line 15, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      display: block;
+      position: relative; }
+    /* line 16, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .child-content .view-content > div h2, .child-content .view-content > div h3 {
       font-size: 1em;
       padding: 0 1rem; }
-      /* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 19, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .child-content .view-content > div h2 a, .child-content .view-content > div h3 a {
         display: inline-block;
         width: 100%;
         height: 100%; }
-    /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .child-content .view-content > div p {
       padding: 0 1rem;
       font-size: 0.8em; }
-  /* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 31, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .child-content .view-content h3 {
     flex: 1 1 100%; }

@@ -1,15 +1,18 @@
 table {
   border-collapse: collapse;
   margin: $small-spacing 0;
+  border: $base-border;
+  border-bottom: none;
   table-layout: fixed;
-  width: 100%;
+    width: 100%;
 }
 
 th {
-  border-bottom: 1px solid shade($base-border-color, 25%);
+  border-bottom: 1px solid shade($light-grey, 10%);
   font-weight: 600;
   padding: $small-spacing;
-  text-align: left;
+  text-align: center;
+  background-color: $light-grey;
 }
 
 td {
