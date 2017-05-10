@@ -1,0 +1,26 @@
+.sub-footer {
+	background-color: $accent;
+	.related-content {
+		max-width: 1140px;
+		margin: 0 auto;
+		h2 {
+			margin-top: 0;
+			padding-top: 0.75em;
+			width: 100%;
+		}
+		.paragraphs-items {
+			
+			.field__items {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				.field__item {
+					flex: 1 0 25%;
+					padding: $all-round;
+				}
+			}
+			
+			
+		}
+	}
+}

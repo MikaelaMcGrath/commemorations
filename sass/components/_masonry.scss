@@ -5,10 +5,11 @@
 			width: 31%;
 			padding: 0;
 			margin: 1%;
-			&:first-child:nth-last-child(3), &:first-child:nth-last-child(2), &:first-child:nth-last-child(3) ~ .masonry-item, &:first-child:nth-last-child(2) ~ .masonry-item {
+			&:first-child:nth-last-child(3), &:first-child:nth-last-child(3) ~ .masonry-item, {
 				width: 31%;
-				
-				
+			}
+			&:first-child:nth-last-child(2), &:first-child:nth-last-child(2) ~ .masonry-item {
+				width: 45%;
 			}
 			img {
 				width: 100%;
