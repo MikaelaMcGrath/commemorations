@@ -5,7 +5,7 @@ audio {
 	max-height: 40px;
 }
 }
-.media-full {
+.media-full, .media-full_no_caption {
 	audio {
 	margin: $vert-spacing-unit $horz-spacing-unit 0 $vert-spacing-unit;
 	max-height: 40px;

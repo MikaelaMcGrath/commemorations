@@ -1535,6 +1535,6 @@ ul.breadcrumb {
   max-height: 40px; }
 
 /* line 9, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_audio.scss */
-.media-full audio {
+.media-full audio, .media-full_no_caption audio {
   margin: 1rem 1rem 0 1rem;
   max-height: 40px; }
