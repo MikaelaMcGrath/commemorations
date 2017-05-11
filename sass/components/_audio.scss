@@ -1,0 +1,11 @@
+.media-middle {
+audio {
+	max-width:263px;
+	width:100%;
+}
+}
+.media-full {
+	audio {
+	margin: $vert-spacing-unit $horz-spacing-unit 0 $vert-spacing-unit;
+	} 
+}
