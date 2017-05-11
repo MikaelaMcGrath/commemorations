@@ -2,10 +2,12 @@
 audio {
 	max-width:263px;
 	width:100%;
+	max-height: 40px;
 }
 }
 .media-full {
 	audio {
 	margin: $vert-spacing-unit $horz-spacing-unit 0 $vert-spacing-unit;
+	max-height: 40px;
 	} 
 }

@@ -1528,8 +1528,10 @@ ul.breadcrumb {
 /* line 2, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_audio.scss */
 .media-middle audio {
   max-width: 263px;
-  width: 100%; }
+  width: 100%;
+  max-height: 40px; }
 
-/* line 8, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_audio.scss */
+/* line 9, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_audio.scss */
 .media-full audio {
-  margin: 1rem 1rem 0 1rem; }
+  margin: 1rem 1rem 0 1rem;
+  max-height: 40px; }
