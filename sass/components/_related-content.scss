@@ -16,7 +16,14 @@
 				flex-wrap: wrap;
 				.field__item {
 					flex: 1 0 25%;
-					padding: $all-round;
+					padding-bottom: $vert-spacing-unit;
+					ul {
+						margin: 0;
+						padding: 0;
+						li {
+							list-style: none;
+						}
+					}
 				}
 			}
 			

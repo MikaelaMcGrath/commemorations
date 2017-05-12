@@ -1527,7 +1527,14 @@ ul.breadcrumb {
       /* line 17, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_related-content.scss */
       .sub-footer .related-content .paragraphs-items .field__items .field__item {
         flex: 1 0 25%;
-        padding: 1rem 1rem; }
+        padding-bottom: 1rem; }
+        /* line 20, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_related-content.scss */
+        .sub-footer .related-content .paragraphs-items .field__items .field__item ul {
+          margin: 0;
+          padding: 0; }
+          /* line 23, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_related-content.scss */
+          .sub-footer .related-content .paragraphs-items .field__items .field__item ul li {
+            list-style: none; }
 
 /* line 2, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_audio.scss */
 .media-middle audio {
