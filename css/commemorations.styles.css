@@ -1529,12 +1529,16 @@ ul.breadcrumb {
       /* line 17, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_related-content.scss */
       .sub-footer .related-content .paragraphs-items .field__items .field__item {
         flex: 1 0 25%;
-        padding: 0 1rem 1rem; }
-        /* line 20, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_related-content.scss */
+        padding: 0 1rem 1rem;
+        max-width: 265px; }
+        /* line 21, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_related-content.scss */
+        .sub-footer .related-content .paragraphs-items .field__items .field__item:first-child:nth-last-child(3), .sub-footer .related-content .paragraphs-items .field__items .field__item:first-child:nth-last-child(3) ~ .field__item, .sub-footer .related-content .paragraphs-items .field__items .field__item:first-child:nth-last-child(2), .sub-footer .related-content .paragraphs-items .field__items .field__item:first-child:nth-last-child(2) ~ .field__item, .sub-footer .related-content .paragraphs-items .field__items .field__item:first-child:nth-last-child(1), .sub-footer .related-content .paragraphs-items .field__items .field__item:first-child:nth-last-child(1) ~ .field__item {
+          max-width: none; }
+        /* line 26, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_related-content.scss */
         .sub-footer .related-content .paragraphs-items .field__items .field__item ul {
           margin: 0;
           padding: 0; }
-          /* line 23, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_related-content.scss */
+          /* line 29, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_related-content.scss */
           .sub-footer .related-content .paragraphs-items .field__items .field__item ul li {
             list-style: none; }
 

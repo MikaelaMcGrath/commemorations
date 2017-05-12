@@ -17,6 +17,12 @@
 				.field__item {
 					flex: 1 0 25%;
 					padding: 0 $horz-spacing-unit $vert-spacing-unit;
+					max-width: 265px;
+					&:first-child:nth-last-child(3), &:first-child:nth-last-child(3) ~ .field__item, 
+					&:first-child:nth-last-child(2), &:first-child:nth-last-child(2) ~ .field__item, 
+					&:first-child:nth-last-child(1), &:first-child:nth-last-child(1) ~ .field__item  {
+						max-width: none;
+					}
 					ul {
 						margin: 0;
 						padding: 0;
