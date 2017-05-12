@@ -974,7 +974,7 @@ ul.breadcrumb {
   .l-content .media .button {
     margin: 0 1rem 1rem; }
   /* line 38, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_images.scss */
-  .l-content .media.media-full_no_caption {
+  .l-content .media.media-full_no_caption .button {
     margin: 1rem 1rem; }
 
 /* line 42, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_images.scss */
