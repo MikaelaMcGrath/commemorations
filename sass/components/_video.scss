@@ -38,9 +38,11 @@
 		max-width: 265px;
 		&.right {
 			float: right;
+			margin-left: $horz-spacing-unit;
 		}
 		&.left {
 			float: left;
+			margin-right: $horz-spacing-unit;
 		}
 	}
 }
