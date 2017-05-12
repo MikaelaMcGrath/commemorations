@@ -16,7 +16,7 @@
 				flex-wrap: wrap;
 				.field__item {
 					flex: 1 0 25%;
-					padding-bottom: $vert-spacing-unit;
+					padding: 0 $horz-spacing-unit $vert-spacing-unit;
 					ul {
 						margin: 0;
 						padding: 0;
