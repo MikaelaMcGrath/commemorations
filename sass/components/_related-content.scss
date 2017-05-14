@@ -22,8 +22,11 @@
 						width: 100%;
 						height: auto;
 					}
-					&.summary-related-content:first-child {
+					&.text-summary-related-content:first-child {
 						flex: 2 0 100%;
+					}
+					&.image-related-content {
+						
 					}
 					ul {
 						margin: 0;

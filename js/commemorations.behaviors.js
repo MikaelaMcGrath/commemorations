@@ -451,7 +451,7 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
-  Drupal.behaviors.commemorationsSummaryRelatedContent = {
+  Drupal.behaviors.commemorationsRelatedContent = {
   attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
       // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
@@ -459,8 +459,9 @@ Drupal.behaviors.commemorationsReadMore = {
       // processed previously. By using .once('foo') all processed elements will
       // get tagged with a 'foo-processed' class, causing all future invocations
       // of this behavior to ignore them.
-      $('.related-content', context).once('summaryRelatedContent', function () {
-        $('div.field__items>.field__item').find('.group-summary-text:first-child').parent().addClass('summary-related-content');
+      $('.related-content', context).once('RelatedContent', function () {
+        $('div.field__items>.field__item').find('.group-summary-text:first-child').parent().addClass('text-summary-related-content');
+        $('div.field__items>.field__item').find('.image-paragraph').parent().addClass('image-related-content');
       });
     }
   };
