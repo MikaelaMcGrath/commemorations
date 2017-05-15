@@ -1,0 +1,14 @@
+.alertbox {
+	border: $base-border;
+	padding: 0 $horz-spacing-unit $vert-spacing-unit;
+	position: relative;
+	h2:first-of-type {
+		background-color: $base;
+		margin: 0;
+		color: white;
+		margin-left: -1rem;
+		margin-right: -1rem;
+		padding: $all-round;
+		display: block;
+	}
+}

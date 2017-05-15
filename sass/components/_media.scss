@@ -42,6 +42,9 @@
             padding: $all-round;
             list-style: none;
         }
+        &.media {
+            margin-top: $vert-spacing-unit;
+        }
     }
     .media-middle {
         max-width: 265px;
