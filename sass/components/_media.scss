@@ -49,6 +49,7 @@
     .media-middle {
         max-width: 265px;
         width: 50%;
+        margin-bottom: $vert-spacing-unit;
     }
     .media-full, .media-full_no_caption {
         max-width: 645px;
@@ -59,5 +60,6 @@
     .media-thumbnail {
         max-width: 170px;
         width: 50%;
+        margin-bottom: $vert-spacing-unit;
     }
 }

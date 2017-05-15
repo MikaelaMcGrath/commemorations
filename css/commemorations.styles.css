@@ -987,19 +987,21 @@ ul.breadcrumb {
 /* line 49, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_media.scss */
 .l-content .media-middle {
   max-width: 265px;
-  width: 50%; }
+  width: 50%;
+  margin-bottom: 1rem; }
 
-/* line 53, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_media.scss */
+/* line 54, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_media.scss */
 .l-content .media-full, .l-content .media-full_no_caption {
   max-width: 645px;
   margin: 1rem auto;
   float: none;
   clear: both; }
 
-/* line 59, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_media.scss */
+/* line 60, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_media.scss */
 .l-content .media-thumbnail {
   max-width: 170px;
-  width: 50%; }
+  width: 50%;
+  margin-bottom: 1rem; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_leaflet.scss */
 .leaflet_div {
@@ -1336,7 +1338,7 @@ ul.breadcrumb {
 
 /* line 10, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
 .middle-video, .full-video {
-  margin: 0 auto;
+  margin: 1rem auto;
   max-width: 645px;
   border: 1px solid #e6e6e6; }
   /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
