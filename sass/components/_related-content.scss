@@ -16,7 +16,7 @@
 				justify-content: space-between;
 				flex-wrap: wrap;
 				&> .field__item {
-					flex: 1 0 50%;
+					flex: 1 0 40%;
 					padding: 0 $horz-spacing-unit $vert-spacing-unit;
 					img {
 						width: 100%;
@@ -26,7 +26,7 @@
 						flex: 2 0 100%;
 					}
 					&.image-related-content {
-						
+
 					}
 					ul {
 						margin: 0;
@@ -52,7 +52,7 @@
 			&> .field__items {
 
 				&> .field__item {
-					flex: 1 0 25%;
+					flex: 1 0 20%;
 				}
 			}
 		}
