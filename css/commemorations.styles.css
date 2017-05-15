@@ -981,7 +981,7 @@ ul.breadcrumb {
     padding: 1rem 1rem;
     list-style: none; }
   /* line 45, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_media.scss */
-  .l-content .media.media {
+  .l-content .media + .media {
     margin-top: 1rem; }
 
 /* line 49, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_media.scss */

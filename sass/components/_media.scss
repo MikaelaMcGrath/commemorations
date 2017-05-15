@@ -42,7 +42,7 @@
             padding: $all-round;
             list-style: none;
         }
-        &.media {
+        &+ .media {
             margin-top: $vert-spacing-unit;
         }
     }
