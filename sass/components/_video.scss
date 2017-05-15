@@ -4,13 +4,13 @@
 	height: 0;
 	overflow: hidden;
 }
-.full-video, .middle-video {
+.full-video {
+	clear: both;
+}
+.middle-video, .full-video {
 	margin: 0 auto;
 	max-width: 645px;
 	border: $base-border;
-}
-
-.middle-video, .full-video {
 	.caption, .read-more {
 	    font-size: $small-font-size;
 	    padding: $all-round;
