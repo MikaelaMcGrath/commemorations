@@ -38,6 +38,10 @@
         &.media-full_no_caption .button {
             margin: $all-round;
         }
+        .download-file {
+            padding: $all-round;
+            list-style: none;
+        }
     }
     .media-middle {
         max-width: 265px;
