@@ -18,8 +18,6 @@
 					flex: 1 0 40%;
 					
 					margin: 0 $horz-spacing-unit $vert-spacing-unit;
-					background-color: $white;
-					border: $base-border;
 					img {
 						width: 100%;
 						height: auto;
@@ -27,8 +25,6 @@
 					}
 					&.text-summary-related-content:first-child {
 						flex: 2 1 100%;
-						background-color: transparent;
-						border: none;
 					}
 					ul {
 						margin: 0;
@@ -42,13 +38,6 @@
 							border: none;
 							margin: 0;
 						}
-					}
-					.caption, .read-more {
-						padding: $vert-spacing-unit $horz-spacing-unit;
-						font-size: $small-font-size;
-					}
-					.download-file {
-						padding: $vert-spacing-unit $horz-spacing-unit 0;
 					}
 				}
 			}
@@ -68,6 +57,7 @@
 
 				&> .field__item {
 					flex: 1 0 20%;
+					//max-width: 285px;
 					&.image-related-content {
 						max-width: 285px;
 					}
