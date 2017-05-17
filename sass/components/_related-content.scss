@@ -23,10 +23,7 @@
 						height: auto;
 					}
 					&.text-summary-related-content:first-child {
-						flex: 2 0 100%;
-					}
-					&.image-related-content {
-						max-width: 253px;
+						flex: 2 1 100%;
 					}
 					ul {
 						margin: 0;
@@ -53,7 +50,11 @@
 
 				&> .field__item {
 					flex: 1 0 20%;
+					&.image-related-content {
+						max-width: 253px;
+					}
 				}
+
 			}
 		}
 	}
