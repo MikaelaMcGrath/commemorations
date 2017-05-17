@@ -1460,28 +1460,31 @@ ul.breadcrumb {
     background: url("../images/right-arrow.png") no-repeat transparent 95% 50%;
     background-size: 45px 45px; }
 
-/* line 2, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-.view-gallery .view-content {
-  margin: 0 auto; }
-  /* line 4, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-  .view-gallery .view-content .masonry-item {
-    width: 31%;
-    padding: 0;
-    margin: 1%; }
-    /* line 8, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-    .view-gallery .view-content .masonry-item:first-child:nth-last-child(3), .view-gallery .view-content .masonry-item:first-child:nth-last-child(3) ~ .masonry-item {
-      width: 31%; }
-    /* line 11, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-    .view-gallery .view-content .masonry-item:first-child:nth-last-child(2), .view-gallery .view-content .masonry-item:first-child:nth-last-child(2) ~ .masonry-item {
-      width: 40%; }
-    /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-    .view-gallery .view-content .masonry-item img {
-      width: 100%;
-      height: auto;
-      display: block; }
+/* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+.view-gallery {
+  clear: both; }
+  /* line 3, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  .view-gallery .view-content {
+    margin: 0 auto; }
+    /* line 5, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    .view-gallery .view-content .masonry-item {
+      width: 31%;
+      padding: 0;
+      margin: 1%; }
+      /* line 9, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      .view-gallery .view-content .masonry-item:first-child:nth-last-child(3), .view-gallery .view-content .masonry-item:first-child:nth-last-child(3) ~ .masonry-item {
+        width: 31%; }
+      /* line 12, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      .view-gallery .view-content .masonry-item:first-child:nth-last-child(2), .view-gallery .view-content .masonry-item:first-child:nth-last-child(2) ~ .masonry-item {
+        width: 40%; }
+      /* line 15, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      .view-gallery .view-content .masonry-item img {
+        width: 100%;
+        height: auto;
+        display: block; }
 
 @media (min-width: 768px) {
-  /* line 26, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  /* line 27, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
   .view-gallery .view-content .masonry-item {
     width: 23%; } }
 
