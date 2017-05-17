@@ -16,13 +16,19 @@
 				flex-wrap: wrap;
 				&> .field__item {
 					flex: 1 0 40%;
-					padding: 0 $horz-spacing-unit $vert-spacing-unit;
+					
+					margin: 0 $horz-spacing-unit $vert-spacing-unit;
+					background-color: $white;
+					border: $base-border;
 					img {
 						width: 100%;
 						height: auto;
+						display: block;
 					}
 					&.text-summary-related-content:first-child {
 						flex: 2 1 100%;
+						background-color: transparent;
+						border: none;
 					}
 					ul {
 						margin: 0;
@@ -36,6 +42,10 @@
 							border: none;
 							margin: 0;
 						}
+					}
+					.caption, .read-more {
+						padding: $vert-spacing-unit $horz-spacing-unit;
+						font-size: $small-font-size;
 					}
 				}
 			}
