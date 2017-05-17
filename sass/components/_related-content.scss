@@ -13,10 +13,9 @@
 			
 			&> .field__items {
 				display: flex;
-				justify-content: space-between;
 				flex-wrap: wrap;
 				&> .field__item {
-					flex: 1 0 40%;
+					flex: 1 0 45%;
 					padding: 0 $horz-spacing-unit $vert-spacing-unit;
 					img {
 						width: 100%;
@@ -51,7 +50,7 @@
 				&> .field__item {
 					flex: 1 0 20%;
 					&.image-related-content {
-						max-width: 253px;
+						max-width: 285px;
 					}
 				}
 
