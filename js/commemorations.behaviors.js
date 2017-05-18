@@ -462,6 +462,8 @@ Drupal.behaviors.commemorationsReadMore = {
       $('.related-content', context).once('RelatedContent', function () {
         $('div.field__items>.field__item').find('.group-summary-text:first-child').parent().addClass('text-summary-related-content');
         $('div.field__items>.field__item').find('.image-paragraph').parent().addClass('image-related-content');
+        $('div.field__items>.field__item').find('.paragraphs-item-video').parent().addClass('video-related-content');
+
       });
     }
   };

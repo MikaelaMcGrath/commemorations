@@ -37,7 +37,17 @@
 						.full-video {
 							border: none;
 							margin: 0;
+							.caption, .read-more {
+								padding: $vert-spacing-unit 0 0;
+							}
+							.button {
+								margin: $vert-spacing-unit 0 0;
+							}
 						}
+					}
+					.caption, .read-more {
+						padding-top: $vert-spacing-unit;
+						font-size: $small-font-size;
 					}
 				}
 			}
@@ -58,7 +68,7 @@
 				&> .field__item {
 					flex: 1 0 20%;
 					//max-width: 285px;
-					&.image-related-content {
+					&.image-related-content, &.video-related-content {
 						max-width: 253px;
 					}
 				}
