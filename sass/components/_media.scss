@@ -42,6 +42,9 @@
         .download-file {
             padding: $all-round;
             list-style: none;
+            &~ .caption {
+            	padding-top: 0;
+            }
         }
         &+ .media {
             margin-top: $vert-spacing-unit;
