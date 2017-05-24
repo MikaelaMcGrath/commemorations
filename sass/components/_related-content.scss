@@ -68,7 +68,7 @@
 				&> .field__item {
 					flex: 1 0 20%;
 					//max-width: 285px;
-					&.image-related-content, &.video-related-content {
+					&.image-related-content, &.video-related-content, &.audio-related-content {
 						max-width: 253px;
 					}
 				}
