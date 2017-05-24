@@ -53,12 +53,21 @@
     .media-middle {
         max-width: 265px;
         width: 50%;
+        audio {
+			max-width:263px;
+			width:100%;
+			max-height: 40px;
+		}
     }
     .media-full, .media-full_no_caption {
         max-width: 645px;
         margin: $vert-spacing-unit auto;
         float: none;
         clear: both;
+        audio {
+			margin: $vert-spacing-unit $horz-spacing-unit 0 $vert-spacing-unit;
+			max-height: 40px;
+		} 
     }
     .media-thumbnail {
         max-width: 170px;
