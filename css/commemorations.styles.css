@@ -424,6 +424,10 @@ body {
 .l-content .see-footnote:target, .l-content .footnotes .footnote:target {
   background-color: #e6e6e6; }
 
+/* line 33, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.l-content .clear {
+  clear: both; }
+
 /* line 3, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
 .full-width .menu-block-7 ul, .full-width .menu-block-8 ul {
   padding: 0; }
@@ -1613,8 +1617,9 @@ ul.breadcrumb {
 .alertbox {
   border: 1px solid #e6e6e6;
   padding: 0 1rem 1rem;
-  position: relative; }
-  /* line 5, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_alertbox.scss */
+  position: relative;
+  clear: both; }
+  /* line 6, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_alertbox.scss */
   .alertbox h2:first-of-type {
     background-color: #531b21;
     margin: 0 -1rem 1rem -1rem;

@@ -30,5 +30,7 @@
     .see-footnote:target, .footnotes .footnote:target {
         background-color: $light-grey;
     }
-    
+    .clear {
+    	clear: both;
+    }
 } 
