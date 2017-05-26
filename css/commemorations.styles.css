@@ -223,6 +223,12 @@ td,
 th {
   vertical-align: middle; }
 
+/* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_tables.scss */
+caption {
+  padding: 0.75em;
+  font-weight: 600;
+  font-size: 1.1em; }
+
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_typography.scss */
 body {
   font-weight: 400;
@@ -523,27 +529,27 @@ body {
         width: 100%;
         position: absolute;
         bottom: 0px; }
-        /* line 26, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
-        .full-width .menu-block-7 ul li.active-trail .background-header a, .full-width .menu-block-8 ul li.active-trail .background-header a {
-          display: block;
-          max-width: 1140px;
-          z-index: 99;
-          font-size: 1.8em;
-          pointer-events: none;
-          cursor: default;
-          text-decoration: none;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin: 0 auto;
-          padding: 0 1rem; }
+      /* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail a, .full-width .menu-block-8 ul li.active-trail a {
+        display: block;
+        max-width: 1140px;
+        z-index: 99;
+        font-size: 1.8em;
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0 auto;
+        padding: 0 1rem; }
 
 @media (min-width: 768px) {
-  /* line 50, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+  /* line 51, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
   .full-width .menu-block-7 ul li, .full-width .menu-block-8 ul li {
     height: 300px; } }
 
 @media (min-width: 1120px) {
-  /* line 64, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+  /* line 65, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
   .full-width .menu-block-7 ul li.active-trail .background-header a, .full-width .menu-block-8 ul li.active-trail .background-header a {
     padding: 0; } }
 

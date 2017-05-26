@@ -25,3 +25,8 @@ td,
 th {
   vertical-align: middle;
 }
+caption {
+  padding: $small-spacing;
+  font-weight: $bold-font-weight;
+  font-size: $base-font-size * 1.1;
+}

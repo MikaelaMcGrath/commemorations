@@ -23,7 +23,9 @@
 						width: 100%;
 						position: absolute;
 						bottom: 0px;
-						a {
+						
+					}
+					a {
 							display: block;
 							max-width: 1140px;
 							z-index: 99;
@@ -36,7 +38,6 @@
 							margin: 0 auto;
 							padding: 0 $horz-spacing-unit;
 						}
-					}
 					
 				}
 			}
