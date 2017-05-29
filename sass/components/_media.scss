@@ -39,15 +39,22 @@
         &.media-full_no_caption .button {
             margin: $all-round;
         }
-        .download-file {
+        .file a {
             padding: $all-round;
-            list-style: none;
+            display: block;
             &~ .caption {
             	padding-top: 0;
             }
         }
         &+ .media {
             margin-top: $vert-spacing-unit;
+        }
+        .ext-caps {
+            text-transform: uppercase;
+        }
+        .file-size, .file-icon {
+            display: none;
+            visibility: hidden;
         }
     }
     .media-middle {
@@ -57,7 +64,13 @@
 			max-width:263px;
 			width:100%;
 			max-height: 40px;
-		}
+		} 
+    }
+    .media-content {
+        border: none;
+        .file a {
+            padding: 0;
+        }
     }
     .media-full, .media-full_no_caption {
         max-width: 645px;

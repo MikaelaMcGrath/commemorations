@@ -467,6 +467,22 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
+  Drupal.behaviors.commemorationsExtension = {
+  attach: function (context, settings) {
+      // By using the 'context' variable we make sure that our code only runs on
+      // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
+      // we don't run the same piece of code for an HTML snippet that we already
+      // processed previously. By using .once('foo') all processed elements will
+      // get tagged with a 'foo-processed' class, causing all future invocations
+      // of this behavior to ignore them.
+      $('.l-content', context).once('extension', function () {
+        $("a:contains('pdf'), a:contains('docx'), a:contains('doc')").html(function(_, html) {
+          return html.replace(/(pdf)/g, '<span class="ext-caps">$1</span>').replace(/(docx)/g, '<span class="ext-caps">$1</span>').replace(/(doc)/g, '<span class="ext-caps">$1</span>');
+        });
+
+    });
+  }
+  };
   
 })(jQuery);
 
