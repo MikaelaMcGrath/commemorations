@@ -49,6 +49,13 @@
 						padding-top: $vert-spacing-unit;
 						font-size: $small-font-size;
 					}
+					.ext-caps {
+			            text-transform: uppercase;
+			        }
+			        .file-size, .file-icon {
+			            display: none;
+			            visibility: hidden;
+			        }
 				}
 			}
 			

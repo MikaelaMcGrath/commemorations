@@ -479,7 +479,6 @@ Drupal.behaviors.commemorationsReadMore = {
         $("a:contains('pdf'), a:contains('docx'), a:contains('doc')").html(function(_, html) {
           return html.replace(/(pdf)/g, '<span class="ext-caps">$1</span>').replace(/(docx)/g, '<span class="ext-caps">$1</span>').replace(/(doc)/g, '<span class="ext-caps">$1</span>');
         });
-
     });
   }
   };
