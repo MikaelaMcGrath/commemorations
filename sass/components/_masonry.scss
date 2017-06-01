@@ -1,20 +1,14 @@
 .view-gallery {
 	clear: both;
-	margin-bottom: $vert-spacing-unit;
+	//margin-bottom: $vert-spacing-unit;
+	width: 100%;
 	.view-content {
 		margin: 0 auto;
 		.masonry-item {
-			width: 200px;
+			width: 170px;
 			padding: 0;
 			margin: 1%;
-			&:first-child:nth-last-child(3), &:first-child:nth-last-child(3) ~ .masonry-item, {
-				width: 200px;
-			}
-			&:first-child:nth-last-child(2), &:first-child:nth-last-child(2) ~ .masonry-item {
-				width: 265px;
-			}
 			img {
-				width: 100%;
 				height: auto;
 				display: block;
 			}
@@ -26,7 +20,22 @@
 	.view-gallery {
 		.view-content {
 			.masonry-item {
-				width: 177px;
+				width: 140px;
+				&:first-child:nth-last-child(2), &:first-child:nth-last-child(2) ~ .masonry-item {
+				width: 220px;
+			}
+			}
+		}
+	}
+}
+@include breakpoint(desktop) {
+	.view-gallery {
+		.view-content {
+			.masonry-item {
+				width: 165px;
+				&:first-child:nth-last-child(3), &:first-child:nth-last-child(3) ~ .masonry-item, {
+					width: 200px;
+				}
 			}
 		}
 	}
