@@ -124,10 +124,13 @@ sub {
         margin-bottom: 0;
       }
   }
-  p cite {
-        padding: $vert-spacing-unit 0 0 $horz-spacing-unit;
-      }
+
   blockquote {
     font-size: $base-font-size * 0.9;
+    margin-bottom: $vert-spacing-unit;
+    &+ p cite {
+        margin-top: -$vert-spacing-unit;
+        padding: $vert-spacing-unit 0 0 $horz-spacing-unit;
+      }
   }
 }
