@@ -476,8 +476,8 @@ Drupal.behaviors.commemorationsReadMore = {
       // get tagged with a 'foo-processed' class, causing all future invocations
       // of this behavior to ignore them.
       $('.l-content', context).once('extension', function () {
-        $("a:contains('(pdf'), a:contains('(docx'), a:contains('(doc')").html(function(_, html) {
-          return html.replace(/((pdf)/g, '<span class="ext-caps">$1</span>').replace(/((docx)/g, '<span class="ext-caps">$1</span>').replace(/((doc)/g, '<span class="ext-caps">$1</span>');
+        $("a:contains('pdf'), a:contains('docx'), a:contains('doc')").html(function(_, html) {
+          return html.replace(/(pdf)/g, '<span class="ext-caps">$1</span>').replace(/(docx)/g, '<span class="ext-caps">$1</span>').replace(/(doc)/g, '<span class="ext-caps">$1</span>');
         });
     });
   }
