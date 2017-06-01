@@ -56,6 +56,14 @@
 			            display: none;
 			            visibility: hidden;
 			        }
+			        .field--name-field-document {
+			        	 .field__item {
+			        		padding-bottom: $vert-spacing-unit/2;
+			        		&:last-child {
+			        			padding-bottom: 0;
+			        		}
+			        	}
+			        }
 				}
 			}
 			

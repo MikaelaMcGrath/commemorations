@@ -39,9 +39,11 @@
         &.media-full_no_caption .button {
             margin: $all-round;
         }
-        .file a {
-            padding: $all-round;
-            display: block;
+        .file {
+            a {
+                padding: $all-round;
+                display: block;
+            }
             &~ .caption {
             	padding-top: 0;
             }

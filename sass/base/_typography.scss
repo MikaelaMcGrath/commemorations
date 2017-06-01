@@ -122,9 +122,11 @@ sub {
       }
       p {
         margin-bottom: 0;
-        padding-bottom: $vert-spacing-unit;
       }
   }
+  p cite {
+        padding: $vert-spacing-unit 0 0 $horz-spacing-unit;
+      }
   blockquote {
     font-size: $base-font-size * 0.9;
   }
