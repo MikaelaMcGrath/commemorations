@@ -3,7 +3,7 @@
 	padding: 0 $horz-spacing-unit $vert-spacing-unit;
 	position: relative;
 	clear: both;
-	&+ h2, &+ h3 {
+	&>h2:first-child, &>h3:first-child {
 		background-color: $base;
 		margin: 0 -1rem $vert-spacing-unit -1rem;
 		color: white;

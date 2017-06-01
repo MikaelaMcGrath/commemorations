@@ -1664,7 +1664,7 @@ ul.breadcrumb {
   position: relative;
   clear: both; }
   /* line 6, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_alertbox.scss */
-  .alertbox + h2, .alertbox + h3 {
+  .alertbox > h2:first-child, .alertbox > h3:first-child {
     background-color: #531b21;
     margin: 0 -1rem 1rem -1rem;
     color: white;
