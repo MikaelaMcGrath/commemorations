@@ -3,14 +3,14 @@
 	.view-content {
 		margin: 0 auto;
 		.masonry-item {
-			width: 31%;
+			width: 200px;
 			padding: 0;
 			margin: 1%;
 			&:first-child:nth-last-child(3), &:first-child:nth-last-child(3) ~ .masonry-item, {
-				width: 31%;
+				width: 200px;
 			}
 			&:first-child:nth-last-child(2), &:first-child:nth-last-child(2) ~ .masonry-item {
-				width: 40%;
+				width: 265px;
 			}
 			img {
 				width: 100%;
@@ -25,7 +25,7 @@
 	.view-gallery {
 		.view-content {
 			.masonry-item {
-				width: 23%;
+				width: 177px;
 			}
 		}
 	}
