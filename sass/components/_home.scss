@@ -1,0 +1,45 @@
+.front {
+	.l-content {
+		.full-width {
+			box-shadow: none;
+			.header-home {
+				height: 200px;
+				position: relative;
+				background-color: $black;
+				background-repeat: no-repeat;
+				background-position: top center;
+				background-size: cover;
+				vertical-align: bottom;
+				.home-title {
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: $all-round;
+					background: url('../images/gradient-default.png') repeat-y transparent;
+					height: 100%;
+					h1, h2 {
+						color: $white;
+						margin: 0;
+						.caps {
+							text-transform: uppercase;
+						}
+					}
+					h2 {
+						font-size: $base-font-size * 1.2;
+					}
+				}
+			}
+		}
+	}
+}
+@include breakpoint(tablet) {
+	.front {
+		.l-content {
+			.full-width {
+				.header-home {
+					height: 300px;
+				}
+			}
+		}
+	}
+}

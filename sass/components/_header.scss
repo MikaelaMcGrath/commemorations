@@ -14,31 +14,40 @@
 						&.menu-mlid-#{$header} {
 							background: url('../images/header/#{$header}.jpg'), $black;
 							background-repeat: no-repeat;
-							background-position: center;
+							background-position: top center;
 							background-size: cover;
 						}
 					}
+					$gradient-header: 482, 469, 468, 465, 467, 466, 456, 891;
+						@each $gradient in $gradient-header {
+							&.menu-mlid-#{$gradient} {
+								.background-header {
+									background: url('../images/gradient-#{$gradient}.png') repeat-y transparent;
+								}
+							
+						}
+					}
 					.background-header {
-						background: rgba($black, 0.5);
-						width: 100%;
-						position: absolute;
-						bottom: 0px;
+						display: flex;
+						flex-direction: column;
+						justify-content: flex-end;
+						padding: $all-round;
+						background: url('../images/gradient-default.png') repeat-y transparent;
+						height: 100%;
 						
 					}
 					a {
-							display: block;
-							max-width: 1140px;
-							z-index: 99;
-							
-							pointer-events: none;
-							cursor: default;
-							text-decoration: none;
-							color: $white;
-							text-transform: uppercase;
-							margin: 0 auto;
-							padding: 0 $horz-spacing-unit;
-						}
-					h2 {
+						display: block;
+						z-index: 99;
+
+						pointer-events: none;
+						cursor: default;
+						text-decoration: none;
+						color: $white;
+						text-transform: uppercase;
+						padding: 0 $horz-spacing-unit;
+					}
+					h1 {
 						font-size: $base-font-size * 1.8;
 						margin: $vert-spacing-unit/4 0;
 					}

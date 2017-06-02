@@ -439,7 +439,7 @@ Drupal.behaviors.commemorationsReadMore = {
     }
   };
   Drupal.behaviors.commemorationsParentHeader = {
-  attach: function (context, settings) {
+    attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
       // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
       // we don't run the same piece of code for an HTML snippet that we already
@@ -447,12 +447,12 @@ Drupal.behaviors.commemorationsReadMore = {
       // get tagged with a 'foo-processed' class, causing all future invocations
       // of this behavior to ignore them.
       $('.full-width', context).once('parentHeader', function () {
-        $('.full-width').find('div.header li.leaf[class*="menu-mlid-"] a').wrap('<div class="background-header" />').wrap('<h2>');
+        $('.full-width').find('div.header li.leaf[class*="menu-mlid-"] a').wrap('<div class="background-header" />').wrap('<h1>');
       });
     }
   };
   Drupal.behaviors.commemorationsRelatedContent = {
-  attach: function (context, settings) {
+    attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
       // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
       // we don't run the same piece of code for an HTML snippet that we already
@@ -468,7 +468,7 @@ Drupal.behaviors.commemorationsReadMore = {
     }
   };
   Drupal.behaviors.commemorationsExtension = {
-  attach: function (context, settings) {
+    attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
       // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
       // we don't run the same piece of code for an HTML snippet that we already
@@ -479,9 +479,22 @@ Drupal.behaviors.commemorationsReadMore = {
         $("a:contains('pdf'), a:contains('docx'), a:contains('doc')").html(function(_, html) {
           return html.replace(/(pdf)/g, '<span class="ext-caps">$1</span>').replace(/(docx)/g, '<span class="ext-caps">$1</span>').replace(/(doc)/g, '<span class="ext-caps">$1</span>');
         });
-    });
-  }
+      });
+    }
   };
-  
+  Drupal.behaviors.commemorationsRandomHome = {
+    attach: function (context, settings) {
+      // By using the 'context' variable we make sure that our code only runs on
+      // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
+      // we don't run the same piece of code for an HTML snippet that we already
+      // processed previously. By using .once('foo') all processed elements will
+      // get tagged with a 'foo-processed' class, causing all future invocations
+      // of this behavior to ignore them.
+      $('.full-width', context).once('randomHome', function () {
+        var images = ['1', '2', '3', '4', '5', '6'];
+        $('.front .header-home').css({'background-image': 'url(sites/all/themes/custom/commemorations/images/header/home-' + images[Math.floor(Math.random() * images.length)] + '.jpg)'});
+      });
+    }
+};
 })(jQuery);
 

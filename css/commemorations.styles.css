@@ -370,7 +370,7 @@ sub {
   .l-content blockquote .font-normal, .l-content blockquote .normal-font, .l-content cite .font-normal, .l-content cite .normal-font {
     font-style: normal; }
   /* line 123, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_typography.scss */
-  .l-content blockquote p, .l-content cite p {
+  .l-content blockquote p:last-child, .l-content cite p:last-child {
     margin-bottom: 0; }
 
 /* line 128, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_typography.scss */
@@ -453,110 +453,134 @@ body {
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-219, .full-width .menu-block-8 ul li.active-trail.menu-mlid-219 {
         background: url("../images/header/219.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-740, .full-width .menu-block-8 ul li.active-trail.menu-mlid-740 {
         background: url("../images/header/740.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-752, .full-width .menu-block-8 ul li.active-trail.menu-mlid-752 {
         background: url("../images/header/752.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-753, .full-width .menu-block-8 ul li.active-trail.menu-mlid-753 {
         background: url("../images/header/753.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-754, .full-width .menu-block-8 ul li.active-trail.menu-mlid-754 {
         background: url("../images/header/754.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-482, .full-width .menu-block-8 ul li.active-trail.menu-mlid-482 {
         background: url("../images/header/482.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-469, .full-width .menu-block-8 ul li.active-trail.menu-mlid-469 {
         background: url("../images/header/469.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-468, .full-width .menu-block-8 ul li.active-trail.menu-mlid-468 {
         background: url("../images/header/468.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-465, .full-width .menu-block-8 ul li.active-trail.menu-mlid-465 {
         background: url("../images/header/465.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-467, .full-width .menu-block-8 ul li.active-trail.menu-mlid-467 {
         background: url("../images/header/467.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-466, .full-width .menu-block-8 ul li.active-trail.menu-mlid-466 {
         background: url("../images/header/466.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-456, .full-width .menu-block-8 ul li.active-trail.menu-mlid-456 {
         background: url("../images/header/456.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
       /* line 14, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail.menu-mlid-891, .full-width .menu-block-8 ul li.active-trail.menu-mlid-891 {
         background: url("../images/header/891.jpg"), #000000;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         background-size: cover; }
-      /* line 21, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail.menu-mlid-482 .background-header, .full-width .menu-block-8 ul li.active-trail.menu-mlid-482 .background-header {
+        background: url("../images/gradient-482.png") repeat-y transparent; }
+      /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail.menu-mlid-469 .background-header, .full-width .menu-block-8 ul li.active-trail.menu-mlid-469 .background-header {
+        background: url("../images/gradient-469.png") repeat-y transparent; }
+      /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail.menu-mlid-468 .background-header, .full-width .menu-block-8 ul li.active-trail.menu-mlid-468 .background-header {
+        background: url("../images/gradient-468.png") repeat-y transparent; }
+      /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail.menu-mlid-465 .background-header, .full-width .menu-block-8 ul li.active-trail.menu-mlid-465 .background-header {
+        background: url("../images/gradient-465.png") repeat-y transparent; }
+      /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail.menu-mlid-467 .background-header, .full-width .menu-block-8 ul li.active-trail.menu-mlid-467 .background-header {
+        background: url("../images/gradient-467.png") repeat-y transparent; }
+      /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail.menu-mlid-466 .background-header, .full-width .menu-block-8 ul li.active-trail.menu-mlid-466 .background-header {
+        background: url("../images/gradient-466.png") repeat-y transparent; }
+      /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail.menu-mlid-456 .background-header, .full-width .menu-block-8 ul li.active-trail.menu-mlid-456 .background-header {
+        background: url("../images/gradient-456.png") repeat-y transparent; }
+      /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail.menu-mlid-891 .background-header, .full-width .menu-block-8 ul li.active-trail.menu-mlid-891 .background-header {
+        background: url("../images/gradient-891.png") repeat-y transparent; }
+      /* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail .background-header, .full-width .menu-block-8 ul li.active-trail .background-header {
-        background: rgba(0, 0, 0, 0.5);
-        width: 100%;
-        position: absolute;
-        bottom: 0px; }
-      /* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 1rem 1rem;
+        background: url("../images/gradient-default.png") repeat-y transparent;
+        height: 100%; }
+      /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
       .full-width .menu-block-7 ul li.active-trail a, .full-width .menu-block-8 ul li.active-trail a {
         display: block;
-        max-width: 1140px;
         z-index: 99;
         pointer-events: none;
         cursor: default;
         text-decoration: none;
         color: #FFFFFF;
         text-transform: uppercase;
-        margin: 0 auto;
         padding: 0 1rem; }
-      /* line 41, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
-      .full-width .menu-block-7 ul li.active-trail h2, .full-width .menu-block-8 ul li.active-trail h2 {
+      /* line 50, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+      .full-width .menu-block-7 ul li.active-trail h1, .full-width .menu-block-8 ul li.active-trail h1 {
         font-size: 1.8em;
         margin: 0.25rem 0; }
 
 @media (min-width: 768px) {
-  /* line 54, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+  /* line 63, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
   .full-width .menu-block-7 ul li, .full-width .menu-block-8 ul li {
     height: 300px; } }
 
 @media (min-width: 1120px) {
-  /* line 68, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
+  /* line 77, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
   .full-width .menu-block-7 ul li.active-trail .background-header a, .full-width .menu-block-8 ul li.active-trail .background-header a {
     padding: 0; } }
 
@@ -875,6 +899,42 @@ ul.breadcrumb {
   /* line 55, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_branding.scss */
   .l-branding .logos .centenary {
     width: 60px; } }
+
+/* line 3, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_home.scss */
+.front .l-content .full-width {
+  box-shadow: none; }
+  /* line 5, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_home.scss */
+  .front .l-content .full-width .header-home {
+    height: 200px;
+    position: relative;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    vertical-align: bottom; }
+    /* line 13, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_home.scss */
+    .front .l-content .full-width .header-home .home-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 1rem 1rem;
+      background: url("../images/gradient-default.png") repeat-y transparent;
+      height: 100%; }
+      /* line 20, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_home.scss */
+      .front .l-content .full-width .header-home .home-title h1, .front .l-content .full-width .header-home .home-title h2 {
+        color: #FFFFFF;
+        margin: 0; }
+        /* line 23, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_home.scss */
+        .front .l-content .full-width .header-home .home-title h1 .caps, .front .l-content .full-width .header-home .home-title h2 .caps {
+          text-transform: uppercase; }
+      /* line 27, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_home.scss */
+      .front .l-content .full-width .header-home .home-title h2 {
+        font-size: 1.2em; }
+
+@media (min-width: 768px) {
+  /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_home.scss */
+  .front .l-content .full-width .header-home {
+    height: 300px; } }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_subscribe.scss */
 .subscribe {
@@ -1674,3 +1734,6 @@ ul.breadcrumb {
     color: white;
     padding: 1rem 1rem;
     display: block; }
+  /* line 13, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_alertbox.scss */
+  .alertbox + .alertbox {
+    margin-top: 1rem; }

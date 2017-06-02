@@ -10,4 +10,7 @@
 		padding: $all-round;
 		display: block;
 	}
+	&+ .alertbox {
+		margin-top: $vert-spacing-unit;
+	}
 }

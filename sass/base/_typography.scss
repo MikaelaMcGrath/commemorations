@@ -120,7 +120,7 @@ sub {
       .font-normal, .normal-font{
         font-style: normal;
       }
-      p {
+      p:last-child {
         margin-bottom: 0;
       }
   }
