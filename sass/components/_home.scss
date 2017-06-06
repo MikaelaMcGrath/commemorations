@@ -39,28 +39,59 @@
 					justify-content: space-between;
 					$conflict-color: (1 : #647e7b, 408 : #9ca48f, 16 : #737165, 26 : #6c3733, 11 : #8d8266, 15 : #40534d, 12 : #9db0ae, 14 : #52654a);
 					@each $conflict, $color in $conflict-color {
-							.conflict-#{$conflict} {
-									border-bottom: 5px #{$color} solid;
+						.conflict-#{$conflict} {
+							border-bottom: 5px #{$color} solid;
+							&:hover, &:focus {
+								background-color: $color;
+								.conflict-image {
+									background-color: $color;
+									opacity: 0.5;
+									color: $white;
+									img {
+										opacity: 1;
+									}
 								}
-							
+							}
+
 						}
+
+					}
 					
 					div[class^="conflict-"] {
-						//border-bottom: 5px $light-grey solid;
-						flex: 0 1 24%;
+						flex: 0 1 49%;
 						margin-bottom: $horz-spacing-unit;
-						img {
-							height: auto;
-						}
-						h3 {
-							font-size: $base-font-size;
-							text-align: center;
-							padding: 0 $vert-spacing-unit;
-							a {
-								color: $black;
-								text-decoration: none;
+						position: relative;
+						a {
+						color: $black;
+						text-decoration: none;
+						display: inline-block;	
+						height: 100%;
+							.conflict-image {
+								max-height: 199px;
+								overflow: hidden;
+									img {
+									min-height: 199px;
+									width: 100%;
+									display: block;
+
+								}
+							}
+							h3 {
+								font-size: $base-font-size;
+								text-align: center;
+								padding: 0 $vert-spacing-unit;
+							}
+							&:hover, &:focus {
+								h3 {
+									color: $white;
+								}
 							}
 						}
+						
+					
+					
+							
+						
 					}
 				}
 				
@@ -76,6 +107,26 @@
 					height: 300px;
 				}
 			}
+			.center-wrapper {
+			.conflicts-content {
+				.view-content {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					$conflict-color: (1 : #647e7b, 408 : #9ca48f, 16 : #737165, 26 : #6c3733, 11 : #8d8266, 15 : #40534d, 12 : #9db0ae, 14 : #52654a);
+					@each $conflict, $color in $conflict-color {
+							.conflict-#{$conflict} {
+									border-bottom: 5px #{$color} solid;
+								}
+							
+						}
+					
+					div[class^="conflict-"] {
+						flex: 0 1 23.5%;
+					}
+				}
+			}
+		}
 		}
 	}
 }
