@@ -18,7 +18,7 @@
 							background-size: cover;
 						}
 					}
-					$gradient-header: 482, 469, 468, 465, 467, 466, 456, 891;
+					$gradient-header: 482, 468, 467, 891;
 						@each $gradient in $gradient-header {
 							&.menu-mlid-#{$gradient} {
 								.background-header {

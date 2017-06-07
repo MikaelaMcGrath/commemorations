@@ -37,7 +37,7 @@
 					display: flex;
 					flex-wrap: wrap;
 					justify-content: space-between;
-					$conflict-color: (1 : #647e7b, 408 : #9ca48f, 16 : #737165, 26 : #6c3733, 11 : #8d8266, 15 : #40534d, 12 : #9db0ae, 14 : #52654a);
+					$conflict-color: (1 : $gallipoli, 408 : $ww1, 16 : $ww2, 26 : $thaiburma, 11 : $kokoda, 15 : $seasia, 12 : $korea, 14 : $vietnam);
 					@each $conflict, $color in $conflict-color {
 						.conflict-#{$conflict} {
 							border-bottom: 5px #{$color} solid;
@@ -68,10 +68,8 @@
 							display: inline-block;	
 							height: 100%;
 							.conflict-image {
-								max-height: 199px;
-								overflow: hidden;
 								img {
-									min-height: 199px;
+									height: auto;
 									width: 100%;
 									display: block;
 
@@ -142,14 +140,14 @@
 				}
 			}
 			.latest-publications {
-				.publication div {
+				.publication > div {
 					display: flex;
 					.publication-image {
 						flex: 0 1 30%;
 						padding: 0 $horz-spacing-unit $vert-spacing-unit 0;
 						img {
-							width: 145px;
-							//height: auto;
+							width: 100%;
+							height: auto;
 						}
 					}
 					.publication-content {
@@ -162,26 +160,27 @@
 						.title {
 							font-size: $base-font-size;
 							position: relative;
+							padding-top: $vert-spacing-unit/2;
 							&:before {
 								content: '';
-								background: $black;
+								background: $grey;
 								position: absolute;
 								top: 0;
 								left: 0;
 								width: 45px;
-								height: 1px;
+								height: 2px;
 							}
 						}	
 					}
 				}
 			}
 			.target-content {
-				background-color: $home-news;
+				background-color: $kokoda
+				;
 				margin-top: $vert-spacing-unit;
 				position: relative;
 				h2 {
 					margin: 0;
-					//padding: $all-round;
 				}
 				a {
 					color: $white;
@@ -213,6 +212,50 @@
 				}
 				
 			}
+			.subscribe, .run-event {
+				background-color: $alert;
+				padding: $all-round;
+				label, h3 {
+					color: $white;
+					text-transform: uppercase;
+					font-size: $base-font-size * 1.2;
+					font-weight: 300;
+					margin: 0 0 0.75em 0;
+					&+ p {
+						color: $white;
+						font-size: $base-font-size * 0.8;
+					}
+				}
+				
+			}
+			.subscribe {
+				margin-bottom: $vert-spacing-unit;
+				.email {
+					max-width: none;
+					width: 100%;
+				}
+				.button-secondary {
+					background-color: $ww1;
+				}
+			}
+			.run-event {
+				background-color: $korea;
+				p {
+					margin-bottom: 0;
+				}
+				.button-secondary {
+					max-width: 250px;
+					width: auto;
+					margin-top: $vert-spacing-unit;
+					background-color: $vietnam;
+					text-decoration: none;
+					display: block;
+					&:hover, &:focus {
+						color: $white;
+					}
+					
+				}
+			}
 		}
 	}
 }
@@ -230,10 +273,10 @@
 						display: flex;
 						flex-wrap: wrap;
 						justify-content: space-between;
-						$conflict-color: (1 : #647e7b, 408 : #9ca48f, 16 : #737165, 26 : #6c3733, 11 : #8d8266, 15 : #40534d, 12 : #9db0ae, 14 : #52654a);
+						$conflict-color: (1 : $gallipoli, 408 : $ww1, 16 : $ww2, 26 : $thaiburma, 11 : $kokoda, 15 : $seasia, 12 : $korea, 14 : $vietnam);
 						@each $conflict, $color in $conflict-color {
 							.conflict-#{$conflict} {
-								border-bottom: 5px #{$color} solid;
+								//border-bottom: 5px #{$color} solid;
 							}
 							
 						}
