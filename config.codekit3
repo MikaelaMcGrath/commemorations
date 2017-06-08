@@ -291,7 +291,7 @@
 		"oAP": "\/images\/header\/740.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/752.jpg": {
@@ -311,7 +311,7 @@
 		"oAP": "\/images\/header\/753.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/754.jpg": {

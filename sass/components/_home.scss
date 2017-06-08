@@ -98,24 +98,27 @@
 			}
 			.veterans-story {
 				position: relative;
-				transition: background $base-duration ease;
+				text-align: center;
 				img {
 					display: block;
 				}
 				a {
-					text-decoration: none;
-					color: $white;
+					display: inline-block;
 				}
 				h3 {
-					position: absolute;
-					top: $vert-spacing-unit;
-					left: 55%;
-					width: 25%;
 					text-transform: uppercase;
-					font-size: $base-font-size * 1.8;
+					font-size: $base-font-size * 1.2;
+					margin: 0;
+					a {
+						text-decoration: none;
+						color: $grey;
+						width: 100%;
+						height: 100%;
+						padding: $vert-spacing-unit/2 0 $vert-spacing-unit;
+						border-bottom: 3px solid $light-grey;
+					}
 					.veteran {
-						font-size: $base-font-size * 2;
-						line-height: 1;
+						font-size: $base-font-size * 1.8;
 					}
 				}
 			}
@@ -125,16 +128,13 @@
 			h2 {
 				text-transform: uppercase;
 				font-size: $base-font-size * 1.2;
+				margin-top: 0;
 			}
-			.left-sidebar-wrapper {
-				flex: 0 1 50%;
-				padding-right: $horz-spacing-unit;
-			}			
 			.right-sidebar-wrapper {
-				padding: 0 0 0 $horz-spacing-unit;
-				flex: 0 1 50%;
+				padding: $vert-spacing-unit 0 0;
 			}
 			.full-video, .middle-video {
+				margin: 0 auto;
 				.caption, .read-more, .button {
 					display: none;
 					visibility: hidden;
@@ -143,9 +143,10 @@
 			.latest-publications {
 				.publication > div {
 					display: flex;
+					padding-bottom: $vert-spacing-unit;
 					.publication-image {
 						flex: 0 1 30%;
-						padding: 0 $horz-spacing-unit $vert-spacing-unit 0;
+						padding: 0 $horz-spacing-unit 0 0;
 						img {
 							width: 100%;
 							height: auto;
@@ -202,10 +203,9 @@
 						padding-top: $vert-spacing-unit *3.2;
 					}
 					.odd {
-						width: 265px;
+						display: none;
 						position: absolute;
 						top: $vert-spacing-unit *2;
-						right: $horz-spacing-unit *2;
 						transform: rotate(8deg);
 						box-shadow: 0px 0px 10px 0px $black;
 					}
@@ -276,6 +276,79 @@
 
 						div[class^="conflict-"] {
 							flex: 0 1 23.5%;
+						}
+					}
+				}
+				.veterans-story {
+					text-align: left;
+					a {
+						color: $white;
+					}
+					h3 {
+						position: absolute;
+						left: 48%;
+						width: 25%;
+						margin: 0.75em 0;
+						padding: 0;
+						font-size: $base-font-size * 1.2;
+						top: $vert-spacing-unit/2;
+						font-size: $base-font-size * 1.7;
+						.veteran {
+							font-size: $base-font-size * 1.9;
+							line-height: 1;
+						}
+						a {
+							color: $white;
+							border-bottom: none;
+						}
+					}
+				}
+			}
+			.middle-wrapper {
+				.left-sidebar-wrapper {
+					flex: 0 1 50%;
+					padding-right: $horz-spacing-unit/2;
+				}			
+				.right-sidebar-wrapper {
+					padding: 0 0 0 $horz-spacing-unit/2;
+					flex: 0 1 50%;
+				}
+				.target-content {
+					.field--name-field-image {
+						.odd {
+							display: block;
+							width: 40%;
+							right: $horz-spacing-unit;
+						}
+					}
+					
+				}
+			}
+			
+		}
+	}
+}
+@include breakpoint(desktop) {
+	.front {
+		.l-content {
+			.center-wrapper {
+				.veterans-story {
+					h3 {
+						width: 25%;
+						top: $vert-spacing-unit;
+						font-size: $base-font-size * 1.9;
+						.veteran {
+							font-size: $base-font-size * 2.1;
+						}
+					}
+				}
+			}
+			.middle-wrapper {
+				.target-content {
+					.field--name-field-image {
+						.odd {
+							width: 265px;
+							right: $horz-spacing-unit *2;
 						}
 					}
 				}
