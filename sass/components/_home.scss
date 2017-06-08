@@ -136,6 +136,8 @@
 			}
 			.full-video, .middle-video {
 				margin: 0 auto;
+				width: 100%;
+				max-width: none;
 				.caption, .read-more, .button {
 					display: none;
 					visibility: hidden;
@@ -236,6 +238,7 @@
 			}
 			.subscribe {
 				background: url('../images/subscribe-background.png') no-repeat;
+				background-size: 100% auto;
 				margin-bottom: $vert-spacing-unit;
 				.email {
 					max-width: none;
