@@ -10,6 +10,7 @@
 				background-position: top center;
 				background-size: cover;
 				vertical-align: bottom;
+				box-shadow: 0px 1px 10px 0px $black;
 				.home-title {
 					display: flex;
 					flex-direction: column;
@@ -41,12 +42,12 @@
 					@each $conflict, $color in $conflict-color {
 						.conflict-#{$conflict} {
 							border-bottom: 5px #{$color} solid;
-							&:hover, &:focus {
+							a:focus, a:hover {
 								background-color: $color;
-								.conflict-image {
-									background-color: $color;
-									opacity: 0.5;
+
 									color: $white;
+								.conflict-image {
+									opacity: 0.5;
 									img {
 										opacity: 1;
 									}
@@ -175,8 +176,7 @@
 				}
 			}
 			.target-content {
-				background-color: $kokoda
-				;
+				background-color: $kokoda;
 				margin-top: $vert-spacing-unit;
 				position: relative;
 				h2 {
@@ -213,7 +213,6 @@
 				
 			}
 			.subscribe, .run-event {
-				background-color: $alert;
 				padding: $all-round;
 				label, h3 {
 					color: $white;
@@ -226,20 +225,25 @@
 						font-size: $base-font-size * 0.8;
 					}
 				}
+				.button-secondary {
+					background-color: darken($ww1, 5%);
+					&:hover, &:focus {
+						background-color: lighten($ww1, 5%);
+					}
+				}
 				
 			}
 			.subscribe {
+				background: url('../images/subscribe-background.png') no-repeat;
 				margin-bottom: $vert-spacing-unit;
 				.email {
 					max-width: none;
 					width: 100%;
 				}
-				.button-secondary {
-					background-color: $ww1;
-				}
+				
 			}
 			.run-event {
-				background-color: $korea;
+				background-color: $seasia;
 				p {
 					margin-bottom: 0;
 				}
@@ -247,7 +251,6 @@
 					max-width: 250px;
 					width: auto;
 					margin-top: $vert-spacing-unit;
-					background-color: $vietnam;
 					text-decoration: none;
 					display: block;
 					&:hover, &:focus {
@@ -270,16 +273,6 @@
 			.center-wrapper {
 				.conflicts-content {
 					.view-content {
-						display: flex;
-						flex-wrap: wrap;
-						justify-content: space-between;
-						$conflict-color: (1 : $gallipoli, 408 : $ww1, 16 : $ww2, 26 : $thaiburma, 11 : $kokoda, 15 : $seasia, 12 : $korea, 14 : $vietnam);
-						@each $conflict, $color in $conflict-color {
-							.conflict-#{$conflict} {
-								//border-bottom: 5px #{$color} solid;
-							}
-							
-						}
 
 						div[class^="conflict-"] {
 							flex: 0 1 23.5%;

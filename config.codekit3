@@ -521,6 +521,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/subscribe-background.png": {
+		"ft": 32768,
+		"iS": 149337,
+		"oA": 0,
+		"oAP": "\/images\/subscribe-background.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/js\/commemorations.behaviors.js": {
 		"ft": 64,
 		"mi": 1,
