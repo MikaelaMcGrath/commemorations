@@ -286,12 +286,12 @@
 		},
 	"\/images\/header\/740.jpg": {
 		"ft": 16384,
-		"iS": 44523,
+		"iS": 2879543,
 		"oA": 0,
 		"oAP": "\/images\/header\/740.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/752.jpg": {
@@ -361,7 +361,7 @@
 		"oAP": "\/images\/header\/home-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/home-4.jpg": {
