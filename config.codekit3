@@ -291,7 +291,7 @@
 		"oAP": "\/images\/header\/740.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/header\/752.jpg": {
@@ -301,7 +301,7 @@
 		"oAP": "\/images\/header\/752.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/753.jpg": {
@@ -321,7 +321,7 @@
 		"oAP": "\/images\/header\/754.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/891.jpg": {
@@ -341,7 +341,7 @@
 		"oAP": "\/images\/header\/home-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/home-2.jpg": {
@@ -351,12 +351,12 @@
 		"oAP": "\/images\/header\/home-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/home-3.jpg": {
 		"ft": 16384,
-		"iS": 85920,
+		"iS": 1109061,
 		"oA": 0,
 		"oAP": "\/images\/header\/home-3.jpg",
 		"oF": 0,
@@ -371,7 +371,7 @@
 		"oAP": "\/images\/header\/home-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/home-5.jpg": {
@@ -381,7 +381,7 @@
 		"oAP": "\/images\/header\/home-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/home-6.jpg": {
@@ -391,7 +391,7 @@
 		"oAP": "\/images\/header\/home-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/left-arrow.png": {
@@ -2143,6 +2143,18 @@
 		"oAP": "\/templates\/system\/page.tpl.php",
 		"oF": 0
 		},
+	"\/templates\/views\/views-limit-grouping.tpl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/views\/views-limit-grouping.tpl.php",
+		"oF": 0
+		},
+	"\/templates\/views\/views-view-unformatted--child-content--panel-pane(3).tpl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/views\/views-view-unformatted--child-content--panel-pane(3).tpl.php",
+		"oF": 0
+		},
 	"\/theme-settings.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -2153,12 +2165,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Thumbs.db",
-		"oF": 0
-		},
-	"\/views\/views-view-unformatted--child-content--panel-pane(3).tpl.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/views-view-unformatted--child-content--panel-pane(3).tpl.php",
 		"oF": 0
 		}
 	},
