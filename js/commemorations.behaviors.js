@@ -146,9 +146,9 @@ Drupal.behaviors.commemorationsReadMore = {
       // processed previously. By using .once('foo') all processed elements will
       // get tagged with a 'foo-processed' class, causing all future invocations
       // of this behavior to ignore them.
-      $('.view-id-child_content .view-content', context).once('viewMore', function () {
-        $('.more-link').replaceWith($('.views-row-1 .menu-path'));
-      });
+      //$('.view-id-child_content .view-content', context).once('viewMore', function () {
+        //$('.more-link').replaceWith($('.views-row-1 .menu-path'));
+      //});
     }
   };
 })(jQuery);
