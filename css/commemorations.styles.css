@@ -1827,34 +1827,20 @@ ul.breadcrumb {
   visibility: hidden; }
 
 /* line 16, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-.child-content .view-content .history-more {
-  flex: 1 1 100%; }
-  /* line 19, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-  .child-content .view-content .history-more .menu-path a {
-    text-decoration: none;
-    color: #FFFFFF;
-    max-width: none;
-    width: auto;
-    align-self: flex-start; }
-    /* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content .view-content .history-more .menu-path a:hover, .child-content .view-content .history-more .menu-path a:focus {
-      color: #FFFFFF; }
-
-/* line 31, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
 .child-content .view-content .stories {
   position: relative; }
-  /* line 33, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .child-content .view-content .stories img {
     height: auto;
     display: block; }
-  /* line 37, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 22, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .child-content .view-content .stories p {
     display: none; }
-  /* line 40, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .child-content .view-content .stories h3 {
     background-color: #000000;
     opacity: 0.8; }
-    /* line 43, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .child-content .view-content .stories h3 a {
       position: absolute;
       top: 0;
@@ -1864,20 +1850,30 @@ ul.breadcrumb {
       text-decoration: none;
       color: #FFFFFF;
       opacity: 1; }
-  /* line 55, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 40, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .child-content .view-content .stories + .history-more .Conflicts, .child-content .view-content .stories + .history-more .Great, .child-content .view-content .stories + .history-more .Victoria {
     display: none;
     visibility: hidden; }
 
-/* line 63, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+/* line 48, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
 .child-content .view-content .Great + .history-more .Conflicts, .child-content .view-content .Great + .history-more .stories, .child-content .view-content .Great + .history-more .Victoria {
   display: none;
   visibility: hidden; }
 
-/* line 71, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+/* line 56, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
 .child-content .view-content .Victoria + .history-more .Conflicts, .child-content .view-content .Victoria + .history-more .stories, .child-content .view-content .Victoria + .history-more .Great {
   display: none;
   visibility: hidden; }
+
+/* line 66, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+.child-content .view-footer .history-more .menu-path a {
+  text-decoration: none;
+  color: #FFFFFF;
+  max-width: none;
+  width: auto; }
+  /* line 71, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  .child-content .view-footer .history-more .menu-path a:hover, .child-content .view-footer .history-more .menu-path a:focus {
+    color: #FFFFFF; }
 
 /* line 80, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
 .conflicts-content .view-content {

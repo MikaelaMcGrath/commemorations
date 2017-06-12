@@ -13,21 +13,6 @@
 				visibility: hidden;
 			}
 		}
-		.history-more {
-			flex: 1 1 100%;
-			.menu-path {
-				a {
-					text-decoration: none;
-					color: $white;
-					max-width: none;
-					width: auto;
-					align-self: flex-start;
-					&:hover, &:focus {
-						color: $white;
-					}
-				}
-			}
-		}
 		.stories {
 			position: relative;
 			img {
@@ -71,6 +56,21 @@
 				.Conflicts, .stories, .Great {
 					display: none;
 					visibility: hidden;
+				}
+			}
+		}
+	}
+	.view-footer {
+		.history-more {
+			.menu-path {
+				a {
+					text-decoration: none;
+					color: $white;
+					max-width: none;
+					width: auto;
+					&:hover, &:focus {
+						color: $white;
+					}
 				}
 			}
 		}
