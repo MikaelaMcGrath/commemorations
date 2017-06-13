@@ -17,6 +17,7 @@
 				padding: 0;
 				li {
 					list-style: none;
+					height:100%;
 					border-left: 1px solid $base;
 					transition: background $base-duration ease;
 					&.last {
