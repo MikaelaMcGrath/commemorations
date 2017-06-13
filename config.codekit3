@@ -79,64 +79,208 @@
 		"oAP": "\/fonts\/Open_Sans\/LICENSE.txt",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-Bold.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-Bold.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300.eot",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-BoldItalic.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-BoldItalic.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-ExtraBold.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-ExtraBold.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300.woff",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-ExtraBoldItalic.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-ExtraBoldItalic.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300.woff2",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-Italic.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-Italic.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.eot",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-Light.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-Light.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-LightItalic.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-LightItalic.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.woff",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-Regular.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-Regular.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-300italic.woff2",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-Semibold.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-Semibold.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600.eot",
 		"oF": 0
 		},
-	"\/fonts\/Open_Sans\/OpenSans-SemiboldItalic.ttf": {
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Open_Sans\/OpenSans-SemiboldItalic.ttf",
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600.woff",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.eot",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.woff",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-600italic.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-italic.eot",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-italic.woff",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-italic.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/Open_Sans\/open-sans-v13-latin-regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-regular.woff2",
 		"oF": 0
 		},
 	"\/gulpfile.js": {
