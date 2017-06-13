@@ -36,28 +36,6 @@
 					opacity: 1;
 				} 
 			}
-			&+ .history-more {
-				.Conflicts, .Great, .Victoria {
-					display: none;
-					visibility: hidden;
-				}
-			}
-		}
-		.Great {
-			&+ .history-more {
-				.Conflicts, .stories, .Victoria {
-					display: none;
-					visibility: hidden;
-				}
-			}
-		}
-		.Victoria {
-			&+ .history-more {
-				.Conflicts, .stories, .Great {
-					display: none;
-					visibility: hidden;
-				}
-			}
 		}
 	}
 	.view-footer {
@@ -97,35 +75,35 @@
 				}
 			}
 		}
-
 		div[class*="conflict-"] {
 			flex: 0 1 40%;
 			margin-bottom: $horz-spacing-unit;
 			position: relative;
 			transition: background $base-duration ease;
-			a {
-				color: $black;
-				text-decoration: none;
-				display: inline-block;	
-				height: 100%;
-				.conflict-image {
-					img {
-						height: auto;
-						width: 100%;
-						display: block;
-
-					}
-				}
-				h3, h2 {
+			h3, h2 {
 					font-size: $base-font-size;
 					text-align: center;
 					padding: 0 $vert-spacing-unit;
+				a {
+					color: $black;
+					text-decoration: none;
+					display: inline-block;	
+					height: 100%;
+					.conflict-image {
+						img {
+							height: auto;
+							width: 100%;
+							display: block;
+
+						}
+					}
+				
 				}
 				&:hover, &:focus {
-					h3, h2 {
+
 						color: $white;
 					}
-				}
+				
 			}
 		}
 		.history-more {
