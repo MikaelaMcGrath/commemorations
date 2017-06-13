@@ -1978,25 +1978,25 @@ ul.breadcrumb {
     position: relative;
     transition: background 200ms ease; }
     /* line 83, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .conflicts-content .view-content div[class*="conflict-"] h3, .conflicts-content .view-content div[class*="conflict-"] h2 {
-      font-size: 1em;
-      text-align: center;
-      padding: 0 1rem; }
-      /* line 87, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-      .conflicts-content .view-content div[class*="conflict-"] h3 a, .conflicts-content .view-content div[class*="conflict-"] h2 a {
-        color: #000000;
-        text-decoration: none;
-        display: inline-block;
-        height: 100%; }
-        /* line 92, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-        .conflicts-content .view-content div[class*="conflict-"] h3 a .conflict-image, .conflicts-content .view-content div[class*="conflict-"] h2 a .conflict-image {
-          height: auto;
-          width: 100%;
-          display: block; }
-      /* line 99, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-      .conflicts-content .view-content div[class*="conflict-"] h3:hover, .conflicts-content .view-content div[class*="conflict-"] h3:focus, .conflicts-content .view-content div[class*="conflict-"] h2:hover, .conflicts-content .view-content div[class*="conflict-"] h2:focus {
+    .conflicts-content .view-content div[class*="conflict-"] a {
+      color: #000000;
+      text-decoration: none;
+      display: inline-block;
+      height: 100%; }
+      /* line 89, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .conflicts-content .view-content div[class*="conflict-"] a .conflict-image img {
+        height: auto;
+        width: 100%;
+        display: block; }
+      /* line 96, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .conflicts-content .view-content div[class*="conflict-"] a h3, .conflicts-content .view-content div[class*="conflict-"] a h2 {
+        font-size: 1em;
+        text-align: center;
+        padding: 0 1rem; }
+      /* line 102, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .conflicts-content .view-content div[class*="conflict-"] a:hover h3, .conflicts-content .view-content div[class*="conflict-"] a:hover h2, .conflicts-content .view-content div[class*="conflict-"] a:focus h3, .conflicts-content .view-content div[class*="conflict-"] a:focus h2 {
         color: #FFFFFF; }
-  /* line 107, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 109, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content .history-more .stories, .conflicts-content .view-content .history-more .Great, .conflicts-content .view-content .history-more .Victoria {
     display: none;
     visibility: hidden; }
