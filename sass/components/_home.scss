@@ -98,7 +98,16 @@
 			}
 			.veterans-story {
 				position: relative;
-				text-align: center;
+				text-align: left;
+				text-transform: uppercase;
+				.veterans-banner {
+					display: none;
+					visibility: hidden;
+				}
+				.veterans-banner-mobile {
+					display: block;
+					width: 100%;
+				}
 				img {
 					display: block;
 					width: 100%;
@@ -107,20 +116,24 @@
 					display: inline-block;
 				}
 				h3 {
-					text-transform: uppercase;
-					font-size: $base-font-size * 1.2;
-					margin: 0;
-					a {
-						text-decoration: none;
-						color: $grey;
-						width: 100%;
-						height: 100%;
-						padding: $vert-spacing-unit/2 0 $vert-spacing-unit;
-						border-bottom: 3px solid $light-grey;
-					}
-					.veteran {
-						font-size: $base-font-size * 1.8;
-					}
+						position: absolute;
+						left: $horz-spacing-unit;
+						width: 28%;
+						margin: 0.75em 0;
+						padding: 0;
+						font-size: $base-font-size * 1.2;
+						top: 20%;
+						
+						.veteran {
+							font-size: $base-font-size * 1.9;
+							line-height: 1;
+							
+						}
+						a {
+							color: $white;
+							text-decoration: none;
+							border-bottom: none;
+						}
 				}
 			}
 		}
@@ -285,28 +298,21 @@
 					}
 				}
 				.veterans-story {
-					text-align: left;
-					a {
-						color: $white;
-					}
 					h3 {
-						position: absolute;
+						top: $vert-spacing-unit/2;
 						left: 48%;
 						width: 25%;
-						margin: 0.75em 0;
-						padding: 0;
-						font-size: $base-font-size * 1.2;
-						top: $vert-spacing-unit/2;
 						font-size: $base-font-size * 1.7;
-						.veteran {
-							font-size: $base-font-size * 1.9;
-							line-height: 1;
-						}
-						a {
-							color: $white;
-							border-bottom: none;
-						}
 					}
+					.veterans-banner-mobile {
+						display: none;
+						visibility: hidden;
+					}
+					.veterans-banner {
+						display: block;
+						visibility: visible;
+					}
+					
 				}
 			}
 			.middle-wrapper {
@@ -341,9 +347,9 @@
 					h3 {
 						width: 25%;
 						top: $vert-spacing-unit;
-						font-size: $base-font-size * 1.9;
+						font-size: $base-font-size * 2;
 						.veteran {
-							font-size: $base-font-size * 2.1;
+							font-size: $base-font-size * 2.2;
 						}
 					}
 				}
