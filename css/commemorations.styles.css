@@ -2024,7 +2024,7 @@ ul.breadcrumb {
         -ms-flex: 1 0 100%;
             flex: 1 0 100%; }
     /* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content.veterans-stories .view-content .vc-recipients h3, .child-content.great-war-memories .view-content .vc-recipients h3, .child-content.vc-recipients .view-content .vc-recipients h3 {
+    .child-content.veterans-stories .view-content .vc-recipients h3, .child-content.veterans-stories .view-content .vc-recipients h2, .child-content.great-war-memories .view-content .vc-recipients h3, .child-content.great-war-memories .view-content .vc-recipients h2, .child-content.vc-recipients .view-content .vc-recipients h3, .child-content.vc-recipients .view-content .vc-recipients h2 {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 100%;
               flex: 1 0 100%; }
@@ -2040,8 +2040,8 @@ ul.breadcrumb {
     /* line 40, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .child-content.veterans-stories .view-content .vc-recipients .vc-body, .child-content.great-war-memories .view-content .vc-recipients .vc-body, .child-content.vc-recipients .view-content .vc-recipients .vc-body {
       -webkit-box-flex: 0;
-          -ms-flex: 0 1 70%;
-              flex: 0 1 70%; }
+          -ms-flex: 0 1 67%;
+              flex: 0 1 67%; }
       /* line 42, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .child-content.veterans-stories .view-content .vc-recipients .vc-body .label, .child-content.great-war-memories .view-content .vc-recipients .vc-body .label, .child-content.vc-recipients .view-content .vc-recipients .vc-body .label {
         font-weight: 600; }
@@ -2090,7 +2090,7 @@ ul.breadcrumb {
         width: 45px;
         height: 2px; }
       /* line 79, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-      .child-content.veterans-stories .view-content .great-war-memories .war-memories-body h3, .child-content.great-war-memories .view-content .great-war-memories .war-memories-body h3, .child-content.vc-recipients .view-content .great-war-memories .war-memories-body h3 {
+      .child-content.veterans-stories .view-content .great-war-memories .war-memories-body h3, .child-content.veterans-stories .view-content .great-war-memories .war-memories-body h2, .child-content.great-war-memories .view-content .great-war-memories .war-memories-body h3, .child-content.great-war-memories .view-content .great-war-memories .war-memories-body h2, .child-content.vc-recipients .view-content .great-war-memories .war-memories-body h3, .child-content.vc-recipients .view-content .great-war-memories .war-memories-body h2 {
         padding-top: 0.5rem;
         font-size: 1em; }
   /* line 85, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
@@ -2132,7 +2132,7 @@ ul.breadcrumb {
       .child-content.veterans-stories .view-content .veterans-stories a:hover, .child-content.veterans-stories .view-content .veterans-stories a:focus, .child-content.great-war-memories .view-content .veterans-stories a:hover, .child-content.great-war-memories .view-content .veterans-stories a:focus, .child-content.vc-recipients .view-content .veterans-stories a:hover, .child-content.vc-recipients .view-content .veterans-stories a:focus {
         cursor: pointer; }
     /* line 118, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content.veterans-stories .view-content .veterans-stories h3, .child-content.great-war-memories .view-content .veterans-stories h3, .child-content.vc-recipients .view-content .veterans-stories h3 {
+    .child-content.veterans-stories .view-content .veterans-stories h3, .child-content.veterans-stories .view-content .veterans-stories h2, .child-content.great-war-memories .view-content .veterans-stories h3, .child-content.great-war-memories .view-content .veterans-stories h2, .child-content.vc-recipients .view-content .veterans-stories h3, .child-content.vc-recipients .view-content .veterans-stories h2 {
       margin: 0;
       font-size: 1em; }
     /* line 124, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */

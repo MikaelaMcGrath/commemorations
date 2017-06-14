@@ -27,7 +27,7 @@
 					flex-wrap: wrap;
 					justify-content: space-between;
 					flex: 1 0 100%;
-					h3 {
+					h3, h2 {
 						flex: 1 0 100%;
 					}
 					.file-image {
@@ -38,7 +38,7 @@
 						}
 					}
 					.vc-body {
-						flex: 0 1 70%;
+						flex: 0 1 67%;
 						.label {
 							font-weight: $bold-font-weight;
 						}
@@ -76,7 +76,7 @@
 						    width: 45px;
 						    height: 2px;
 						}
-						h3 {
+						h3, h2 {
 							padding-top: $vert-spacing-unit/2;
 							font-size: $base-font-size;
 						}
@@ -115,7 +115,7 @@
 							cursor: pointer;
 						}
 					}
-					h3 {
+					h3, h2 {
 						margin: 0;
 						font-size: $base-font-size;
 					}
