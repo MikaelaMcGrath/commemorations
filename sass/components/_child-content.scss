@@ -15,12 +15,37 @@
 		}
 
 	}
-	&.veterans-stories, &.great-war-memories {
+	&.veterans-stories, &.great-war-memories, &.vc-recipients {
 			.view-content {
 				display:flex;
 				flex-wrap: wrap;
 				h2 {
 					flex: 1 0 100%;
+				}
+				.vc-recipients {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					flex: 1 0 100%;
+					h3 {
+						flex: 1 0 100%;
+					}
+					.file-image {
+						flex: 0 1 30%;
+						padding-right: $horz-spacing-unit;
+						img {
+							height: auto;
+						}
+					}
+					.vc-body {
+						flex: 0 1 70%;
+						.label {
+							font-weight: $bold-font-weight;
+						}
+					}
+					.leaflet-touch {
+						flex: 1 0 100%;
+					}
 				}
 				.great-war-memories {
 					flex: 1 0 100%;
@@ -30,15 +55,18 @@
 						padding-bottom: 0;
 					}
 					.file-image {
-						flex: 0 1 30%;
+						flex: 0 1 35%;
 						padding-right: $horz-spacing-unit;
 						img {
 							height: auto;
 						}
+						&:hover, &:focus {
+								cursor: pointer;
+							}
 					}
 					.war-memories-body {
 						position: relative;
-						flex: 0 1 70%;
+						flex: 0 1 65%;
 						&:before {
 						    content: '';
 						    background: #474747;
@@ -63,8 +91,8 @@
 					img {
 						display: block;
 						height: auto;
-						    transform: scale(1);
-   						 transition: all 0.3s ease-in-out;
+						transform: scale(1);
+   						transition: all 0.3s ease-in-out;
    						 
 
    						 
@@ -82,17 +110,17 @@
 						width: 100%;
 						height: 100%;
 						background: rgba(0,0,0,  0.5);
+						&:hover, &:focus {
+						
+							cursor: pointer;
+						}
 					}
 					h3 {
 						margin: 0;
 						font-size: $base-font-size;
-						background: rgba(0,0,0,  0.5);
-						//height: 50px;
-						//position: absolute;
-						//bottom: 0;
-						width: 100%;
 					}
 					&:hover, &:focus {
+
 						img {
    						 	transform: scale(1.1);
    						 }
@@ -145,7 +173,7 @@
 			}
 		}
 		div[class*="conflict-"] {
-			flex: 0 1 47%;
+			flex: 0 1 49%;
 			margin-bottom: $horz-spacing-unit;
 			position: relative;
 			transition: background $base-duration ease;
@@ -154,6 +182,7 @@
 				text-decoration: none;
 				display: inline-block;	
 				height: 100%;
+				width: 100%;
 				.conflict-image {
 					img {
 						height: auto;

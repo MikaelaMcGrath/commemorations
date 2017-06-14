@@ -16,6 +16,12 @@
 		
 	}
 }
+.education {
+	.masonry-item {
+		width: 49%;
+		display: flex;
+	}
+}
 @include breakpoint(tablet) {
 	.view-gallery {
 		.view-content {

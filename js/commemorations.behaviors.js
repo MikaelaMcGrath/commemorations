@@ -77,6 +77,18 @@ Drupal.behaviors.commemorationsReadMore = {
             $(this).attr('value', 'Expand').next().slideUp();
           }
         });
+        $('.leaflet-container').slideUp().addClass('collapsed');
+        $('.vc-body .map-more').addClass('collapsed');
+        $('.vc-body .map-more').click(function() {
+          if($(this).hasClass('collapsed')) {
+            $(this).parent('.vc-body').next('.leaflet-container').slideDown().addClass('expanded');
+            $(this).addClass('expanded').removeClass('collapsed').html('<a>Hide map</a>');
+          }
+          else {
+            $(this).parent('.vc-body').next('.leaflet-container').slideUp().addClass('collapsed');
+            $(this).addClass('collapsed').removeClass('expanded').html('<a>View map</a>');
+          }
+        });
       });
     }
   };

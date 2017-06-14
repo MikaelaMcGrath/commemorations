@@ -1959,19 +1959,26 @@ ul.breadcrumb {
         height: auto;
         display: block; }
 
+/* line 20, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+.education .masonry-item {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 @media (min-width: 768px) {
-  /* line 22, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  /* line 28, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
   .view-gallery .view-content .masonry-item {
     width: 140px; }
-    /* line 24, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .view-gallery .view-content .masonry-item:first-child:nth-last-child(2), .view-gallery .view-content .masonry-item:first-child:nth-last-child(2) ~ .masonry-item {
       width: 220px; } }
 
 @media (min-width: 1120px) {
-  /* line 34, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  /* line 40, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
   .view-gallery .view-content .masonry-item {
     width: 165px; }
-    /* line 36, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 42, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .view-gallery .view-content .masonry-item:first-child:nth-last-child(3), .view-gallery .view-content .masonry-item:first-child:nth-last-child(3) ~ .masonry-item {
       width: 200px; } }
 
@@ -1992,19 +1999,59 @@ ul.breadcrumb {
   visibility: hidden; }
 
 /* line 19, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-.child-content.veterans-stories .view-content, .child-content.great-war-memories .view-content {
+.child-content.veterans-stories .view-content, .child-content.great-war-memories .view-content, .child-content.vc-recipients .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
   /* line 22, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-  .child-content.veterans-stories .view-content h2, .child-content.great-war-memories .view-content h2 {
+  .child-content.veterans-stories .view-content h2, .child-content.great-war-memories .view-content h2, .child-content.vc-recipients .view-content h2 {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 100%;
             flex: 1 0 100%; }
   /* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-  .child-content.veterans-stories .view-content .great-war-memories, .child-content.great-war-memories .view-content .great-war-memories {
+  .child-content.veterans-stories .view-content .vc-recipients, .child-content.great-war-memories .view-content .vc-recipients, .child-content.vc-recipients .view-content .vc-recipients {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%; }
+    /* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .vc-recipients h3, .child-content.great-war-memories .view-content .vc-recipients h3, .child-content.vc-recipients .view-content .vc-recipients h3 {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 100%;
+              flex: 1 0 100%; }
+    /* line 33, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .vc-recipients .file-image, .child-content.great-war-memories .view-content .vc-recipients .file-image, .child-content.vc-recipients .view-content .vc-recipients .file-image {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 30%;
+              flex: 0 1 30%;
+      padding-right: 1rem; }
+      /* line 36, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .child-content.veterans-stories .view-content .vc-recipients .file-image img, .child-content.great-war-memories .view-content .vc-recipients .file-image img, .child-content.vc-recipients .view-content .vc-recipients .file-image img {
+        height: auto; }
+    /* line 40, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .vc-recipients .vc-body, .child-content.great-war-memories .view-content .vc-recipients .vc-body, .child-content.vc-recipients .view-content .vc-recipients .vc-body {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 70%;
+              flex: 0 1 70%; }
+      /* line 42, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .child-content.veterans-stories .view-content .vc-recipients .vc-body .label, .child-content.great-war-memories .view-content .vc-recipients .vc-body .label, .child-content.vc-recipients .view-content .vc-recipients .vc-body .label {
+        font-weight: 600; }
+    /* line 46, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .vc-recipients .leaflet-touch, .child-content.great-war-memories .view-content .vc-recipients .leaflet-touch, .child-content.vc-recipients .view-content .vc-recipients .leaflet-touch {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 100%;
+              flex: 1 0 100%; }
+  /* line 50, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  .child-content.veterans-stories .view-content .great-war-memories, .child-content.great-war-memories .view-content .great-war-memories, .child-content.vc-recipients .view-content .great-war-memories {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
@@ -2012,26 +2059,29 @@ ul.breadcrumb {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    /* line 29, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content.veterans-stories .view-content .great-war-memories:last-child, .child-content.great-war-memories .view-content .great-war-memories:last-child {
+    /* line 54, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .great-war-memories:last-child, .child-content.great-war-memories .view-content .great-war-memories:last-child, .child-content.vc-recipients .view-content .great-war-memories:last-child {
       padding-bottom: 0; }
-    /* line 32, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content.veterans-stories .view-content .great-war-memories .file-image, .child-content.great-war-memories .view-content .great-war-memories .file-image {
+    /* line 57, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .great-war-memories .file-image, .child-content.great-war-memories .view-content .great-war-memories .file-image, .child-content.vc-recipients .view-content .great-war-memories .file-image {
       -webkit-box-flex: 0;
-          -ms-flex: 0 1 30%;
-              flex: 0 1 30%;
+          -ms-flex: 0 1 35%;
+              flex: 0 1 35%;
       padding-right: 1rem; }
-      /* line 35, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-      .child-content.veterans-stories .view-content .great-war-memories .file-image img, .child-content.great-war-memories .view-content .great-war-memories .file-image img {
+      /* line 60, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .child-content.veterans-stories .view-content .great-war-memories .file-image img, .child-content.great-war-memories .view-content .great-war-memories .file-image img, .child-content.vc-recipients .view-content .great-war-memories .file-image img {
         height: auto; }
-    /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content.veterans-stories .view-content .great-war-memories .war-memories-body, .child-content.great-war-memories .view-content .great-war-memories .war-memories-body {
+      /* line 63, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .child-content.veterans-stories .view-content .great-war-memories .file-image:hover, .child-content.veterans-stories .view-content .great-war-memories .file-image:focus, .child-content.great-war-memories .view-content .great-war-memories .file-image:hover, .child-content.great-war-memories .view-content .great-war-memories .file-image:focus, .child-content.vc-recipients .view-content .great-war-memories .file-image:hover, .child-content.vc-recipients .view-content .great-war-memories .file-image:focus {
+        cursor: pointer; }
+    /* line 67, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .great-war-memories .war-memories-body, .child-content.great-war-memories .view-content .great-war-memories .war-memories-body, .child-content.vc-recipients .view-content .great-war-memories .war-memories-body {
       position: relative;
       -webkit-box-flex: 0;
-          -ms-flex: 0 1 70%;
-              flex: 0 1 70%; }
-      /* line 42, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-      .child-content.veterans-stories .view-content .great-war-memories .war-memories-body:before, .child-content.great-war-memories .view-content .great-war-memories .war-memories-body:before {
+          -ms-flex: 0 1 65%;
+              flex: 0 1 65%; }
+      /* line 70, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .child-content.veterans-stories .view-content .great-war-memories .war-memories-body:before, .child-content.great-war-memories .view-content .great-war-memories .war-memories-body:before, .child-content.vc-recipients .view-content .great-war-memories .war-memories-body:before {
         content: '';
         background: #474747;
         position: absolute;
@@ -2039,12 +2089,12 @@ ul.breadcrumb {
         left: 0;
         width: 45px;
         height: 2px; }
-      /* line 51, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-      .child-content.veterans-stories .view-content .great-war-memories .war-memories-body h3, .child-content.great-war-memories .view-content .great-war-memories .war-memories-body h3 {
+      /* line 79, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .child-content.veterans-stories .view-content .great-war-memories .war-memories-body h3, .child-content.great-war-memories .view-content .great-war-memories .war-memories-body h3, .child-content.vc-recipients .view-content .great-war-memories .war-memories-body h3 {
         padding-top: 0.5rem;
         font-size: 1em; }
-  /* line 57, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-  .child-content.veterans-stories .view-content .veterans-stories, .child-content.great-war-memories .view-content .veterans-stories {
+  /* line 85, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  .child-content.veterans-stories .view-content .veterans-stories, .child-content.great-war-memories .view-content .veterans-stories, .child-content.vc-recipients .view-content .veterans-stories {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 33%;
             flex: 1 0 33%;
@@ -2052,16 +2102,16 @@ ul.breadcrumb {
     width: 100%;
     height: 100%;
     overflow: hidden; }
-    /* line 63, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content.veterans-stories .view-content .veterans-stories img, .child-content.great-war-memories .view-content .veterans-stories img {
+    /* line 91, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .veterans-stories img, .child-content.great-war-memories .view-content .veterans-stories img, .child-content.vc-recipients .view-content .veterans-stories img {
       display: block;
       height: auto;
       -webkit-transform: scale(1);
               transform: scale(1);
       -webkit-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out; }
-    /* line 72, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content.veterans-stories .view-content .veterans-stories a, .child-content.great-war-memories .view-content .veterans-stories a {
+    /* line 100, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .veterans-stories a, .child-content.great-war-memories .view-content .veterans-stories a, .child-content.vc-recipients .view-content .veterans-stories a {
       color: #FFFFFF;
       text-decoration: none;
       display: inline-block;
@@ -2078,32 +2128,33 @@ ul.breadcrumb {
       width: 100%;
       height: 100%;
       background: rgba(0, 0, 0, 0.5); }
-    /* line 86, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content.veterans-stories .view-content .veterans-stories h3, .child-content.great-war-memories .view-content .veterans-stories h3 {
+      /* line 113, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      .child-content.veterans-stories .view-content .veterans-stories a:hover, .child-content.veterans-stories .view-content .veterans-stories a:focus, .child-content.great-war-memories .view-content .veterans-stories a:hover, .child-content.great-war-memories .view-content .veterans-stories a:focus, .child-content.vc-recipients .view-content .veterans-stories a:hover, .child-content.vc-recipients .view-content .veterans-stories a:focus {
+        cursor: pointer; }
+    /* line 118, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .veterans-stories h3, .child-content.great-war-memories .view-content .veterans-stories h3, .child-content.vc-recipients .view-content .veterans-stories h3 {
       margin: 0;
-      font-size: 1em;
-      background: rgba(0, 0, 0, 0.5);
-      width: 100%; }
-    /* line 96, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-    .child-content.veterans-stories .view-content .veterans-stories:hover img, .child-content.veterans-stories .view-content .veterans-stories:focus img, .child-content.great-war-memories .view-content .veterans-stories:hover img, .child-content.great-war-memories .view-content .veterans-stories:focus img {
+      font-size: 1em; }
+    /* line 124, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    .child-content.veterans-stories .view-content .veterans-stories:hover img, .child-content.veterans-stories .view-content .veterans-stories:focus img, .child-content.great-war-memories .view-content .veterans-stories:hover img, .child-content.great-war-memories .view-content .veterans-stories:focus img, .child-content.vc-recipients .view-content .veterans-stories:hover img, .child-content.vc-recipients .view-content .veterans-stories:focus img {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
 
-/* line 105, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
-.child-content.veterans-stories .history-more, .child-content.great-war-memories .history-more {
+/* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+.child-content.veterans-stories .history-more, .child-content.great-war-memories .history-more, .child-content.vc-recipients .history-more {
   margin-top: 1rem; }
 
-/* line 113, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+/* line 141, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
 .child-content .view-footer .history-more .menu-path a {
   text-decoration: none;
   color: #FFFFFF;
   max-width: none;
   width: auto; }
-  /* line 118, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 146, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .child-content .view-footer .history-more .menu-path a:hover, .child-content .view-footer .history-more .menu-path a:focus {
     color: #FFFFFF; }
 
-/* line 127, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+/* line 155, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
 .conflicts-content .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2113,153 +2164,154 @@ ul.breadcrumb {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 161, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content .conflict-1 {
     border-bottom: 5px #607976 solid; }
-    /* line 135, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 163, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .conflicts-content .view-content .conflict-1 a:focus, .conflicts-content .view-content .conflict-1 a:hover {
       background-color: #607976;
       color: #FFFFFF; }
-      /* line 138, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 166, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content .conflict-1 a:focus .conflict-image, .conflicts-content .view-content .conflict-1 a:hover .conflict-image {
         opacity: 0.5; }
-        /* line 140, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+        /* line 168, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
         .conflicts-content .view-content .conflict-1 a:focus .conflict-image img, .conflicts-content .view-content .conflict-1 a:hover .conflict-image img {
           opacity: 1; }
-  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 161, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content .conflict-408 {
     border-bottom: 5px #727966 solid; }
-    /* line 135, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 163, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .conflicts-content .view-content .conflict-408 a:focus, .conflicts-content .view-content .conflict-408 a:hover {
       background-color: #727966;
       color: #FFFFFF; }
-      /* line 138, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 166, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content .conflict-408 a:focus .conflict-image, .conflicts-content .view-content .conflict-408 a:hover .conflict-image {
         opacity: 0.5; }
-        /* line 140, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+        /* line 168, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
         .conflicts-content .view-content .conflict-408 a:focus .conflict-image img, .conflicts-content .view-content .conflict-408 a:hover .conflict-image img {
           opacity: 1; }
-  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 161, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content .conflict-16 {
     border-bottom: 5px #737165 solid; }
-    /* line 135, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 163, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .conflicts-content .view-content .conflict-16 a:focus, .conflicts-content .view-content .conflict-16 a:hover {
       background-color: #737165;
       color: #FFFFFF; }
-      /* line 138, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 166, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content .conflict-16 a:focus .conflict-image, .conflicts-content .view-content .conflict-16 a:hover .conflict-image {
         opacity: 0.5; }
-        /* line 140, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+        /* line 168, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
         .conflicts-content .view-content .conflict-16 a:focus .conflict-image img, .conflicts-content .view-content .conflict-16 a:hover .conflict-image img {
           opacity: 1; }
-  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 161, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content .conflict-26 {
     border-bottom: 5px #6c3733 solid; }
-    /* line 135, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 163, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .conflicts-content .view-content .conflict-26 a:focus, .conflicts-content .view-content .conflict-26 a:hover {
       background-color: #6c3733;
       color: #FFFFFF; }
-      /* line 138, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 166, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content .conflict-26 a:focus .conflict-image, .conflicts-content .view-content .conflict-26 a:hover .conflict-image {
         opacity: 0.5; }
-        /* line 140, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+        /* line 168, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
         .conflicts-content .view-content .conflict-26 a:focus .conflict-image img, .conflicts-content .view-content .conflict-26 a:hover .conflict-image img {
           opacity: 1; }
-  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 161, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content .conflict-11 {
     border-bottom: 5px #80765c solid; }
-    /* line 135, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 163, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .conflicts-content .view-content .conflict-11 a:focus, .conflicts-content .view-content .conflict-11 a:hover {
       background-color: #80765c;
       color: #FFFFFF; }
-      /* line 138, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 166, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content .conflict-11 a:focus .conflict-image, .conflicts-content .view-content .conflict-11 a:hover .conflict-image {
         opacity: 0.5; }
-        /* line 140, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+        /* line 168, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
         .conflicts-content .view-content .conflict-11 a:focus .conflict-image img, .conflicts-content .view-content .conflict-11 a:hover .conflict-image img {
           opacity: 1; }
-  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 161, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content .conflict-15 {
     border-bottom: 5px #40534d solid; }
-    /* line 135, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 163, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .conflicts-content .view-content .conflict-15 a:focus, .conflicts-content .view-content .conflict-15 a:hover {
       background-color: #40534d;
       color: #FFFFFF; }
-      /* line 138, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 166, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content .conflict-15 a:focus .conflict-image, .conflicts-content .view-content .conflict-15 a:hover .conflict-image {
         opacity: 0.5; }
-        /* line 140, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+        /* line 168, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
         .conflicts-content .view-content .conflict-15 a:focus .conflict-image img, .conflicts-content .view-content .conflict-15 a:hover .conflict-image img {
           opacity: 1; }
-  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 161, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content .conflict-12 {
     border-bottom: 5px #636d6c solid; }
-    /* line 135, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 163, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .conflicts-content .view-content .conflict-12 a:focus, .conflicts-content .view-content .conflict-12 a:hover {
       background-color: #636d6c;
       color: #FFFFFF; }
-      /* line 138, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 166, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content .conflict-12 a:focus .conflict-image, .conflicts-content .view-content .conflict-12 a:hover .conflict-image {
         opacity: 0.5; }
-        /* line 140, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+        /* line 168, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
         .conflicts-content .view-content .conflict-12 a:focus .conflict-image img, .conflicts-content .view-content .conflict-12 a:hover .conflict-image img {
           opacity: 1; }
-  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 161, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content .conflict-14 {
     border-bottom: 5px #52654a solid; }
-    /* line 135, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 163, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .conflicts-content .view-content .conflict-14 a:focus, .conflicts-content .view-content .conflict-14 a:hover {
       background-color: #52654a;
       color: #FFFFFF; }
-      /* line 138, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 166, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content .conflict-14 a:focus .conflict-image, .conflicts-content .view-content .conflict-14 a:hover .conflict-image {
         opacity: 0.5; }
-        /* line 140, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+        /* line 168, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
         .conflicts-content .view-content .conflict-14 a:focus .conflict-image img, .conflicts-content .view-content .conflict-14 a:hover .conflict-image img {
           opacity: 1; }
-  /* line 147, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 175, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .conflicts-content .view-content div[class*="conflict-"] {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 47%;
-            flex: 0 1 47%;
+        -ms-flex: 0 1 49%;
+            flex: 0 1 49%;
     margin-bottom: 1rem;
     position: relative;
     -webkit-transition: background 200ms ease;
     transition: background 200ms ease; }
-    /* line 152, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 180, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .conflicts-content .view-content div[class*="conflict-"] a {
       color: #000000;
       text-decoration: none;
       display: inline-block;
-      height: 100%; }
-      /* line 158, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      height: 100%;
+      width: 100%; }
+      /* line 187, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content div[class*="conflict-"] a .conflict-image img {
         height: auto;
         width: 100%;
         display: block; }
-      /* line 165, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 194, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content div[class*="conflict-"] a h3, .conflicts-content .view-content div[class*="conflict-"] a h2 {
         font-size: 1em;
         text-align: center;
         padding: 0 1rem; }
-      /* line 171, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+      /* line 200, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
       .conflicts-content .view-content div[class*="conflict-"] a:hover h3, .conflicts-content .view-content div[class*="conflict-"] a:hover h2, .conflicts-content .view-content div[class*="conflict-"] a:focus h3, .conflicts-content .view-content div[class*="conflict-"] a:focus h2 {
         color: #FFFFFF; }
 
 @media (min-width: 768px) {
-  /* line 181, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+  /* line 210, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
   .veterans-stories .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
-    /* line 184, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 213, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .veterans-stories .view-content h2 {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 100%;
               flex: 1 0 100%; }
-    /* line 187, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
+    /* line 216, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_child-content.scss */
     .veterans-stories .view-content .veterans-stories {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 33%;
