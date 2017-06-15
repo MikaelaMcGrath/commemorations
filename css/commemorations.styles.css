@@ -2022,11 +2022,11 @@ ul.breadcrumb {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        -webkit-box-pack: end;
-            -ms-flex-pack: end;
-                justify-content: flex-end; }
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
       /* line 69, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-      .education .masonry-item .education-body ul .field {
+      .education .masonry-item .education-body ul .field--type-text {
         font-weight: 600;
         margin: 0 auto 0 0;
         padding-right: 0.75em; }
