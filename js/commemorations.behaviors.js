@@ -81,11 +81,11 @@ Drupal.behaviors.commemorationsReadMore = {
         $('.vc-body .map-more').addClass('collapsed');
         $('.vc-body .map-more').click(function() {
           if($(this).hasClass('collapsed')) {
-            $(this).parent('.vc-body').next('.vc-map').slideDown().addClass('expanded');
+            $(this).parent('.vc-body').next('.vc-map').slideDown().addClass('expanded').removeClass('collapsed');
             $(this).addClass('expanded').removeClass('collapsed').html('<a>Hide map</a>');
           }
           else {
-            $(this).parent('.vc-body').next('.vc-map').slideUp().addClass('collapsed');
+            $(this).parent('.vc-body').next('.vc-map').slideUp().addClass('collapsed').removeClass('expanded');
             $(this).addClass('collapsed').removeClass('expanded').html('<a>View map</a>');
           }
         });
@@ -161,32 +161,51 @@ Drupal.behaviors.commemorationsReadMore = {
       //$('.view-id-child_content .view-content', context).once('viewMore', function () {
         //$('.more-link').replaceWith($('.views-row-1 .menu-path'));
       //});
-      $('.education', context).once('ed', function () {
-        var showChar = 256;
-        var ellipsestext = "...";
-        var moretext = "See More";
-        var lesstext = "See Less";
-        $('.education-body').each(function () {
-            var content = $(this).html();
-            if (content.length > showChar) {
-                var show_content = content.substr(0, showChar);
-                var hide_content = content.substr(showChar, content.length - showChar);
-                var html = show_content + '<span class="moreelipses">' + ellipsestext + '</span><span class="remaining-content"><span>' + hide_content + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
-                $(this).html(html);
-            }
-        });
+      // $('.education', context).once('ed', function () {
+      //   var showChar = 256;
+      //   var ellipsestext = "...";
+      //   var moretext = "See More";
+      //   var lesstext = "See Less";
+      //   $('.education-body').each(function () {
+      //       var content = $(this).html();
+      //       if (content.length > showChar) {
+      //           var show_content = content.substr(0, showChar);
+      //           var hide_content = content.substr(showChar, content.length - showChar);
+      //           var html = show_content + '<span class="moreelipses">' + ellipsestext + '</span><span class="remaining-content"><span>' + hide_content + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+      //           $(this).html(html);
+      //       }
+      //   });
 
-        $(".morelink").click(function () {
-            if ($(this).hasClass("less")) {
-                $(this).removeClass("less");
-                $(this).html(moretext);
-            } else {
-                $(this).addClass("less");
-                $(this).html(lesstext);
-            }
-            $(this).parent().prev().toggle();
+      //   $(".morelink").click(function () {
+      //       if ($(this).hasClass("less")) {
+      //           $(this).removeClass("less");
+      //           $(this).html(moretext);
+      //       } else {
+      //           $(this).addClass("less");
+      //           $(this).html(lesstext);
+      //       }
+      //       $(this).parent().prev().toggle();
             
+      //   });
+      // });
+    }
+  };
+  Drupal.behaviors.commemorationsLandscapeImage = {
+    attach: function (context, settings) {
+      // By using the 'context' variable we make sure that our code only runs on
+      // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
+      // we don't run the same piece of code for an HTML snippet that we already
+      // processed previously. By using .once('foo') all processed elements will
+      // get tagged with a 'foo-processed' class, causing all future invocations
+      // of this behavior to ignore them.
+      $('.education', context).once('landscape-image', function () {
+        $('.education-image').each(function() {
+          var $width = $(this).find('img').attr('width');
+          var $height = $(this).find('img').attr('height');
+          $(this).addClass($width > $height ? 'landscape' : 'portrait')
         });
+        
+
       });
     }
   };

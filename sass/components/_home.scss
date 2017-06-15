@@ -35,64 +35,13 @@
 			padding: $all-round;
 			 .conflicts-content {
 				.view-content {
-			// 		display: flex;
-			// 		flex-wrap: wrap;
+
 			 		justify-content: space-between;
-			// 		$conflict-color: (1 : $gallipoli, 408 : $ww1, 16 : $ww2, 26 : $thaiburma, 11 : $kokoda, 15 : $seasia, 12 : $korea, 14 : $vietnam);
-			// 		@each $conflict, $color in $conflict-color {
-			// 			.conflict-#{$conflict} {
-			// 				border-bottom: 5px #{$color} solid;
-			// 				a:focus, a:hover {
-			// 					background-color: $color;
 
-			// 						color: $white;
-			// 					.conflict-image {
-			// 						opacity: 0.5;
-			// 						img {
-			// 							opacity: 1;
-			// 						}
-			// 					}
-			// 				}
-
-			// 			}
-
-			// 		}
 					
 			 		div[class^="conflict-"] {
 			 			flex: 0 1 49%;
-			// 			margin-bottom: $horz-spacing-unit;
-			// 			position: relative;
-			// 			transition: background $base-duration ease;
-			// 			a {
-			// 				color: $black;
-			// 				text-decoration: none;
-			// 				display: inline-block;	
-			// 				height: 100%;
-			// 				.conflict-image {
-			// 					img {
-			// 						height: auto;
-			// 						width: 100%;
-			// 						display: block;
-
-			// 					}
-			// 				}
-			// 				h3 {
-			// 					font-size: $base-font-size;
-			// 					text-align: center;
-			// 					padding: 0 $vert-spacing-unit;
-			// 				}
-			// 				&:hover, &:focus {
-			// 					h3 {
-			// 						color: $white;
-			// 					}
-			// 				}
 			 			}
-						
-
-
-
-						
-			// 		}
 			 	}
 				
 			}
