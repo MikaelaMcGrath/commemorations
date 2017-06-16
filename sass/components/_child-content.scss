@@ -159,9 +159,19 @@
 		@each $conflict, $color in $conflict-color {
 			.conflict-#{$conflict} {
 				border-bottom: 5px #{$color} solid;
+				a {
+					h3, h2 {
+						font-size: $base-font-size;
+						text-align: center;
+						padding: 0 $vert-spacing-unit;
+					}
+				}
 				a:focus, a:hover {
 					background-color: $color;
 					color: $white;
+					h3, h2 {
+						color: $white;
+					}
 					.conflict-image {
 						opacity: 0.5;
 						img {
@@ -170,6 +180,31 @@
 					}
 				}
 			}
+		}
+		.conflict-children {
+			border-bottom: 5px $light-grey solid;
+				&:focus, &:hover {
+					color: $black;
+					background-color: $light-grey;
+					a {
+						color: $black;
+					}	
+					.conflict-image {
+						opacity: 0.5;
+						img {
+							opacity: 1;
+						}
+					}
+				}
+				h2 {
+					text-align: left;
+					font-size: $base-font-size *1.3;
+					font-weight: $base-font-weight;
+					padding: 0 $horz-spacing-unit;
+				}
+				p {
+					padding: 0 $horz-spacing-unit;
+				}
 		}
 		div[class*="conflict-"] {
 			flex: 0 1 49%;
@@ -190,18 +225,10 @@
 
 					}
 				}
-				h3, h2 {
-					font-size: $base-font-size;
-					text-align: center;
-					padding: 0 $vert-spacing-unit;
-				}
-				&:hover, &:focus {
-					h3, h2 {
-						color: $white;
-					}
-				}
+				
 			}
 		}
+
 	}
 }
 @include breakpoint(tablet) {

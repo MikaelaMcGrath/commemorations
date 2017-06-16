@@ -1,3 +1,14 @@
-.education {
-	
+.views-exposed-form {
+	background: $accent;
+	padding: $all-round;
+	.views-exposed-widget {
+		padding-top: 0;
+	}
+	select {
+		margin-bottom: 0;
+	}
+	[type='submit'] {
+		max-width: none;
+		width: auto;
+	}
 }
