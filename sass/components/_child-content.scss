@@ -77,7 +77,11 @@
 						}
 						h3, h2 {
 							padding-top: $vert-spacing-unit/2;
-							font-size: $base-font-size;
+							font-size: $base-font-size * 1.2;
+							a {
+								font-weight: $base-font-weight;
+							}
+							
 						}
 					}
 				}
@@ -150,6 +154,7 @@
 		}
 	}
 }
+
 .conflicts-content {
 	.view-content {
 		display: flex;
@@ -166,16 +171,19 @@
 						padding: 0 $vert-spacing-unit;
 					}
 				}
-				a:focus, a:hover {
+				&:focus, &:hover {
 					background-color: $color;
-					color: $white;
-					h3, h2 {
+					a {
+						
 						color: $white;
-					}
-					.conflict-image {
-						opacity: 0.5;
-						img {
-							opacity: 1;
+						h3, h2 {
+							color: $white;
+						}
+						.conflict-image {
+							opacity: 0.5;
+							img {
+								opacity: 1;
+							}
 						}
 					}
 				}

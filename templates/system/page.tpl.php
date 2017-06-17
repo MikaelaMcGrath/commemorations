@@ -75,8 +75,8 @@
 
   <header class="l-header" role="banner">
   	<div class="header-menu">
-      <?php $header_menu = module_invoke('menu', 'block_view', 'menu-header-menu'); ?>
-      <?php print render($header_menu['content']); ?>
+      <!--<?php $header_menu = module_invoke('menu', 'block_view', 'menu-header-menu'); ?>
+      <?php print render($header_menu['content']); ?>-->
     </div>
     
     <div class="l-branding">

@@ -34,3 +34,33 @@
     	clear: both;
     }
 } 
+.node-type-veterans {
+    
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex: 1 0 100%;
+                    .field--name-title {
+                        flex: 1 0 100%;
+                    }
+                    .field--name-field-image {
+                        flex: 0 1 30%;
+                        padding-right: $horz-spacing-unit;
+                        img {
+                            height: auto;
+                        }
+                    }
+                    .vc-body {
+                        flex: 0 1 67%;
+                        .label-inline {
+                            font-weight: $bold-font-weight;
+                            float: left;
+                        }
+                        .inline-field {
+                            float: left;
+                        }
+                    }
+                    .vc-map {
+                        flex: 1 0 100%;
+                    }
+                }
+

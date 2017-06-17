@@ -7,6 +7,27 @@
 	select {
 		margin-bottom: 0;
 	}
+	.form-radios{
+		display: flex;
+		.form-type-radio label {
+			cursor: pointer;
+			color: $action-color;
+		  text-decoration: underline;
+		  display: inline;
+		  font-weight: $light-font-weight;
+		  &:visited {
+		    color: $light-base;
+		  }
+		  &:focus,
+		  &:hover {
+		    color: $alert;
+		  }
+		}
+	}
+	[type='radio'] {
+		display: none;
+		visibility: hidden;
+	}
 	[type='submit'] {
 		max-width: none;
 		width: auto;
