@@ -26,6 +26,13 @@
         margin: 0 $horz-spacing-unit $vert-spacing-unit;
     }
 }
+.video-reference {
+    &:not(:first-child) {
+    	display: flex;
+    	justify-content: center;
+        max-width: 265px;
+    }
+}
 .video-player iframe {
 	position: absolute;
 	top: 0;

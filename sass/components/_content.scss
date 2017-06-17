@@ -36,29 +36,30 @@
 } 
 .node-type-veterans {
     .pane-node-content {
-    
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex: 1 0 100%;
-                    .field--name-title {
-                        flex: 1 0 100%;
-                    }
-                    .field--name-field-image {
-                        flex: 0 1 30%;
-                        padding-right: $horz-spacing-unit;
-                        img {
-                            height: auto;
-                        }
-                    }
-                    .vc-body {
-                        flex: 0 1 67%;
-                        .label {
-                            font-weight: $bold-font-weight;
-                        }
-                    }
-                    .vc-map {
-                        flex: 1 0 100%;
-                    }
-                }
-                }
+
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 0 100%;
+        .field--name-title {
+            flex: 1 0 100%;
+        }
+        .field--name-field-image {
+            flex: 0 1 30%;
+            padding-right: $horz-spacing-unit;
+            img {
+                height: auto;
+            }
+        }
+        .vc-body {
+            flex: 0 1 67%;
+            .label {
+                font-weight: $bold-font-weight;
+            }
+        }
+        .vc-map {
+            flex: 1 0 100%;
+        }
+    }
+}
+
 

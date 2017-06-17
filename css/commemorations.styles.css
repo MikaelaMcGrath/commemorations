@@ -1876,7 +1876,17 @@ ul.breadcrumb {
   .middle-video .button, .full-video .button {
     margin: 0 1rem 1rem; }
 
-/* line 29, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+/* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+.video-reference:not(:first-child) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 265px; }
+
+/* line 36, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
 .video-player iframe {
   position: absolute;
   top: 0;
@@ -1885,14 +1895,14 @@ ul.breadcrumb {
   height: 100%; }
 
 @media (min-width: 768px) {
-  /* line 37, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+  /* line 44, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
   .middle-video {
     max-width: 265px; }
-    /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+    /* line 46, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
     .middle-video.right {
       float: right;
       margin-left: 1rem; }
-    /* line 43, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
+    /* line 50, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_video.scss */
     .middle-video.left {
       float: left;
       margin-right: 1rem; } }
