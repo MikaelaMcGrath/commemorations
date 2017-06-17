@@ -488,16 +488,9 @@ body {
         -ms-flex: 0 1 67%;
             flex: 0 1 67%; }
     /* line 55, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-    .node-type-veterans .pane-node-content .vc-body .label-inline {
-      font-weight: 600;
-      float: left; }
-    /* line 59, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-    .node-type-veterans .pane-node-content .vc-body .inline-field {
-      float: left; }
-    /* line 62, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-    .node-type-veterans .pane-node-content .vc-body .field--name-field-file-conflict {
-      clear: bothl; }
-  /* line 66, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+    .node-type-veterans .pane-node-content .vc-body .label {
+      font-weight: 600; }
+  /* line 59, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
   .node-type-veterans .pane-node-content .vc-map {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 100%;

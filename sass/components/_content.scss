@@ -52,15 +52,8 @@
                     }
                     .vc-body {
                         flex: 0 1 67%;
-                        .label-inline {
+                        .label {
                             font-weight: $bold-font-weight;
-                            float: left;
-                        }
-                        .inline-field {
-                            float: left;
-                        }
-                        .field--name-field-file-conflict {
-                            clear: both;
                         }
                     }
                     .vc-map {
