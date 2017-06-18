@@ -121,6 +121,9 @@
 	}
 }
 .right-sidebar-wrapper {
+	.education-body {
+		padding: 0 $horz-spacing-unit;
+	}
 	.views-exposed-form {
 		margin-bottom: $vert-spacing-unit;
 		margin-top: -$vert-spacing-unit;

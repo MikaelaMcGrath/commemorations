@@ -2956,6 +2956,10 @@ ul.breadcrumb {
     width: auto; }
 
 /* line 124, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_education.scss */
+.right-sidebar-wrapper .education-body {
+  padding: 0 1rem; }
+
+/* line 127, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_education.scss */
 .right-sidebar-wrapper .views-exposed-form {
   margin-bottom: 1rem;
   margin-top: -1rem;
@@ -2964,7 +2968,7 @@ ul.breadcrumb {
   padding-left: 16px; }
 
 @media (min-width: 768px) {
-  /* line 134, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_education.scss */
+  /* line 137, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_education.scss */
   .right-sidebar-wrapper .views-exposed-form {
     margin-right: -48px;
     margin-left: -48px;
