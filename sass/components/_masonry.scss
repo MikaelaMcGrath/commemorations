@@ -116,6 +116,15 @@
 				    }
 				  }
 				}
+				&.competition {
+					h2 {
+						font-size: $base-font-size*1.5;
+					}
+					.label {
+						font-weight: $bold-font-weight;
+						text-transform: uppercase;
+					}
+				}
 			
 		}
 		.landscape + .education-body.Posters
