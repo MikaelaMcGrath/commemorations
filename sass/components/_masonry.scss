@@ -131,7 +131,8 @@
 		}
 
 	}
-	&.competitions {
+	&.competitions, &.curriculum {
+		.education-body {
 				h2 {
 					font-size: $base-font-size*1.5;
 					&:before {
@@ -149,6 +150,7 @@
 					text-transform: uppercase;
 				}
 			}
+		}
 }
 @include breakpoint(tablet) {
 	.view-gallery {
