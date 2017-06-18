@@ -1,0 +1,23 @@
+.l-content {
+    .multimedia-image-gallery {
+
+        padding: $all-round;
+        .masonry-item {
+            width: 265px;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+            img {
+                display: block;
+            }
+           
+        }
+         a.button-secondary {
+                color: $white;
+                text-decoration: none;
+                &:hover, &:focus, &:visited {
+                    color: $white;
+                }
+            }
+    }
+}
