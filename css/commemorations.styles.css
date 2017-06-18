@@ -2145,10 +2145,10 @@ ul.breadcrumb {
         .education .masonry-item .education-body ul .file > a:disabled:hover, .education .masonry-item .education-body .link a:disabled:hover, .education .masonry-item .education-body .ebook a:disabled:hover {
           background-color: #33645c; }
     /* line 120, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-    .education .masonry-item .education-body.competition h2 {
+    .education .masonry-item .education-body.competitions h2 {
       font-size: 1.5em; }
       /* line 122, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-      .education .masonry-item .education-body.competition h2:before {
+      .education .masonry-item .education-body.competitions h2:before {
         content: '';
         background: #474747;
         position: absolute;
@@ -2157,7 +2157,7 @@ ul.breadcrumb {
         width: 45px;
         height: 2px; }
     /* line 132, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-    .education .masonry-item .education-body.competition .label {
+    .education .masonry-item .education-body.competitions .label {
       font-weight: 600;
       text-transform: uppercase; }
   /* line 139, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
