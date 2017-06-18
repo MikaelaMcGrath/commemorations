@@ -118,3 +118,21 @@
 		width: auto;
 	}
 }
+.right-sidebar-wrapper {
+	.views-exposed-form {
+		margin-bottom: $vert-spacing-unit;
+		margin-top: -$vert-spacing-unit;
+		margin-right: -16px;
+		margin-left: -16px;
+		padding-left: 16px;
+	}
+}
+@include breakpoint(tablet) {
+	.right-sidebar-wrapper {
+	.views-exposed-form {
+	margin-right: -48px;
+	margin-left: -48px;
+	padding-left: 48px;
+}
+}
+}

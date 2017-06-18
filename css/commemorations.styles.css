@@ -2844,3 +2844,18 @@ ul.breadcrumb {
   .views-exposed-form [type='submit'] {
     max-width: none;
     width: auto; }
+
+/* line 122, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_education.scss */
+.right-sidebar-wrapper .views-exposed-form {
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  margin-right: -16px;
+  margin-left: -16px;
+  padding-left: 16px; }
+
+@media (min-width: 768px) {
+  /* line 132, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_education.scss */
+  .right-sidebar-wrapper .views-exposed-form {
+    margin-right: -48px;
+    margin-left: -48px;
+    padding-left: 48px; } }
