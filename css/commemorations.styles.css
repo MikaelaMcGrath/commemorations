@@ -497,7 +497,7 @@ body {
             flex: 1 0 100%; }
 
 /* line 65, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-.content-full .background-header, .node-type-book .background-header {
+.content-full .header, .node-type-book .header {
   box-shadow: 0px 1px 10px 0px #000000;
   z-index: 10; }
 
