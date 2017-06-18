@@ -27,9 +27,14 @@
     }
 }
 .video-reference {
-    &:not(:first-child) {
-    	display: flex;
+	display: flex;
     	justify-content: center;
+        flex-wrap: wrap;
+        :first-child {
+        	flex: 1 0 100%;
+        }
+    :not(:first-child) {
+    	flex: 1 0 25%;
         max-width: 265px;
     }
 }

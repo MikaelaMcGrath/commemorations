@@ -209,7 +209,7 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
-  Drupal.behaviors.commemorationsViewsExposedFormAll = {
+  Drupal.behaviors.commemorationsVideoGallery = {
     attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
       // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
@@ -217,9 +217,8 @@ Drupal.behaviors.commemorationsReadMore = {
       // processed previously. By using .once('foo') all processed elements will
       // get tagged with a 'foo-processed' class, causing all future invocations
       // of this behavior to ignore them.
-      $('.views-exposed-form label', context).once('exposed-all', function () {
-
-        
+      $('.video-reference', context).once('video-gallery', function () {
+        //$('.video-reference').
 
       });
     }

@@ -303,6 +303,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/down-arrow.png": {
+		"ft": 32768,
+		"iS": 174,
+		"oA": 0,
+		"oAP": "\/images\/down-arrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/filter.png": {
+		"ft": 32768,
+		"iS": 1871,
+		"oA": 0,
+		"oAP": "\/images\/filter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/gradient-467.png": {
 		"ft": 32768,
 		"iS": 1093,
