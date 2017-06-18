@@ -2974,22 +2974,24 @@ ul.breadcrumb {
     margin-left: -48px;
     padding-left: 48px; } }
 
-/* line 2, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
-.l-content .multimedia-image-gallery {
+/* line 3, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
+.page-multimedia .l-content .multimedia-image-gallery {
   padding: 1rem 1rem; }
-  /* line 5, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
-  .l-content .multimedia-image-gallery .masonry-item {
-    width: 265px;
+  /* line 6, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
+  .page-multimedia .l-content .multimedia-image-gallery .masonry-item {
+    width: 264px;
+    height: auto;
     padding: 0;
     border: none;
     background-color: transparent; }
-    /* line 10, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
-    .l-content .multimedia-image-gallery .masonry-item img {
+    /* line 12, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
+    .page-multimedia .l-content .multimedia-image-gallery .masonry-item img {
       display: block; }
-  /* line 15, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
-  .l-content .multimedia-image-gallery a.button-secondary {
-    color: #FFFFFF;
-    text-decoration: none; }
-    /* line 18, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
-    .l-content .multimedia-image-gallery a.button-secondary:hover, .l-content .multimedia-image-gallery a.button-secondary:focus, .l-content .multimedia-image-gallery a.button-secondary:visited {
-      color: #FFFFFF; }
+
+/* line 19, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
+.page-multimedia .l-content a.button-secondary {
+  color: #FFFFFF;
+  text-decoration: none; }
+  /* line 22, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
+  .page-multimedia .l-content a.button-secondary:hover, .page-multimedia .l-content a.button-secondary:focus, .page-multimedia .l-content a.button-secondary:visited {
+    color: #FFFFFF; }
