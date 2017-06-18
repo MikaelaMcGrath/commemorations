@@ -116,7 +116,10 @@
 				    }
 				  }
 				}
-			&.Posters {
+			
+		}
+		.landscape + .education-body.Posters
+{
 				display: flex;
 				margin-bottom: $vert-spacing-unit;
 				.subtitle {
@@ -127,7 +130,6 @@
 					flex: 1 0 65%;
 				}
 			}
-		}
 
 	}
 }
