@@ -72,15 +72,12 @@
             display: flex;
         }
         .field--name-field-image {
-            flex: 1 0 30%;
+            flex: 1 0 25%;
             padding-right: $horz-spacing-unit;
         }
         .group-body {
-            flex: 1 0 67%;
-            ul {
-                margin: 0;
-                padding: 0;
-                li {
+            flex: 1 0 70%;
+                .field--name-field-document > .field__items > .field__item {
                     display: flex;
                     align-items: flex-start;
                     justify-content: space-between;
@@ -99,8 +96,8 @@
                 .field--name-field-accessible-alternative {
                     margin-left: $small-spacing/1.5;
                 }
-            }
-            ul .file > a, .link a, .ebook a {
+            
+            .file > a, .link a, .ebook a {
                 appearance: none;
                 background-color: $ww1;
                 border: 1px solid $white;
