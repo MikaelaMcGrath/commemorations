@@ -24,7 +24,7 @@
 		justify-content: space-between;
 		border: 0;
 		background-color: transparent;
-		.education-image {
+		.education-image, .education-image-2 {
 			flex: 1 0 30%;
 			margin: 0 $horz-spacing-unit $vert-spacing-unit 0;
 			&.landscape.Posters {
@@ -34,6 +34,18 @@
 				width: 100%;
 				height: auto;
 				display: block;
+			}
+		}
+		.education-image-2 {
+			display: none;
+			&.landscape.Posters {
+				display: block;
+			}
+		}
+		.education-image {
+			display: block;
+			&.landscape.Posters {
+				display: none;
 			}
 		}
 		.education-body {

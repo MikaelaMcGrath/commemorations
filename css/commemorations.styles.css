@@ -2148,34 +2148,46 @@ ul.breadcrumb {
   border: 0;
   background-color: transparent; }
   /* line 27, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-  .education .masonry-item .education-image {
+  .education .masonry-item .education-image, .education .masonry-item .education-image-2 {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 30%;
             flex: 1 0 30%;
     margin: 0 1rem 1rem 0; }
     /* line 30, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-    .education .masonry-item .education-image.landscape.Posters {
+    .education .masonry-item .education-image.landscape.Posters, .education .masonry-item .education-image-2.landscape.Posters {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 100%;
               flex: 1 0 100%; }
     /* line 33, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
-    .education .masonry-item .education-image img {
+    .education .masonry-item .education-image img, .education .masonry-item .education-image-2 img {
       width: 100%;
       height: auto;
       display: block; }
   /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  .education .masonry-item .education-image-2 {
+    display: none; }
+    /* line 41, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    .education .masonry-item .education-image-2.landscape.Posters {
+      display: block; }
+  /* line 45, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  .education .masonry-item .education-image {
+    display: block; }
+    /* line 47, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    .education .masonry-item .education-image.landscape.Posters {
+      display: none; }
+  /* line 51, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
   .education .masonry-item .education-body {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 65%;
             flex: 1 0 65%;
     position: relative;
     font-size: 0.8em; }
-    /* line 43, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 55, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .education .masonry-item .education-body .subtitle {
       text-transform: uppercase;
       font-weight: 300;
       margin: 1rem 0; }
-      /* line 47, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      /* line 59, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
       .education .masonry-item .education-body .subtitle:before {
         content: '';
         background: #474747;
@@ -2184,16 +2196,16 @@ ul.breadcrumb {
         left: 0;
         width: 45px;
         height: 2px; }
-    /* line 57, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 69, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .education .masonry-item .education-body h2 {
       font-size: 1.1em;
       margin: 1rem 0;
       font-weight: 600; }
-    /* line 62, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 74, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .education .masonry-item .education-body ul {
       margin: 0;
       padding: 0; }
-      /* line 65, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      /* line 77, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
       .education .masonry-item .education-body ul li {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2206,19 +2218,19 @@ ul.breadcrumb {
                 justify-content: space-between;
         margin-bottom: 0.375em;
         position: relative; }
-      /* line 72, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      /* line 84, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
       .education .masonry-item .education-body ul .field--type-text {
         font-weight: 600;
         margin: 0 auto 0 0;
         padding-right: 0.75em; }
-      /* line 77, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      /* line 89, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
       .education .masonry-item .education-body ul .file-size, .education .masonry-item .education-body ul .file-icon {
         display: none;
         visibility: hidden; }
-      /* line 81, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      /* line 93, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
       .education .masonry-item .education-body ul .field--name-field-accessible-alternative {
         margin-left: 0.5em; }
-    /* line 85, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 97, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .education .masonry-item .education-body ul .file > a, .education .masonry-item .education-body .link a, .education .masonry-item .education-body .ebook a {
       -webkit-appearance: none;
          -moz-appearance: none;
@@ -2243,41 +2255,41 @@ ul.breadcrumb {
       vertical-align: middle;
       white-space: nowrap;
       text-transform: uppercase; }
-      /* line 103, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      /* line 115, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
       .education .masonry-item .education-body ul .file > a:hover, .education .masonry-item .education-body ul .file > a:focus, .education .masonry-item .education-body .link a:hover, .education .masonry-item .education-body .link a:focus, .education .masonry-item .education-body .ebook a:hover, .education .masonry-item .education-body .ebook a:focus {
         background-color: #8c937f; }
-      /* line 107, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      /* line 119, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
       .education .masonry-item .education-body ul .file > a:active, .education .masonry-item .education-body .link a:active, .education .masonry-item .education-body .ebook a:active {
         box-shadow: inset 0 0 10px #000000; }
-      /* line 110, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+      /* line 122, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
       .education .masonry-item .education-body ul .file > a:disabled, .education .masonry-item .education-body .link a:disabled, .education .masonry-item .education-body .ebook a:disabled {
         cursor: not-allowed;
         opacity: 0.5; }
-        /* line 114, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+        /* line 126, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
         .education .masonry-item .education-body ul .file > a:disabled:hover, .education .masonry-item .education-body .link a:disabled:hover, .education .masonry-item .education-body .ebook a:disabled:hover {
           background-color: #33645c; }
-  /* line 121, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
   .education .masonry-item .landscape + .education-body.Posters {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 1rem; }
-    /* line 124, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 136, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .education .masonry-item .landscape + .education-body.Posters .subtitle {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 30%;
               flex: 1 0 30%;
       margin-right: 1rem; }
-    /* line 128, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 140, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .education .masonry-item .landscape + .education-body.Posters .exclude-subtitle {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 65%;
               flex: 1 0 65%; }
 
-/* line 136, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+/* line 148, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
 .education.competitions .education-body h2, .education.curriculum .education-body h2 {
   font-size: 1.5em; }
-  /* line 138, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  /* line 150, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
   .education.competitions .education-body h2:before, .education.curriculum .education-body h2:before {
     content: '';
     background: #474747;
@@ -2287,24 +2299,24 @@ ul.breadcrumb {
     width: 45px;
     height: 2px; }
 
-/* line 148, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+/* line 160, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
 .education.competitions .education-body .label, .education.curriculum .education-body .label {
   font-weight: 600;
   text-transform: uppercase; }
 
 @media (min-width: 768px) {
-  /* line 158, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  /* line 170, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
   .view-gallery .view-content .masonry-item {
     width: 140px; }
-    /* line 160, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 172, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .view-gallery .view-content .masonry-item:first-child:nth-last-child(2), .view-gallery .view-content .masonry-item:first-child:nth-last-child(2) ~ .masonry-item {
       width: 220px; } }
 
 @media (min-width: 1120px) {
-  /* line 170, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+  /* line 182, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
   .view-gallery .view-content .masonry-item {
     width: 165px; }
-    /* line 172, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
+    /* line 184, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
     .view-gallery .view-content .masonry-item:first-child:nth-last-child(3), .view-gallery .view-content .masonry-item:first-child:nth-last-child(3) ~ .masonry-item {
       width: 200px; } }
 
@@ -3188,7 +3200,10 @@ ul.breadcrumb {
 /* line 175, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
 .content-full .l-content .content-wrapper {
   padding: 0; }
-  /* line 178, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
+  /* line 177, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
+  .content-full .l-content .content-wrapper h2 {
+    text-transform: none; }
+  /* line 181, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
   .content-full .l-content .content-wrapper .multimedia-video .view-content, .content-full .l-content .content-wrapper .multimedia-audio .view-content {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
