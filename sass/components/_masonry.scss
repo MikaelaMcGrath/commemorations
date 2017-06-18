@@ -119,6 +119,15 @@
 				&.competition {
 					h2 {
 						font-size: $base-font-size*1.5;
+						&:before {
+							content: '';
+							background: $grey;
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 45px;
+							height: 2px;
+						}
 					}
 					.label {
 						font-weight: $bold-font-weight;
