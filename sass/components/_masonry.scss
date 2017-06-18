@@ -83,73 +83,72 @@
 				}
 			}
 			ul .file > a, .link a, .ebook a {
-				  appearance: none;
-				  background-color: $ww1;
-				  border: 1px solid $white;
-				  color: $white;
-				  cursor: pointer;
-				  display: inline-block;
-				  -webkit-font-smoothing: antialiased;
-				  font-weight: 500;
-				  line-height: 1;
-				  padding: $small-spacing;
-				  text-align: center;
-				  text-decoration: none;
-				  transition: background-color $base-duration $base-timing;
-				  user-select: none;
-				  vertical-align: middle;
-				  white-space: nowrap;
-				  text-transform: uppercase;
-				  &:hover,
-				  &:focus {
-				    background-color: lighten($ww1, 10%);
-				  }
-				  &:active {
-				    box-shadow: inset 0 0 10px $black;
-				  }
-				  &:disabled {
-				    cursor: not-allowed;
-				    opacity: 0.5;
+				appearance: none;
+				background-color: $ww1;
+				border: 1px solid $white;
+				color: $white;
+				cursor: pointer;
+				display: inline-block;
+				-webkit-font-smoothing: antialiased;
+				font-weight: 500;
+				line-height: 1;
+				padding: $small-spacing;
+				text-align: center;
+				text-decoration: none;
+				transition: background-color $base-duration $base-timing;
+				user-select: none;
+				vertical-align: middle;
+				white-space: nowrap;
+				text-transform: uppercase;
+				&:hover,
+				&:focus {
+					background-color: lighten($ww1, 10%);
+				}
+				&:active {
+					box-shadow: inset 0 0 10px $black;
+				}
+				&:disabled {
+					cursor: not-allowed;
+					opacity: 0.5;
 
-				    &:hover {
-				      background-color: $action-color;
-				    }
-				  }
-				}
-				&.competitions {
-					h2 {
-						font-size: $base-font-size*1.5;
-						&:before {
-							content: '';
-							background: $grey;
-							position: absolute;
-							top: 0;
-							left: 0;
-							width: 45px;
-							height: 2px;
-						}
+					&:hover {
+						background-color: $action-color;
 					}
-					.label {
-						font-weight: $bold-font-weight;
-						text-transform: uppercase;
-					}
-				}
-			
-		}
-		.landscape + .education-body.Posters
-{
-				display: flex;
-				margin-bottom: $vert-spacing-unit;
-				.subtitle {
-					flex: 1 0 30%;
-					margin-right: $horz-spacing-unit;
-				}
-				.exclude-subtitle {
-					flex: 1 0 65%;
 				}
 			}
+			
+		}
+		.landscape + .education-body.Posters {
+			display: flex;
+			margin-bottom: $vert-spacing-unit;
+			.subtitle {
+				flex: 1 0 30%;
+				margin-right: $horz-spacing-unit;
+			}
+			.exclude-subtitle {
+				flex: 1 0 65%;
+			}
+		}
 
 	}
+	&.competitions {
+				h2 {
+					font-size: $base-font-size*1.5;
+					&:before {
+						content: '';
+						background: $grey;
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 45px;
+						height: 2px;
+					}
+				}
+				.label {
+					font-weight: $bold-font-weight;
+					text-transform: uppercase;
+				}
+			}
 }
 @include breakpoint(tablet) {
 	.view-gallery {
@@ -157,8 +156,8 @@
 			.masonry-item {
 				width: 140px;
 				&:first-child:nth-last-child(2), &:first-child:nth-last-child(2) ~ .masonry-item {
-				width: 220px;
-			}
+					width: 220px;
+				}
 			}
 		}
 	}
