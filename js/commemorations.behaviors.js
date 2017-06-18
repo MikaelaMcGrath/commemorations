@@ -164,6 +164,11 @@ Drupal.behaviors.commemorationsReadMore = {
           var $height = $(this).find('img').attr('height');
           $(this).addClass($width > $height ? 'landscape' : 'portrait')
         });
+        $('.education-image-2').each(function() {
+          var $width = $(this).find('img').attr('width');
+          var $height = $(this).find('img').attr('height');
+          $(this).addClass($width > $height ? 'landscape' : 'portrait')
+        });
         
 
       });
