@@ -14,6 +14,31 @@
 		}
 	}
 }
+.search {
+	.content-wrapper {
+		padding: $all-round;
+		.search-block-form  {
+			.container-inline{
+			display: flex;
+			align-items: center;
+			[type='submit'] {
+				max-width: none;
+				width: auto;
+				margin-left: $horz-spacing-unit;
+				padding: $small-spacing* 1.5 $horz-spacing-unit*2;
+			}
+			.form-item {
+				margin: 0;
+			}
+			.form-text {
+				margin: 0;
+			}
+		}
+		}
+		
+	}
+	
+}
 @include breakpoint(tablet) {
 	.l-header {
 		.search {

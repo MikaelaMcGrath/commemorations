@@ -2323,6 +2323,12 @@
 		"oAP": "\/template.php",
 		"oF": 0
 		},
+	"\/templates\/search\/search-result.tpl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/search\/search-result.tpl.php",
+		"oF": 0
+		},
 	"\/templates\/system\/html.tpl.php": {
 		"ft": 8192,
 		"oA": 0,

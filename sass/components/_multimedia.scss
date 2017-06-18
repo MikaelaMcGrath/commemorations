@@ -1,22 +1,163 @@
-.page-multimedia {
+.page-multimedia, .content-full {
     .l-content {
-    .multimedia-image-gallery {
-
-        padding: $all-round;
-        .masonry-item {
-            width: 264px;
-            height: auto;
-            padding: 0;
-            border: none;
-            background-color: transparent;
-            img {
-                display: block;
+        .content-wrapper {
+            padding: $all-round;
+            h2 {
+                text-transform: uppercase;
             }
-           
-        }
-         
-    }
-    a.button-secondary {
+            .multimedia-image-gallery {
+
+
+                .masonry-item {
+                    width: 264px;
+                    height: auto;
+                    padding: 0;
+                    border: none;
+                    background-color: transparent;
+                    img {
+                        display: block;
+                    }
+
+                }
+
+            }
+            .multimedia-video, .multimedia-audio {
+                .view-content {
+                    display: flex;
+                    justify-content: space-between;
+                    .views-row {
+                        flex: 1 0 25%;
+                    }
+                    .full-video, audio {
+                        width: 265px;
+                    }
+                }
+
+            }
+            .multimedia-audio {
+                .views-content .views-row{
+                    $child: 1 $ww1, 2 $gallipoli, 3 $vietnam, 4 $korea;
+
+                    @each $nth-child, $color in $child {
+                        &:nth-child(#{$nth-child}) {
+                            background: lighten($color, 10%);
+                        }
+                    }
+                }
+            }
+            .multimedia-publications {
+                .view-content {
+                    display:flex;
+                    flex-wrap: wrap;
+                    .views-row {
+                        display: flex;
+                        justify-content: space-between;
+                        flex: 1 0 50%;
+                        .file-image {
+                            flex: 1 0 30%;
+                            margin-right: $horz-spacing-unit;
+                            img {
+                                height: auto;
+                            }
+                        }
+                        .education-body {
+                            flex: 1 0 65%;
+                            position: relative;
+                            font-size: $base-font-size * 0.8;
+                            padding-right: $horz-spacing-unit;
+                            .subtitle {
+                                text-transform: uppercase;
+                                font-weight: $light-font-weight;
+                                margin: $vert-spacing-unit 0;
+                                &:before {
+                                    content: '';
+                                    background: $grey;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 45px;
+                                    height: 2px;
+                                }
+                            }
+                            h2 {
+                                font-size: $base-font-size * 1.2;
+                                margin: $vert-spacing-unit 0;
+                                font-weight: $bold-font-weight;
+                            }
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                                li {
+                                    display: flex;
+                                    align-items: flex-start;
+                                    justify-content: space-between;
+                                    margin-bottom: $small-spacing/2;
+                                    position: relative;
+                                }
+                                .field--type-text {
+                                    font-weight: $bold-font-weight;
+                                    margin: 0 auto 0 0;
+                                    padding-right: $small-spacing;
+                                }
+                                .file-size, .file-icon {
+                                    display: none;
+                                    visibility: hidden;
+                                }
+                                .field--name-field-accessible-alternative {
+                                    margin-left: $small-spacing/1.5;
+                                }
+                            }
+                            ul .file > a, .link a, .ebook a {
+                                appearance: none;
+                                background-color: $ww1;
+                                border: 1px solid $white;
+                                color: $white;
+                                cursor: pointer;
+                                display: inline-block;
+                                -webkit-font-smoothing: antialiased;
+                                font-weight: 500;
+                                line-height: 1;
+                                padding: $small-spacing;
+                                text-align: center;
+                                text-decoration: none;
+                                transition: background-color $base-duration $base-timing;
+                                user-select: none;
+                                vertical-align: middle;
+                                white-space: nowrap;
+                                text-transform: uppercase;
+                                &:hover,
+                                &:focus {
+                                    background-color: lighten($ww1, 10%);
+                                }
+                                &:active {
+                                    box-shadow: inset 0 0 10px $black;
+                                }
+                                &:disabled {
+                                    cursor: not-allowed;
+                                    opacity: 0.5;
+
+                                    &:hover {
+                                        background-color: $action-color;
+                                    }
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+                .button-secondary {
+                    margin-top: $vert-spacing-unit;
+                }
+            }
+            .views-exposed-form {
+                margin-bottom: $vert-spacing-unit;
+                margin-top: -$vert-spacing-unit;
+                margin-right: -16px;
+                margin-left: -16px;
+                padding-left: 16px;
+            }
+            a.button-secondary {
                 color: $white;
                 text-decoration: none;
                 &:hover, &:focus, &:visited {
@@ -24,4 +165,20 @@
                 }
             }
         }
+    }
+    .right-sidebar-wrapper {
+        padding: 0;
+    }
+}
+.content-full {
+    .l-content {
+        .content-wrapper {
+            padding: 0;
+            .multimedia-video, .multimedia-audio {
+                .view-content {
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
 }
