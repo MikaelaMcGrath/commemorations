@@ -22,7 +22,9 @@
 			border-image: none;
 			border-radius: 0 !important;
 			border: 1px solid lighten($grey, 50%);
-
+			&::-ms-expand {
+				display: none;
+			}
 		}
 	}
 	.form-radios{
@@ -97,7 +99,6 @@
 			}
 			.form-item {
 				display: flex;
-
 				align-items: center;
 				a {
 					text-decoration: none;
