@@ -15,6 +15,7 @@
 
 	.form-type-select {
 		select {
+			min-width: 90px;
 			background: url('../images/down-arrow.png') no-repeat right center $white;
 			background-size: 30px;
 			padding: $small-spacing/2;
