@@ -502,28 +502,29 @@ body {
   z-index: 10; }
 
 /* line 69, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.content-full img, .node-type-book img, .resources img {
+  display: block; }
+
+/* line 72, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
 .content-full .center-wrapper, .node-type-book .center-wrapper, .resources .center-wrapper {
   padding: 1rem 1rem; }
-  /* line 71, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+  /* line 74, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
   .content-full .center-wrapper .multimedia-child, .node-type-book .center-wrapper .multimedia-child, .resources .center-wrapper .multimedia-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-  /* line 74, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+  /* line 77, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
   .content-full .center-wrapper .field--name-field-image, .node-type-book .center-wrapper .field--name-field-image, .resources .center-wrapper .field--name-field-image {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 25%;
             flex: 1 0 25%;
     padding-right: 1rem; }
-    /* line 77, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-    .content-full .center-wrapper .field--name-field-image img, .node-type-book .center-wrapper .field--name-field-image img, .resources .center-wrapper .field--name-field-image img {
-      display: block; }
-  /* line 81, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+  /* line 82, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
   .content-full .center-wrapper .group-body, .node-type-book .center-wrapper .group-body, .resources .center-wrapper .group-body {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 70%;
             flex: 1 0 70%; }
-    /* line 83, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+    /* line 84, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
     .content-full .center-wrapper .group-body .field--name-field-document > .field__items > .field__item, .node-type-book .center-wrapper .group-body .field--name-field-document > .field__items > .field__item, .resources .center-wrapper .group-body .field--name-field-document > .field__items > .field__item {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -536,20 +537,53 @@ body {
               justify-content: space-between;
       margin-bottom: 0.375em;
       position: relative; }
-    /* line 90, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+    /* line 91, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+    .content-full .center-wrapper .group-body .subtitle, .node-type-book .center-wrapper .group-body .subtitle, .resources .center-wrapper .group-body .subtitle {
+      font-weight: 300;
+      text-transform: uppercase; }
+    /* line 95, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
     .content-full .center-wrapper .group-body .field--type-text, .node-type-book .center-wrapper .group-body .field--type-text, .resources .center-wrapper .group-body .field--type-text {
       font-weight: 600;
       margin: 0 auto 0 0;
       padding-right: 0.75em; }
-    /* line 95, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+    /* line 100, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
     .content-full .center-wrapper .group-body .file-size, .content-full .center-wrapper .group-body .file-icon, .node-type-book .center-wrapper .group-body .file-size, .node-type-book .center-wrapper .group-body .file-icon, .resources .center-wrapper .group-body .file-size, .resources .center-wrapper .group-body .file-icon {
       display: none;
       visibility: hidden; }
-    /* line 99, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+    /* line 104, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
     .content-full .center-wrapper .group-body .field--name-field-accessible-alternative, .node-type-book .center-wrapper .group-body .field--name-field-accessible-alternative, .resources .center-wrapper .group-body .field--name-field-accessible-alternative {
       margin-left: 0.5em; }
-    /* line 103, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-    .content-full .center-wrapper .group-body .file > a, .content-full .center-wrapper .group-body .link a, .content-full .center-wrapper .group-body .ebook a, .node-type-book .center-wrapper .group-body .file > a, .node-type-book .center-wrapper .group-body .link a, .node-type-book .center-wrapper .group-body .ebook a, .resources .center-wrapper .group-body .file > a, .resources .center-wrapper .group-body .link a, .resources .center-wrapper .group-body .ebook a {
+    /* line 107, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+    .content-full .center-wrapper .group-body ul, .node-type-book .center-wrapper .group-body ul, .resources .center-wrapper .group-body ul {
+      margin: 0;
+      padding: 0; }
+      /* line 110, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+      .content-full .center-wrapper .group-body ul li, .node-type-book .center-wrapper .group-body ul li, .resources .center-wrapper .group-body ul li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 0.375em;
+        position: relative; }
+      /* line 117, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+      .content-full .center-wrapper .group-body ul .field--type-text, .node-type-book .center-wrapper .group-body ul .field--type-text, .resources .center-wrapper .group-body ul .field--type-text {
+        font-weight: 600;
+        margin: 0 auto 0 0;
+        padding-right: 0.75em; }
+      /* line 122, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+      .content-full .center-wrapper .group-body ul .file-size, .content-full .center-wrapper .group-body ul .file-icon, .node-type-book .center-wrapper .group-body ul .file-size, .node-type-book .center-wrapper .group-body ul .file-icon, .resources .center-wrapper .group-body ul .file-size, .resources .center-wrapper .group-body ul .file-icon {
+        display: none;
+        visibility: hidden; }
+      /* line 126, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+      .content-full .center-wrapper .group-body ul .field--name-field-accessible-alternative, .node-type-book .center-wrapper .group-body ul .field--name-field-accessible-alternative, .resources .center-wrapper .group-body ul .field--name-field-accessible-alternative {
+        margin-left: 0.5em; }
+    /* line 130, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+    .content-full .center-wrapper .group-body ul .file > a, .content-full .center-wrapper .group-body .link a, .content-full .center-wrapper .group-body .ebook a, .node-type-book .center-wrapper .group-body ul .file > a, .node-type-book .center-wrapper .group-body .link a, .node-type-book .center-wrapper .group-body .ebook a, .resources .center-wrapper .group-body ul .file > a, .resources .center-wrapper .group-body .link a, .resources .center-wrapper .group-body .ebook a {
       -webkit-appearance: none;
          -moz-appearance: none;
               appearance: none;
@@ -573,19 +607,23 @@ body {
       vertical-align: middle;
       white-space: nowrap;
       text-transform: uppercase; }
-      /* line 121, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-      .content-full .center-wrapper .group-body .file > a:hover, .content-full .center-wrapper .group-body .file > a:focus, .content-full .center-wrapper .group-body .link a:hover, .content-full .center-wrapper .group-body .link a:focus, .content-full .center-wrapper .group-body .ebook a:hover, .content-full .center-wrapper .group-body .ebook a:focus, .node-type-book .center-wrapper .group-body .file > a:hover, .node-type-book .center-wrapper .group-body .file > a:focus, .node-type-book .center-wrapper .group-body .link a:hover, .node-type-book .center-wrapper .group-body .link a:focus, .node-type-book .center-wrapper .group-body .ebook a:hover, .node-type-book .center-wrapper .group-body .ebook a:focus, .resources .center-wrapper .group-body .file > a:hover, .resources .center-wrapper .group-body .file > a:focus, .resources .center-wrapper .group-body .link a:hover, .resources .center-wrapper .group-body .link a:focus, .resources .center-wrapper .group-body .ebook a:hover, .resources .center-wrapper .group-body .ebook a:focus {
+      /* line 148, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+      .content-full .center-wrapper .group-body ul .file > a:hover, .content-full .center-wrapper .group-body ul .file > a:focus, .content-full .center-wrapper .group-body .link a:hover, .content-full .center-wrapper .group-body .link a:focus, .content-full .center-wrapper .group-body .ebook a:hover, .content-full .center-wrapper .group-body .ebook a:focus, .node-type-book .center-wrapper .group-body ul .file > a:hover, .node-type-book .center-wrapper .group-body ul .file > a:focus, .node-type-book .center-wrapper .group-body .link a:hover, .node-type-book .center-wrapper .group-body .link a:focus, .node-type-book .center-wrapper .group-body .ebook a:hover, .node-type-book .center-wrapper .group-body .ebook a:focus, .resources .center-wrapper .group-body ul .file > a:hover, .resources .center-wrapper .group-body ul .file > a:focus, .resources .center-wrapper .group-body .link a:hover, .resources .center-wrapper .group-body .link a:focus, .resources .center-wrapper .group-body .ebook a:hover, .resources .center-wrapper .group-body .ebook a:focus {
         background-color: #8c937f; }
-      /* line 125, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-      .content-full .center-wrapper .group-body .file > a:active, .content-full .center-wrapper .group-body .link a:active, .content-full .center-wrapper .group-body .ebook a:active, .node-type-book .center-wrapper .group-body .file > a:active, .node-type-book .center-wrapper .group-body .link a:active, .node-type-book .center-wrapper .group-body .ebook a:active, .resources .center-wrapper .group-body .file > a:active, .resources .center-wrapper .group-body .link a:active, .resources .center-wrapper .group-body .ebook a:active {
+      /* line 152, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+      .content-full .center-wrapper .group-body ul .file > a:active, .content-full .center-wrapper .group-body .link a:active, .content-full .center-wrapper .group-body .ebook a:active, .node-type-book .center-wrapper .group-body ul .file > a:active, .node-type-book .center-wrapper .group-body .link a:active, .node-type-book .center-wrapper .group-body .ebook a:active, .resources .center-wrapper .group-body ul .file > a:active, .resources .center-wrapper .group-body .link a:active, .resources .center-wrapper .group-body .ebook a:active {
         box-shadow: inset 0 0 10px #000000; }
-      /* line 128, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-      .content-full .center-wrapper .group-body .file > a:disabled, .content-full .center-wrapper .group-body .link a:disabled, .content-full .center-wrapper .group-body .ebook a:disabled, .node-type-book .center-wrapper .group-body .file > a:disabled, .node-type-book .center-wrapper .group-body .link a:disabled, .node-type-book .center-wrapper .group-body .ebook a:disabled, .resources .center-wrapper .group-body .file > a:disabled, .resources .center-wrapper .group-body .link a:disabled, .resources .center-wrapper .group-body .ebook a:disabled {
+      /* line 155, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+      .content-full .center-wrapper .group-body ul .file > a:disabled, .content-full .center-wrapper .group-body .link a:disabled, .content-full .center-wrapper .group-body .ebook a:disabled, .node-type-book .center-wrapper .group-body ul .file > a:disabled, .node-type-book .center-wrapper .group-body .link a:disabled, .node-type-book .center-wrapper .group-body .ebook a:disabled, .resources .center-wrapper .group-body ul .file > a:disabled, .resources .center-wrapper .group-body .link a:disabled, .resources .center-wrapper .group-body .ebook a:disabled {
         cursor: not-allowed;
         opacity: 0.5; }
-        /* line 132, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
-        .content-full .center-wrapper .group-body .file > a:disabled:hover, .content-full .center-wrapper .group-body .link a:disabled:hover, .content-full .center-wrapper .group-body .ebook a:disabled:hover, .node-type-book .center-wrapper .group-body .file > a:disabled:hover, .node-type-book .center-wrapper .group-body .link a:disabled:hover, .node-type-book .center-wrapper .group-body .ebook a:disabled:hover, .resources .center-wrapper .group-body .file > a:disabled:hover, .resources .center-wrapper .group-body .link a:disabled:hover, .resources .center-wrapper .group-body .ebook a:disabled:hover {
+        /* line 159, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+        .content-full .center-wrapper .group-body ul .file > a:disabled:hover, .content-full .center-wrapper .group-body .link a:disabled:hover, .content-full .center-wrapper .group-body .ebook a:disabled:hover, .node-type-book .center-wrapper .group-body ul .file > a:disabled:hover, .node-type-book .center-wrapper .group-body .link a:disabled:hover, .node-type-book .center-wrapper .group-body .ebook a:disabled:hover, .resources .center-wrapper .group-body ul .file > a:disabled:hover, .resources .center-wrapper .group-body .link a:disabled:hover, .resources .center-wrapper .group-body .ebook a:disabled:hover {
           background-color: #33645c; }
+
+/* line 168, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.node-type-book .center-wrapper {
+  padding-bottom: 0; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
 .full-width {
