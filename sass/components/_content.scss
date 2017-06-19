@@ -61,19 +61,22 @@
         }
     }
 }
-.content-full, .node-type-book {
+.content-full, .node-type-book, .resources {
     .header {
         box-shadow: 0px 1px 10px 0px $black;
         z-index: 10;
     }
     .center-wrapper {
-        padding: $vert-spacing-unit $horz-spacing-unit 0;
+        padding: $all-round;
         .multimedia-child {
             display: flex;
         }
         .field--name-field-image {
             flex: 1 0 25%;
             padding-right: $horz-spacing-unit;
+            img {
+                display: block;
+            }
         }
         .group-body {
             flex: 1 0 70%;

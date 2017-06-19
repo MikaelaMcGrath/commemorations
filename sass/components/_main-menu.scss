@@ -13,7 +13,7 @@
 					list-style: none;
 					border-left: 1px solid $base;
 					transition: background $base-duration ease;
-					&.last {
+					&:last-child {
 						border-right: 1px solid $base;
 					}
 					a {
@@ -34,6 +34,9 @@
 						a {
 							color: $white;
 						}
+					}
+					&.menu-mlid-2870 {
+						display: none;
 					}
 				}
 
