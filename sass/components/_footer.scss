@@ -31,7 +31,12 @@
 			}
 		}
 	}
-	
+	.footer-main-menu {
+		.menu-mlid-2920, .menu-mlid-2871 {
+			display: none;
+			visibility: hidden;
+		}
+	}
 }
 @include breakpoint(tablet) {
 	.l-footer {

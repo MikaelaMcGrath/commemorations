@@ -35,8 +35,9 @@
 							color: $white;
 						}
 					}
-					&.menu-mlid-2871 {
+					&.menu-mlid-2871, &.menu-mlid-2920 {
 						display: none;
+						visibility: hidden;
 					}
 				}
 

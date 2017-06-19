@@ -861,42 +861,43 @@ body {
             .menu-wrapper .main-menu .menu-block-wrapper ul li:hover a, .menu-wrapper .main-menu .menu-block-wrapper ul li:focus a, .menu-wrapper .main-menu .menu-block-wrapper ul li.active-trail a {
               color: #FFFFFF; }
           /* line 38, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
-          .menu-wrapper .main-menu .menu-block-wrapper ul li.menu-mlid-2871 {
-            display: none; }
+          .menu-wrapper .main-menu .menu-block-wrapper ul li.menu-mlid-2871, .menu-wrapper .main-menu .menu-block-wrapper ul li.menu-mlid-2920 {
+            display: none;
+            visibility: hidden; }
 
-/* line 48, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+/* line 49, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
 .mean-container .mean-bar {
   background: transparent;
   padding-bottom: 0; }
-  /* line 51, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+  /* line 52, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
   .mean-container .mean-bar a {
     background: #531b21; }
 
-/* line 55, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+/* line 56, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
 .mean-container .mean-nav {
   margin-top: 42px; }
-  /* line 58, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+  /* line 59, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
   .mean-container .mean-nav ul li a {
     border-top: 1px solid #531b21;
     padding: 0.5rem 2.5%;
     width: 95%;
     background: #6c2e37;
     font-weight: 300; }
-    /* line 64, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+    /* line 65, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
     .mean-container .mean-nav ul li a:hover, .mean-container .mean-nav ul li a:focus {
       background: #123731; }
-    /* line 67, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+    /* line 68, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
     .mean-container .mean-nav ul li a.mean-expand, .mean-container .mean-nav ul li a.mean-clicked {
       background-size: auto 10px;
       overflow: hidden;
       text-indent: 200%;
       width: 16px;
       height: 16px; }
-    /* line 74, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+    /* line 75, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
     .mean-container .mean-nav ul li a.mean-expand {
       background: transparent;
       border: 0 !important; }
-      /* line 77, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+      /* line 78, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
       .mean-container .mean-nav ul li a.mean-expand:after {
         content: '\025B8';
         color: #FFFFFF;
@@ -905,13 +906,13 @@ body {
         top: 3px;
         left: 0;
         margin-left: -20px; }
-      /* line 86, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+      /* line 87, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
       .mean-container .mean-nav ul li a.mean-expand:hover {
         background-color: #33645c; }
-    /* line 90, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+    /* line 91, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
     .mean-container .mean-nav ul li a.mean-clicked {
       background: transparent; }
-      /* line 92, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+      /* line 93, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
       .mean-container .mean-nav ul li a.mean-clicked:after {
         content: '\025BE';
         color: #FFFFFF;
@@ -920,17 +921,17 @@ body {
         top: 3px;
         left: 0;
         margin-left: -20px; }
-      /* line 101, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+      /* line 102, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
       .mean-container .mean-nav ul li a.mean-clicked:hover {
         background-color: #33645c; }
-  /* line 108, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+  /* line 109, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
   .mean-container .mean-nav ul li li a {
     background: #531b21;
     padding: 0.5rem 5%;
     width: 90%;
     opacity: 1;
     border-top: 1px solid #6c2e37; }
-  /* line 116, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+  /* line 117, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
   .mean-container .mean-nav ul li li li a {
     background: #200206;
     padding: 0.5rem 7.5%;
@@ -938,7 +939,7 @@ body {
     border-top: 1px solid #38040b; }
 
 @media (min-width: 768px) {
-  /* line 133, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
+  /* line 134, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
   .menu-wrapper .main-menu .menu-block-wrapper ul li ul {
     display: none; } }
 
@@ -1059,24 +1060,28 @@ body {
     .l-footer .footer-main-menu ul li, .l-footer .sub-footer-menu ul li {
       list-style: none;
       padding: 0.25rem 0; }
+  /* line 35, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+  .l-footer .footer-main-menu .menu-mlid-2920, .l-footer .footer-main-menu .menu-mlid-2871 {
+    display: none;
+    visibility: hidden; }
 
 @media (min-width: 768px) {
-  /* line 39, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+  /* line 44, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
   .l-footer .footer-main-menu, .l-footer .sub-footer-menu {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%; }
-    /* line 41, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+    /* line 46, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
     .l-footer .footer-main-menu ul, .l-footer .sub-footer-menu ul {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
-      /* line 44, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+      /* line 49, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
       .l-footer .footer-main-menu ul li, .l-footer .sub-footer-menu ul li {
         padding: 0 1rem; }
-  /* line 49, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+  /* line 54, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
   .l-footer .footer-left {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -1091,7 +1096,7 @@ body {
         flex-wrap: wrap;
     -ms-flex-line-pack: start;
         align-content: flex-start; }
-  /* line 56, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
+  /* line 61, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_footer.scss */
   .l-footer .footer-right {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
