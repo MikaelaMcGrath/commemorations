@@ -793,7 +793,7 @@ body {
           -webkit-transition: background 200ms ease;
           transition: background 200ms ease; }
           /* line 16, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
-          .menu-wrapper .main-menu .menu-block-wrapper ul li:last-child {
+          .menu-wrapper .main-menu .menu-block-wrapper ul li.menu-mlid-754 {
             border-right: 1px solid #531b21; }
           /* line 19, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
           .menu-wrapper .main-menu .menu-block-wrapper ul li a {
