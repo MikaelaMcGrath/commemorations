@@ -2,9 +2,6 @@
     .l-content {
         .content-wrapper {
             padding: $all-round;
-            h2 {
-                text-transform: uppercase;
-            }
             .multimedia-image-gallery {
 
 
@@ -24,12 +21,16 @@
             .multimedia-video, .multimedia-audio {
                 .view-content {
                     display: flex;
+                    flex-wrap: wrap;
                     justify-content: space-between;
                     .views-row {
-                        flex: 1 0 25%;
+                        flex: 1 0 50%;
                     }
                     .full-video, audio {
                         width: 265px;
+                    }
+                    h3 {
+                        font-size: $base-font-size * 1.2;
                     }
                 }
 
@@ -51,6 +52,7 @@
                     flex-wrap: wrap;
                     .views-row {
                         display: flex;
+                        flex-wrap: wrap;
                         justify-content: space-between;
                         flex: 1 0 50%;
                         .file-image {
@@ -58,6 +60,7 @@
                             margin-right: $horz-spacing-unit;
                             img {
                                 height: auto;
+                                width: 100%;
                             }
                         }
                         .education-body {
@@ -79,7 +82,7 @@
                                     height: 2px;
                                 }
                             }
-                            h2 {
+                            h3 {
                                 font-size: $base-font-size * 1.2;
                                 margin: $vert-spacing-unit 0;
                                 font-weight: $bold-font-weight;
@@ -174,13 +177,30 @@
     .l-content {
         .content-wrapper {
             padding: 0;
-            h2 {
-                text-transform: none;
-            }
             .multimedia-video, .multimedia-audio {
                 .view-content {
                     flex-wrap: wrap;
                 }
+            }
+        }
+    }
+}
+@include breakpoint(tablet) {
+    .page-multimedia, .content-full {
+    .l-content {
+.multimedia-video, .multimedia-audio {
+                .view-content {
+                    .views-row {
+                        flex: 1 0 25%;
+                    }
+                    .full-video, audio {
+                        width: 265px;
+                    }
+                    h3 {
+                        font-size: $base-font-size * 1.2;
+                    }
+                }
+
             }
         }
     }
