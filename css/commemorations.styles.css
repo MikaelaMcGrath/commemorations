@@ -626,6 +626,13 @@ body {
 .node-type-book .center-wrapper {
   padding-bottom: 0; }
 
+/* line 173, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+.run-ceremony {
+  margin: 1rem 1rem; }
+  /* line 175, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+  .run-ceremony h2 {
+    font-size: 1.2em; }
+
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_header.scss */
 .full-width {
   position: relative;
@@ -1672,6 +1679,12 @@ ul.breadcrumb {
 .l-content .media-thumbnail {
   max-width: 170px;
   width: 50%; }
+
+/* line 91, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_media.scss */
+.l-content .document {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_leaflet.scss */
 .leaflet_div {
