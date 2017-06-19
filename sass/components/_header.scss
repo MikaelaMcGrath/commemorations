@@ -10,7 +10,7 @@
 				position: relative;
 				&.active-trail {
 					display: block;
-					$page-header: 219, 740, 752, 753, 754, 482, 469, 468, 465, 467, 466, 456, 891, 2871;
+					$page-header: 219, 740, 752, 753, 754, 482, 469, 468, 465, 467, 466, 456, 891, 2871, 2920;
 
 					@each $header in $page-header {
 						&.menu-mlid-#{$header} {

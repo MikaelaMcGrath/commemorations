@@ -58,6 +58,14 @@
                 padding-top: 0;
             }
         }
+        .document {
+            display: flex;
+            .field--name-field-accessible-alternative {
+            .file a {
+                padding-top: $vert-spacing-unit;
+            }
+        }
+        }
     }
     .media-middle {
         max-width: 265px;
