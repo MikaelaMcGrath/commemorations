@@ -79,7 +79,9 @@
             padding-right: $horz-spacing-unit;
             
         }
-        .group-body {
+
+    }
+            .group-body {
             flex: 1 0 70%;
                 .field--name-field-document > .field__items > .field__item {
                     display: flex;
@@ -162,7 +164,6 @@
                 }
             }
         }
-    }
 }
 .node-type-book {
     .center-wrapper {
