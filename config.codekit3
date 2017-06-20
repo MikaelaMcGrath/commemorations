@@ -407,7 +407,7 @@
 		"oAP": "\/images\/header\/456.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/465.jpg": {
@@ -417,7 +417,7 @@
 		"oAP": "\/images\/header\/465.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/466.jpg": {
@@ -447,7 +447,7 @@
 		"oAP": "\/images\/header\/468.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/header\/469.jpg": {
