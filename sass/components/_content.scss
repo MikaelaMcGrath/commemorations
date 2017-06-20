@@ -92,6 +92,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        h2 {
+            flex: 1 0 100%;
+        }
         div {
             flex: 1 0 47%;
             .link {
@@ -99,6 +102,7 @@
             flex-direction: column;
             border-bottom: 5px $light-grey solid;
             text-align: center;
+            margin-bottom: $vert-spacing-unit;
                 &:focus, &:hover {
                     color: $black;
                     background-color: $light-grey;
