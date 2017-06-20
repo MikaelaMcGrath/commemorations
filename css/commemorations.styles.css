@@ -34,7 +34,7 @@ button, [type='button'], [type='reset'], [type='submit'], .button, .button-secon
   button:hover, button:focus, [type='button']:hover, [type='button']:focus, [type='reset']:hover, [type='reset']:focus, [type='submit']:hover, [type='submit']:focus, .button:hover, .button:focus, .button-secondary:hover, .button-secondary:focus {
     background-color: #974d57; }
   /* line 27, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_buttons.scss */
-  button:active, [type='button']:active, [type='reset']:active, [type='submit']:active, .button:active, .button-secondary:active {
+  button:visited, [type='button']:visited, [type='reset']:visited, [type='submit']:visited, .button:visited, .button-secondary:visited {
     box-shadow: inset 0 0 10px #000000;
     color: #FFFFFF; }
   /* line 31, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/base/_buttons.scss */
