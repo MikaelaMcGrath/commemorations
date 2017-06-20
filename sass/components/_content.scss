@@ -61,6 +61,17 @@
         }
     }
 }
+.node-type-page-content {
+    .center-wrapper {
+        .multimedia-child {
+            flex-wrap: wrap;
+            h1, .field--name-body, .group-body {
+        flex: 1 0 100%;
+    }
+}
+        }
+    
+}
 .content-full, .node-type-book, .resources {
     .header {
         box-shadow: 0px 1px 10px 0px $black;
