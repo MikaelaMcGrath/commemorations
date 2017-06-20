@@ -2204,6 +2204,7 @@ ul.breadcrumb {
 /* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
 .view-gallery {
   clear: both;
+  margin-bottom: 0.75em;
   width: 100%; }
   /* line 5, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_masonry.scss */
   .view-gallery .view-content {
