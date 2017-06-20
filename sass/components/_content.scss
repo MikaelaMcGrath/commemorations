@@ -68,6 +68,18 @@
             h1, .field--name-body, .group-body {
         flex: 1 0 100%;
     }
+    .group-body {
+        display: flex;
+        h2, .subtitle {
+            flex: 1 0 100%;
+        }
+        .fearture-image {
+            flex: 1 0 25%;
+        }
+        .field--name-field-document {
+            flex: 1 0 70%;
+        }
+    }
 }
         }
     

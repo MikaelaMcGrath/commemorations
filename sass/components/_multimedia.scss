@@ -68,11 +68,7 @@
                             position: relative;
                             font-size: $base-font-size * 0.8;
                             padding-right: $horz-spacing-unit;
-                            .subtitle {
-                                text-transform: uppercase;
-                                font-weight: $light-font-weight;
-                                margin: $vert-spacing-unit 0;
-                                &:before {
+                            &:before {
                                     content: '';
                                     background: $grey;
                                     position: absolute;
@@ -81,6 +77,11 @@
                                     width: 45px;
                                     height: 2px;
                                 }
+                            .subtitle {
+                                text-transform: uppercase;
+                                font-weight: $light-font-weight;
+                                margin: $vert-spacing-unit 0;
+                                
                             }
                             h3 {
                                 font-size: $base-font-size * 1.2;
@@ -202,17 +203,4 @@
                         font-size: $base-font-size * 1.2;
                     }
                 }
-}
-.multimedia-publications {
-                .view-content {
-
-                    .views-row {
-
-                        flex: 1 0 25%;
-                    }
-                }
-            }
-            }
-        }
-    }
-}
+}}}}}
