@@ -3305,4 +3305,9 @@ ul.breadcrumb {
     width: 265px; }
   /* line 201, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
   .page-multimedia .l-content .content-wrapper .multimedia-video .view-content h3, .page-multimedia .l-content .content-wrapper .multimedia-audio .view-content h3, .content-full .l-content .content-wrapper .multimedia-video .view-content h3, .content-full .l-content .content-wrapper .multimedia-audio .view-content h3 {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+  /* line 209, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
+  .page-multimedia .l-content .content-wrapper .multimedia-publications .view-content .views-row, .content-full .l-content .content-wrapper .multimedia-publications .view-content .views-row {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 25%;
+            flex: 1 0 25%; } }
