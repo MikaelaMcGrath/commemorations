@@ -55,8 +55,9 @@
                         flex-wrap: wrap;
                         justify-content: space-between;
                         flex: 1 0 50%;
+                        margin-bottom: $vert-spacing-unit;
                         .file-image {
-                            flex: 1 0 30%;
+                            flex: 1 0 25%;
                             margin-right: $horz-spacing-unit;
                             img {
                                 height: auto;
