@@ -250,3 +250,8 @@
         font-size: $base-font-size * 1.2;
     }
 }
+.page-search {
+    .content-wrapper {
+        padding: $all-round;
+    }
+}

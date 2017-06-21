@@ -325,6 +325,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/gradient-456.png": {
+		"ft": 32768,
+		"iS": 1117,
+		"oA": 0,
+		"oAP": "\/images\/gradient-456.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/gradient-467.png": {
 		"ft": 32768,
 		"iS": 1093,
@@ -347,14 +358,36 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/gradient-482.png": {
+	"\/images\/gradient-469.png": {
+		"ft": 32768,
+		"iS": 1117,
+		"oA": 0,
+		"oAP": "\/images\/gradient-469.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/gradient-482-2.png": {
 		"ft": 32768,
 		"iS": 1093,
 		"oA": 0,
-		"oAP": "\/images\/gradient-482.png",
+		"oAP": "\/images\/gradient-482-2.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/gradient-482.png": {
+		"ft": 32768,
+		"iS": 1132,
+		"oA": 0,
+		"oAP": "\/images\/gradient-482.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

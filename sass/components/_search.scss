@@ -14,13 +14,13 @@
 		}
 	}
 }
-.search {
+.page-search {
 	.content-wrapper {
 		padding: $all-round;
-		.search-block-form  {
+		.search-form  {
 			.container-inline{
 			display: flex;
-			align-items: center;
+			align-items: flex-end;
 			[type='submit'] {
 				max-width: none;
 				width: auto;
@@ -28,7 +28,12 @@
 				padding: $small-spacing* 1.5 $horz-spacing-unit*2;
 			}
 			.form-item {
+				display: flex;
+				flex-wrap: wrap;
 				margin: 0;
+				label {
+					flex: 1 0 100%;
+				}
 			}
 			.form-text {
 				margin: 0;
