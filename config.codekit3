@@ -2388,6 +2388,12 @@
 		"oAP": "\/templates\/system\/html.tpl.php",
 		"oF": 0
 		},
+	"\/templates\/system\/page--search.tpl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/page--search.tpl.php",
+		"oF": 0
+		},
 	"\/templates\/system\/page.tpl.php": {
 		"ft": 8192,
 		"oA": 0,

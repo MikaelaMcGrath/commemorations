@@ -124,8 +124,10 @@
       <?php if ($action_links): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+      <div class="content-wrapper">
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
+      </div>
     </div>
   </div>
 
