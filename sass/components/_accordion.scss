@@ -1,0 +1,34 @@
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br, 
+.ui-corner-left, .ui-corner-bl, .ui-corner-top, .ui-corner-tr, .ui-corner-tl, {
+	border-radius: 0;
+	background: transparent;
+	border: none;
+	border-top: $base-border;
+	
+	
+}
+.ui-state-default .ui-icon {
+	background: none;
+	
+	
+
+}
+.ui-accordion .ui-accordion-content {
+	height: auto !important;
+	padding-top: 0;
+	font-size: $base-font-size * 0.8;
+}	
+.ui-accordion .ui-accordion-icons {
+	padding-left: $horz-spacing-unit;
+	padding-right: $horz-spacing-unit *2;
+	position: relative;
+	&:after {
+		content: '\025B8';
+		position: absolute;
+		top: 25%;
+		right: $horz-spacing-unit;
+	}
+	&.ui-state-active:after {
+		content: '\025BE';
+	}
+}

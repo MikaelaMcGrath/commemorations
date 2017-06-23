@@ -3420,3 +3420,36 @@ ul.breadcrumb {
   /* line 203, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_multimedia.scss */
   .page-multimedia .l-content .content-wrapper .multimedia-video .view-content h3, .page-multimedia .l-content .content-wrapper .multimedia-audio .view-content h3, .content-full .l-content .content-wrapper .multimedia-video .view-content h3, .content-full .l-content .content-wrapper .multimedia-audio .view-content h3 {
     font-size: 1.2em; } }
+
+/* line 1, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_accordion.scss */
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br,
+.ui-corner-left, .ui-corner-bl, .ui-corner-top, .ui-corner-tr, .ui-corner-tl {
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  border-top: 1px solid #e6e6e6; }
+
+/* line 10, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_accordion.scss */
+.ui-state-default .ui-icon {
+  background: none; }
+
+/* line 16, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_accordion.scss */
+.ui-accordion .ui-accordion-content {
+  height: auto !important;
+  padding-top: 0;
+  font-size: 0.8em; }
+
+/* line 21, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_accordion.scss */
+.ui-accordion .ui-accordion-icons {
+  padding-left: 1rem;
+  padding-right: 2rem;
+  position: relative; }
+  /* line 25, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_accordion.scss */
+  .ui-accordion .ui-accordion-icons:after {
+    content: '\025B8';
+    position: absolute;
+    top: 25%;
+    right: 1rem; }
+  /* line 31, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_accordion.scss */
+  .ui-accordion .ui-accordion-icons.ui-state-active:after {
+    content: '\025BE'; }
