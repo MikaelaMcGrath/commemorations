@@ -1,4 +1,110 @@
-.main-menu {
-	display: none;
-	visibility: hidden;
+.main-menu,
+.l-header .header-menu,
+.search,
+.conflicts-secondary-menu,
+.left-sidebar-wrapper .left-menu, 
+.left-sidebar-wrapper .conflicts-menu, 
+.left-sidebar-wrapper .left-menu-footer, 
+.left-sidebar-wrapper .left-book-menu,
+.child-content.conflicts-content,
+.l-footer,
+.pane-crumbs-breadcrumb,
+#collapsed-menu-button,
+.front .pane-content-multimedia-library-panel-pane-5,
+.subscribe,
+.secondary-menu, 
+.education-secondary-menu,
+.target-content,
+.run-event,
+.map-more,
+.vc-map,
+.history-more
+ {
+	display: none !important;
+	visibility: hidden !important;
+}
+.middle-wrapper .left-sidebar-wrapper,
+.middle-wrapper .right-sidebar-wrapper {
+	flex: 0 1 auto;
+	padding: 1em;
+}
+.middle-wrapper .left-sidebar-wrapper {
+	padding: 0;
+}
+.front .l-content {
+	.full-width {
+		background: transparent;
+		.header-home, .home-title {
+			background: transparent;
+			background-image: none !important;
+			height: auto;
+			box-shadow: none;
+			h2, h1 {
+				color: #000 !important;
+			}
+
+		}
+	}
+	.center-wrapper  {
+		.conflicts-content .view-content div[class^="conflict-"] {
+			flex: 0 1 24% !important;
+		}
+	.veterans-story  {
+		h3 {
+			left: 45%;
+		}
+		.veterans-banner {
+		display: block;
+		width: 100%;
+		visibility: visible;
+}
+				.veterans-banner-mobile {
+					display: none;
+					visibility: hidden;
+				}
+	}
+	}
+}
+
+.l-branding {
+	height: 60px;
+	a:after {
+	content:"";}
+}
+.full-width {
+	background: transparent !important;
+	.conflicts-secondary-menu {
+	height: 0;
+}
+	.menu-block-7 ul li.active-trail, .menu-block-8 ul li.active-trail  {
+	background: transparent !important;
+	height: auto;
+
+	.background-header, 
+ {
+	background: transparent !important;
+	width: 100%;
+	padding: 1em;
+
+	h1 a {
+		color: #000;
+		font-size: 2.5rem;
+		padding: 0;
+	}
+}
+	} 
+}
+body .l-main {
+	background: #fff;
+}
+img {
+	display: block !important;
+    page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-inside: avoid; /* or 'auto' */
+}
+.right-sidebar-wrapper a:after {
+	content:" (" attr(href) ") ";
+	font-size:0.8em;
+	font-weight:normal;
 }
