@@ -43,7 +43,7 @@
         .field--name-title {
             flex: 1 0 100%;
         }
-        .field--name-field-image {
+        .field--name-field-image, .file-image {
             flex: 0 1 30%;
             padding-right: $horz-spacing-unit;
             img {
@@ -254,4 +254,8 @@
     .content-wrapper {
         padding: $all-round;
     }
+}
+.book-navigation {
+    clear: both;
+    margin-top:  $vert-spacing-unit;
 }

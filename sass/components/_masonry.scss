@@ -1,7 +1,7 @@
 .view-gallery {
 	clear: both;
 	margin-bottom: $small-spacing;
-	width: 100%;
+	width: 99%;
 	.view-content {
 		margin: 0 auto;
 		.masonry-item {
@@ -25,10 +25,10 @@
 		border: 0;
 		background-color: transparent;
 		.education-image, .education-image-2 {
-			flex: 1 0 30%;
+			flex: 1 0 100%;
 			margin: 0 $horz-spacing-unit $vert-spacing-unit 0;
 			&.landscape.Posters {
-				flex: 1 0 100%;
+				
 			}
 			img {
 				width: 100%;
@@ -39,13 +39,24 @@
 		.education-image-2 {
 			display: none;
 			&.landscape.Posters {
-				display: block;
+				display: none;
 			}
 		}
 		.education-image {
 			display: block;
 			&.landscape.Posters {
 				display: none;
+			}
+		}
+		.landscape + .education-body.Posters {
+			display: block;
+			margin-bottom: $vert-spacing-unit;
+			.subtitle {
+				flex: 1 0 30%;
+				margin-right: $horz-spacing-unit;
+			}
+			.exclude-subtitle {
+				flex: 1 0 65%;
 			}
 		}
 		.education-body {
@@ -130,17 +141,7 @@
 			}
 			
 		}
-		.landscape + .education-body.Posters {
-			display: flex;
-			margin-bottom: $vert-spacing-unit;
-			.subtitle {
-				flex: 1 0 30%;
-				margin-right: $horz-spacing-unit;
-			}
-			.exclude-subtitle {
-				flex: 1 0 65%;
-			}
-		}
+		
 
 	}
 	&.competitions, &.curriculum {
@@ -164,6 +165,34 @@
 			}
 		}
 }
+@include breakpoint(mobile) {
+	.education {
+	.masonry-item {
+		width: 99%;
+		.education-image-2 {
+			display: none;
+			&.landscape.Posters {
+				display: none;
+				//flex: 1 0 100%;
+			}
+		}
+		.education-image {
+			display: block;
+			&.landscape.Posters {
+				display: block;
+				//flex: 1 0 100%;
+			}
+		}
+		.education-image, .education-image-2 {
+			flex: 1 0 20%;
+		}
+		.landscape + .education-body.Posters {
+			display: block;
+		}
+		
+	}
+}
+}
 @include breakpoint(tablet) {
 	.view-gallery {
 		.view-content {
@@ -173,6 +202,28 @@
 					width: 220px;
 				}
 			}
+		}
+	}
+	.education {
+		.masonry-item {
+			.education-image, .education-image-2 {
+			flex: 1 0 30%;
+		}
+			.landscape + .education-body.Posters {
+			display: flex;
+		}
+		.education-image-2 {
+			display: none;
+			&.landscape.Posters {
+				display: block;
+			}
+		}
+		.education-image {
+			display: block;
+			&.landscape.Posters {
+				display: none;
+			}
+		}
 		}
 	}
 }

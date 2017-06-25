@@ -1956,6 +1956,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/commemorations.print.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/commemorations.print.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/commemorations.reset.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2238,6 +2251,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_page.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/components\/_print.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_print.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
