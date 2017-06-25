@@ -216,6 +216,7 @@
 			display: none;
 			&.landscape.Posters {
 				display: block;
+				flex: 1 0 100%;
 			}
 		}
 		.education-image {
