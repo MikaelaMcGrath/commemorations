@@ -26,6 +26,7 @@
 			&::-ms-expand {
 				display: none;
 			}
+
 		}
 	}
 	.form-radios{
@@ -139,6 +140,26 @@
 	margin-right: -48px;
 	margin-left: -48px;
 	padding-left: 48px;
+
+}
+.form-type-select {
+		select {
+	&#edit-field-file-conflict-tid {
+				max-width: 200px;
+			}
+			}
+		}
 }
 }
+@include breakpoint(desktop) {
+	.right-sidebar-wrapper {
+		.form-type-select {
+		select {
+	&#edit-field-file-conflict-tid {
+				max-width: none;
+			}
+			}
+		}
+}
+	
 }

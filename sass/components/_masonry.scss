@@ -45,7 +45,7 @@
 		.education-image {
 			display: block;
 			&.landscape.Posters {
-				display: none;
+				display: block;
 			}
 		}
 		.landscape + .education-body.Posters {
@@ -169,22 +169,8 @@
 	.education {
 	.masonry-item {
 		width: 99%;
-		.education-image-2 {
-			display: none;
-			&.landscape.Posters {
-				display: none;
-				//flex: 1 0 100%;
-			}
-		}
-		.education-image {
-			display: block;
-			&.landscape.Posters {
-				display: block;
-				//flex: 1 0 100%;
-			}
-		}
 		.education-image, .education-image-2 {
-			flex: 1 0 20%;
+			flex: 1 0 100%;
 		}
 		.landscape + .education-body.Posters {
 			display: block;
