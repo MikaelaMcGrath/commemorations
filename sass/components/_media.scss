@@ -99,4 +99,9 @@
     .document {
         display: flex;
     }
+    .related-content {
+        .document {
+            display: block;
+        }
+    }
 }

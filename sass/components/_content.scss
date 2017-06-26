@@ -241,7 +241,7 @@
 }
 .node-type-book {
     .center-wrapper {
-        padding-bottom: 0;
+        padding: 0;
     }
 }
 .run-ceremony {
@@ -250,7 +250,7 @@
         font-size: $base-font-size * 1.2;
     }
 }
-.page-search {
+.page-search, .node-type-flash.page-node-443, .node-type-flash.page-node-1377 {
     .content-wrapper {
         padding: $all-round;
     }
