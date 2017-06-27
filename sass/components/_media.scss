@@ -98,10 +98,19 @@
     }
     .document {
         display: flex;
+        flex-wrap: wrap;
+        .caption {
+            flex: 1 0 100%;
+            padding-top: $small-spacing;
+        }
     }
     .related-content {
         .document {
             display: block;
+            .caption {
+                flex: 1 0 100%;
+                padding-top: $vert-spacing-unit;
+            }
         }
     }
 }

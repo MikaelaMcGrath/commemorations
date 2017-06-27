@@ -27,6 +27,22 @@
 		"oAP": "\/commemorations.info",
 		"oF": 0
 		},
+	"\/config.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/config.yml",
+		"oF": 0
+		},
+	"\/css\/commemorations.print.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/commemorations.print-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/commemorations.reset.css": {
 		"aP": 1,
 		"bl": 0,
@@ -282,6 +298,15 @@
 		"oA": 2,
 		"oAP": "\/fonts\/Open_Sans\/open-sans-v13-latin-regular.woff2",
 		"oF": 0
+		},
+	"\/gulpfile.babel.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/gulpfile.babel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/gulpfile.js": {
 		"ft": 64,
@@ -779,6 +804,14 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/package 2.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package 2-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/package.json": {
 		"ft": 524288,

@@ -26,6 +26,7 @@
         border-top: $base-border;
         padding: $vert-spacing-unit  0 $vert-spacing-unit $horz-spacing-unit ;
         margin: $vert-spacing-unit * 2 0 0;
+        clear: both;
     }
     .see-footnote:target, .footnotes .footnote:target {
         background-color: $light-grey;
