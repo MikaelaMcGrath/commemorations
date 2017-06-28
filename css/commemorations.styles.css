@@ -732,12 +732,15 @@ body {
   /* line 254, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
   .run-ceremony h2 {
     font-size: 1.2em; }
+  /* line 257, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+  .run-ceremony .education-body {
+    font-size: 0.8em; }
 
-/* line 259, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+/* line 262, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
 .page-search .content-wrapper, .node-type-flash.page-node-443 .content-wrapper, .node-type-flash.page-node-1377 .content-wrapper {
   padding: 1rem 1rem; }
 
-/* line 263, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
+/* line 266, Users/Mikaela/Sites/devdesktop/ANZACPortal/docroot/sites/all/themes/custom/commemorations/sass/components/_content.scss */
 .book-navigation {
   clear: both;
   margin-top: 1rem; }
