@@ -143,11 +143,15 @@
     }
     img {
                 display: block;
+                height: auto;
             }
     .center-wrapper {
         padding: $all-round;
-        .multimedia-child {
+        .multimedia-child, .page-content-child {
             display: flex;
+        }
+        .page-content-child {
+            flex: 1 0 100%;
         }
         .field--name-field-image {
             flex: 1 0 25%;
@@ -156,7 +160,7 @@
         }
 
     }
-            .group-body {
+            .group-body, .page-content-child {
             flex: 1 0 70%;
                 .field--name-field-document > .field__items > .field__item {
                     display: flex;

@@ -104,8 +104,14 @@ img {
     page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
     page-break-inside: avoid; /* or 'auto' */
 }
-.right-sidebar-wrapper a:after {
+.right-sidebar-wrapper a {
+	&:after {
 	content:" (" attr(href) ") ";
 	font-size:0.8em;
 	font-weight:normal;
+}
+	&.colorbox:after {
+		content: '';
+	}
+
 }

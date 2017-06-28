@@ -92,6 +92,13 @@
 				text-transform: uppercase;
 				font-size: $base-font-size * 1.2;
 				margin-top: 0;
+				a {
+					color: $dark-grey;
+					text-decoration: none;
+					&:hover, &:focus, &:active {
+						color: $heading-font-color;
+					}
+				}
 			}
 			.right-sidebar-wrapper {
 				padding: $vert-spacing-unit 0 0;
