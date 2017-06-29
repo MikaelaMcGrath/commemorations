@@ -45,6 +45,9 @@
 							}
 						}
 					}
+					.audio-related-content {
+						overflow: hidden;
+					}
 					.caption, .read-more {
 						padding-top: $vert-spacing-unit;
 						font-size: $small-font-size;
