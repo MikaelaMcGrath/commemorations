@@ -1,7 +1,7 @@
 .l-content {
     //padding: 0;
 
-    .content-wrapper {
+    .content-wrapper, .webform-confirmation {
         width: 100%;
         max-width: 1140px;
         margin: 0 auto;
@@ -264,6 +264,7 @@
                     height: 100%;
                     overflow: hidden;
                     img {
+                        width: 100%;
                         display: block;
                         height: auto;
                         transform: scale(1);
