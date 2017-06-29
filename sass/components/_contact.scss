@@ -2,25 +2,22 @@
 	.right-sidebar-wrapper {
 		display: flex;
 		flex-wrap: wrap;
-		.pane-crumbs-breadcrumb {
+		justify-content: space-between;
+		.pane-crumbs-breadcrumb, .pane-node-title, .pane-node-content, .pane-node-webform {
 			flex: 1 0 100%;
 		}
-		
+
 	}
 }
 @include breakpoint(tablet) {
 .node-type-webform {
 	.right-sidebar-wrapper {
-		display: flex;
-		flex-wrap: wrap;
-		.pane-crumbs-breadcrumb {
-			flex: 1 0 100%;
-		}
+
 		.pane-node-content {
-			flex: 1 0 25%;
+			flex: 1 0 35%;
 		}
 		.pane-node-webform {
-			flex: 1 0 70%;
+			flex: 1 0 60%;
 			margin-right: $horz-spacing-unit;
 		}
 	}
