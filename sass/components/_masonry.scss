@@ -218,6 +218,9 @@
 					}
 				}
 			}
+			.link a, .ebook a {
+				margin-bottom: $small-spacing/1.5;
+			}
 	}
 }
 @include breakpoint(mobile) {

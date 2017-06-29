@@ -242,6 +242,9 @@
                 }
             }
         }
+        .link a, .ebook a {
+            margin-bottom: $small-spacing/1.5;
+        }
     }
 }
 .section-conduct-event .pane-event-panel-pane-1 .multimedia-child {
@@ -396,6 +399,9 @@
                     background-color: $action-color;
                 }
             }
+        }
+        .link a, .ebook a {
+            margin-bottom: $small-spacing/1.5;
         }
 }
 .node-type-book {
