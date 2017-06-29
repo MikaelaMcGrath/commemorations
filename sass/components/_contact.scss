@@ -1,0 +1,37 @@
+.node-type-webform {
+	.right-sidebar-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		.pane-crumbs-breadcrumb {
+			flex: 1 0 100%;
+		}
+		.pane-node-content {
+			order: 2;
+			flex: 1 0 100%;
+		}
+		.pane-node-webform {
+			order: 1;
+			flex: 1 0 100%;
+		}
+	}
+}
+@include breakpoint(tablet) {
+.node-type-webform {
+	.right-sidebar-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		.pane-crumbs-breadcrumb {
+			flex: 1 0 100%;
+		}
+		.pane-node-content {
+			order: 2;
+			flex: 1 0 30%;
+		}
+		.pane-node-webform {
+			order: 1;
+			flex: 1 0 70%;
+			margin-right: $horz-spacing-unit;
+		}
+	}
+}
+}
