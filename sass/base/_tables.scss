@@ -3,23 +3,25 @@ table {
   margin: $small-spacing 0;
   border: $base-border;
   border-bottom: none;
-  table-layout: fixed;
+  table-layout: auto;
     width: 100%;
 }
 
 th {
   border-bottom: 1px solid shade($light-grey, 10%);
   font-weight: 600;
-  padding: $small-spacing;
+  padding: $vert-spacing-unit/3 $horz-spacing-unit/3;
   text-align: center;
   background-color: $light-grey;
 }
 
 td {
   border-bottom: $base-border;
-  padding: 0.5rem;
+  padding: $vert-spacing-unit/4 $horz-spacing-unit/4;
 }
+tr {
 
+}
 tr,
 td,
 th {
@@ -29,4 +31,12 @@ caption {
   padding: $small-spacing;
   font-weight: $bold-font-weight;
   font-size: $base-font-size * 1.1;
+}
+@include breakpoint(tablet) {
+  th {
+    padding: $small-spacing;
+  }
+  td {
+    padding: $vert-spacing-unit/2 $horz-spacing-unit/2;
+  }
 }
