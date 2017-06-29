@@ -3,16 +3,20 @@
         .content-wrapper {
             padding: $all-round;
             .multimedia-image-gallery {
+                .view-content {
+                    margin: 0 auto;
 
-
+                }
+                
                 .masonry-item {
-                    width: 264px;
+                    width: 170px;
                     height: auto;
                     padding: 0;
                     border: none;
                     background-color: transparent;
                     img {
                         display: block;
+                        height: auto;
                     }
 
                 }
@@ -20,14 +24,21 @@
             }
             .multimedia-video, .multimedia-audio {
                 .view-content {
+                    margin: 0 auto;
                     display: flex;
                     flex-wrap: wrap;
-                    justify-content: space-between;
+                    justify-content: space-around;
+                    margin: $vert-spacing-unit 0;
                     .views-row {
-                        flex: 1 0 50%;
+                        flex: 1 0 47%;
+                        margin: $small-spacing/3;
                     }
-                    .full-video, audio {
-                        width: 265px;
+                    .full-video {
+                        margin: 0 auto;
+                        max-width: 265px;
+                    }
+                    audio {
+                        width: 100%;
                     }
                     h3 {
                         font-size: $base-font-size * 1.2;
@@ -194,17 +205,27 @@
     .page-multimedia, .content-full {
     .l-content {
         .content-wrapper {
+            .multimedia-image-gallery {
+                .masonry-item {
+                    width: 264px;
+            }
+        }
 .multimedia-video, .multimedia-audio {
 
                 .view-content {
                     .views-row {
-                        flex: 1 0 25%;
+                        flex: 1 0 23%;
                     }
-                    .full-video, audio {
-                        width: 265px;
+                    .full-video {
+                       // width: 100%;
+                        margin: 0;
+                    } 
+                    audio {
+                        width: 100%;
                     }
                     h3 {
                         font-size: $base-font-size * 1.2;
                     }
                 }
-}}}}}
+}
+}}}}
