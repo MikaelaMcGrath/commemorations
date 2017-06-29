@@ -9,6 +9,13 @@
 
 	}
 }
+.page-node-done .l-content{
+		padding: $all-round;
+		width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        background-color: $white;
+}
 @include breakpoint(tablet) {
 .node-type-webform {
 	.right-sidebar-wrapper {
