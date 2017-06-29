@@ -253,6 +253,7 @@
         .veterans-stories {
             ul {
                 display: flex;
+
                 li {
                 
 
@@ -282,6 +283,7 @@
                         padding: $all-round;
                         width: 100%;
                         height: 100%;
+                        max-width: 265px;
                         background: rgba(0,0,0,  0.5);
                         &:hover, &:focus {
                         
@@ -291,6 +293,7 @@
                     h3, h2 {
                         margin: 0;
                         font-size: $base-font-size;
+                        
                     }
                     &:hover, &:focus {
 
@@ -375,6 +378,7 @@
             vertical-align: middle;
             white-space: nowrap;
             text-transform: uppercase;
+            width: auto;
             &:hover,
             &:focus {
                 background-color: lighten($ww1, 10%);
