@@ -15,6 +15,14 @@
 		}
 
 	}
+	&.vietnam-hr {
+		.vc-recipients {
+			flex: 1 0 50%;
+			.file-image {
+				flex: 1 0 25%;
+			}
+		}
+	}
 	&.veterans-stories, &.great-war-memories, &.vc-recipients {
 			.view-content {
 				display:flex;

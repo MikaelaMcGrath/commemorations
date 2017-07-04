@@ -152,7 +152,15 @@
 }
 }
 @include breakpoint(tablet) {
+
 	.right-sidebar-wrapper {
+		.vietnam-hr-exposed {
+		.views-exposed-form {
+			.views-exposed-widgets {
+				flex-wrap: wrap;
+			}
+		}
+	}
 	.views-exposed-form {
 		.views-exposed-widgets {
 		flex-wrap: nowrap;
