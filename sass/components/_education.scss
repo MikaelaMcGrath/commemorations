@@ -3,6 +3,10 @@
 	padding: $all-round;
 	position: relative;
 	margin-bottom: 80px;
+	.views-exposed-widgets {
+		display: flex;
+		flex-wrap: wrap;
+	}
 	.views-exposed-widget {
 		padding-top: 0;
 		.form-submit {
@@ -137,6 +141,10 @@
 @include breakpoint(mobile) {
 	.views-exposed-form  {
 		margin-bottom: 140px;
+
+	.views-exposed-widgets {
+		flex-wrap: nowrap;
+	}
 		.views-widget-sort-by .form-item {
 		flex-wrap: wrap;
 		label {
