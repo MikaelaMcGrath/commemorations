@@ -103,9 +103,28 @@
 						background-color: $light-secondary;
 					}
 				}
+				
 
 			}
+			&:nth-child(6), &:nth-child(7) {
+				display: none !important;
+						visibility: hidden !important;
+			}
+			&:nth-child(3), &:nth-child(5) {
+					ul>li {
+
+						&>ul, a.mean-expand {
+						display: none !important;
+						visibility: hidden !important;
+					}
+					}
+					
+				}
 			li {
+				&:nth-child(6), &:nth-child(7) {
+				display: block !important;
+						visibility: visible !important;
+			}
 				a {
 					background: $base;
 					padding: $vert-spacing-unit/2 5%;

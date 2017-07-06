@@ -238,8 +238,28 @@
 		}
 	}
 }
-@include breakpoint(tablet) {
+.node-type-book {
 	.left-sidebar-wrapper {
+		padding-top: 40px;
+		position: relative;
+		#collapsed-menu-button {
+			position: absolute;
+			top: 0;
+		}
+		#mobile-menu-inner {
+			position: absolute;
+			top: 0;
+		}
+
+	}
+}
+@include breakpoint(tablet) {
+.node-type-book {
+	.left-sidebar-wrapper {
+		padding-top: 0;
+		}
+		}
+			.left-sidebar-wrapper {
 		.left-menu, .conflicts-menu, .left-menu-footer, .left-book-menu {
 			display: block;
 		}

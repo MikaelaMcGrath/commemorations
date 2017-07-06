@@ -214,8 +214,9 @@
 .multimedia-video, .multimedia-audio {
 
                 .view-content {
+                    flex-wrap: nowrap;
                     .views-row {
-                        flex: 1 0 23%;
+                        flex: 0 1 auto;
                     }
                     .full-video {
                        // width: 100%;
@@ -229,4 +230,20 @@
                     }
                 }
 }
-}}}}
+}}}
+.content-full {
+    .l-content {
+    .content-wrapper {
+    .multimedia-audio, .multimedia-video {
+        .view-content {
+            flex-wrap: wrap;
+            .views-row {
+                flex: 1 0 23%;
+            }
+        }
+    }
+}
+        
+    }
+}
+}

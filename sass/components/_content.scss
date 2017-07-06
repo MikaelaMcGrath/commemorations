@@ -405,6 +405,15 @@
         }
 }
 .node-type-book {
+
+    .views-row-1 {
+        .file-image img {
+            float: left;
+            margin-right: $horz-spacing-unit;
+            max-width: 40%;
+        }
+    }
+    
     .center-wrapper {
         padding: 0;
     }
@@ -427,3 +436,18 @@
     clear: both;
     margin-top:  $vert-spacing-unit;
 }
+@include breakpoint(tablet) {
+    .node-type-book {
+    .views-row-1 {
+        .file-image {
+            img {
+        width: 100%;
+        margin-right: 0;
+        max-width: 100%;
+        float: none;
+    }
+    }
+}
+    }
+}
+

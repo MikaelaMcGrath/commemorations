@@ -17,6 +17,9 @@
 	}
 }
 .education {
+	.masonry-processed {
+		width: 100% !important;
+	}
 	.masonry-item {
 		width: 49%;
 		display: flex;
