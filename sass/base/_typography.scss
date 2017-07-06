@@ -41,7 +41,9 @@ p {
   margin: 0 0 $small-spacing;
   color: $base-font-color;
 }
-
+dl {
+  margin-bottom: $small-spacing;
+}
 a {
   color: $action-color;
   text-decoration: none;
