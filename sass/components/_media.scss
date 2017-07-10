@@ -14,8 +14,13 @@
             height: auto;
             display: block;
         }
+
         a {
         	border-bottom: 0;
+            + br {
+                display: none;
+                visibility: hidden;
+            }
         }
         .caption, .read-more {
             font-size: $small-font-size;
