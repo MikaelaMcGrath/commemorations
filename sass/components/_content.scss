@@ -93,27 +93,26 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        transition: background $base-duration ease;
         h2 {
             flex: 1 0 100%;
         }
-        div {
-            flex: 1 0 47%;
+        &> div {
+            flex: 0 1 48%;
+            border-bottom: 5px $light-grey solid;
             max-width: 350px;
+            margin: $vert-spacing-unit 0;
             .link {
                 display: flex;
                 flex-direction: column;
-                border-bottom: 5px $light-grey solid;
+                
                 text-align: center;
                 margin-bottom: $vert-spacing-unit;
-                padding-bottom: $small-spacing;
-                &:focus, &:hover {
-                    color: $black;
-                    background-color: $light-grey;
-                }
+                
                 a {
                     text-decoration: none;
                     color: $black;
-                    font-size: $base-font-size *1.3;
+                    font-size: $base-font-size *1.1;
                     font-weight: $base-font-weight;
                     img {
                         width: 100%;
@@ -121,16 +120,23 @@
                         display: block;
                         margin-bottom: $small-spacing;
                     }
-                    &:hover, &:focus, &:visited {
-                        color: $black;
-                        opacity: 0.5;
-                        img {
-                            opacity: 1;
-
-                        }
-                    }
+                    
                 }
             }
+            &:focus, &:hover {
+                    color: $black;
+                    background-color: $light-grey;
+                    
+                    a {
+                        opacity: 1;
+                        color: $black;
+                        
+                        img {
+                            opacity: 0.5;
+                        }
+                    
+                    }
+                }
         }
         
     }
@@ -436,7 +442,29 @@
     clear: both;
     margin-top:  $vert-spacing-unit;
 }
+@include breakpoint(mobile) {
+    .links-portal {
+    .view-content {
+     
+        div {
+            flex: 1 0 100%;
+        }
+    }
+}
+}
 @include breakpoint(tablet) {
+    .links-portal {
+    .view-content {
+     
+        div {
+            flex: 0 1 45%;
+            margin: $small-spacing;
+            .link {
+                margin: 0 0 $vert-spacing-unit;
+            }
+        }
+    }
+}
     .node-type-book {
     .views-row-1 {
         .file-image {
@@ -449,5 +477,16 @@
     }
 }
     }
+}
+@include breakpoint(desktop) {
+    .links-portal {
+    .view-content {
+     
+        div {
+          flex: 1 0 auto;
+          margin: $vert-spacing-unit 0;
+        }
+    }
+}
 }
 

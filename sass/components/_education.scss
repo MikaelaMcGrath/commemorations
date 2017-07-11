@@ -23,6 +23,7 @@
 			background: url('../images/down-arrow.png') no-repeat right center $white;
 			background-size: 30px;
 			padding: $small-spacing/2;
+			padding-right: $horz-spacing-unit*1.8;
 			-webkit-appearance: none;
 			border-image: none;
 			border-radius: 0 !important;
@@ -32,6 +33,11 @@
 			}
 
 		}
+	}
+	[type='text'] {
+		border: 1px solid lighten($grey, 50%);
+		border-radius: 0;
+		padding: $small-spacing/2;
 	}
 	.form-radios{
 		display: flex;

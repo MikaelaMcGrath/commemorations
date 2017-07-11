@@ -49,6 +49,16 @@
 				position: relative;
 				text-align: left;
 				text-transform: uppercase;
+				overflow: hidden;
+				max-height: 323px;
+				box-shadow: 0px 1px 10px 0px #000;
+				&:hover, &:focus {
+						opacity: 0.8;
+
+						img {
+   						 	transform: scale(1.05);
+   						 }
+					}
 				.veterans-banner {
 					display: none;
 					visibility: hidden;
@@ -59,10 +69,14 @@
 				}
 				img {
 					display: block;
-					width: 100%;
+					width: auto;
+					height: 100%;
+					transform: scale(1);
+   						transition: all 0.3s ease-in-out;
 				}
 				a {
 					display: inline-block;
+					
 				}
 				h3 {
 						position: absolute;
