@@ -141,8 +141,13 @@
         
     }
 }
-
-.content-full, .node-type-book, .resources,  {
+.page-multimedia {
+    .header {
+        box-shadow: 0px 1px 10px 0px $black;
+        z-index: 10;
+    }
+}
+.content-full, .node-type-book, .resources {
     .header {
         box-shadow: 0px 1px 10px 0px $black;
         z-index: 10;
