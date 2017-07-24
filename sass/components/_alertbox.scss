@@ -1,6 +1,7 @@
 .alertbox {
 	border: $base-border;
 	padding: 0 $horz-spacing-unit $vert-spacing-unit;
+	margin-bottom: $vert-spacing-unit;
 	position: relative;
 	clear: both;
 	&>h2:first-child, &>h3:first-child {
@@ -9,6 +10,12 @@
 		color: white;
 		padding: $all-round;
 		display: block;
+	}
+	&>p:first-child {
+		margin-top: $vert-spacing-unit;
+	}
+	&>p:last-child {
+		margin-bottom: 0;
 	}
 	&+ .alertbox {
 		margin-top: $vert-spacing-unit;

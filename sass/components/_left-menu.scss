@@ -73,8 +73,35 @@
 						ul {
 							background-color: $dark-base;
 							li {
+								&.expanded {
+									background-color: $dark-base;
+								}
 								a {
 									//padding: $vert-spacing-unit/2 $horz-spacing-unit $vert-spacing-unit/2 $horz-spacing-unit*2;
+									&:after {
+										display: none;
+									}
+								}
+								&.menu-mlid-1637  {
+
+								li:first-child {
+											display: list-item;
+											
+										}
+										a:after {
+												display: block;
+											}
+										}
+								ul {
+
+									li {
+										background-color: darken($dark-base, 10%);
+										display: none;
+										a {
+											padding-left: $vert-spacing-unit*2;
+										}
+										
+									}
 								}
 							}
 						}
