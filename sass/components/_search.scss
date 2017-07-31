@@ -3,8 +3,33 @@
 		width: 100%;
 		background: $base;
 		clear: both;
-		padding: $vert-spacing-unit/2 $horz-spacing-unit/2;
-		border-top: 1px solid $dark-base;
+		padding: 0;
+		
+		.search-icon {
+			position:absolute;
+			top: 0;
+			right: 48px;
+			width: 48px;
+			height: 46px;
+			border-right: 1px solid $dark-base;
+			background-color: $base;
+			a {
+				padding: $vert-spacing-unit/2 $horz-spacing-unit/2;
+				display: inline-block;
+				img {
+					height: 30px;
+				}
+			}
+		}
+		.search-function {
+			position: absolute;
+			top: 46px;
+			width: 100%;
+			height: 58px;
+			padding: $vert-spacing-unit/2 $horz-spacing-unit/2;
+			border-top: 1px solid $dark-base;
+			background: $base;
+		}
 		.form-submit {
 			display: none;
 			transition: border $base-duration ease;
@@ -47,12 +72,29 @@
 @include breakpoint(tablet) {
 	.l-header {
 		.search {
+			
+			padding: $vert-spacing-unit/2 $horz-spacing-unit/2;
 			border-top: none;
 			background: $accent;
 			display: flex;
 			align-items: center;
 			justify-content: flex-end;
 			flex: 0 1 23%;
+			.search-icon {
+				display: none;
+				visibility: hidden;
+
+			}
+			.search-function {
+				position: static;
+				top: auto;
+				right: auto;
+				width: auto;
+				padding: 0;
+				height: auto;
+				border-top:none;
+				background: transparent;
+			}
 			form {
 				max-width: 200px;
 				min-width: 125px;

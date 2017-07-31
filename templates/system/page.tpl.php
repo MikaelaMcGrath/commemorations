@@ -103,8 +103,15 @@
         </div>
       </div>
       <div class="search">
-        <?php $search = module_invoke('search', 'block_view', 'search-block-form'); ?>
-        <?php print render($search['content']); ?>
+      <div class="search-icon collapsed">
+          <a href="#">
+            <img src="<?php print base_path() . path_to_theme() . '/images/search.png' ?>" alt="<?php print t('Home'); ?>" />
+          </a>
+        </div>
+        <div class="search-function">
+          <?php $search = module_invoke('search', 'block_view', 'search-block-form'); ?>
+          <?php print render($search['content']); ?>
+        </div>
       </div>
     </div>
 

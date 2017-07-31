@@ -49,8 +49,29 @@
 	.mean-bar {
 		background: transparent;
 		padding-bottom: 0;
+		width: 48px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		&.close {
+			width: 100%;
+			position: relative;
+			top: auto;
+			right: auto;
+		}	
 		a {
 			background: $base;
+			&.meanmenu-reveal {
+			&+ .mean-nav {
+				display: none !important;
+			}
+			&.meanclose {
+				&+ .mean-nav {
+					display: block !important;
+					transition: display $base-duration ease;
+				}
+			}
+		}
 		}
 	}
 	.mean-nav {
