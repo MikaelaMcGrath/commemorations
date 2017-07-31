@@ -1350,11 +1350,11 @@ body {
     background-color: #531b21; }
     /* line 16, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_search.scss */
     .l-header .search .search-icon a {
-      padding: 0.5rem 0.5rem;
+      padding: 0.8rem 0.9rem 0.4rem;
       display: inline-block; }
       /* line 19, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_search.scss */
       .l-header .search .search-icon a img {
-        height: 30px; }
+        height: 20px; }
   /* line 24, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_search.scss */
   .l-header .search .search-function {
     position: absolute;
