@@ -1248,7 +1248,7 @@ body {
       display: none; }
     /* line 69, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
     .mean-container .mean-bar a.meanmenu-reveal.meanclose + .mean-nav {
-      display: block;
+      display: inline;
       transition: display 200ms ease; }
 
 /* line 77, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */

@@ -67,7 +67,7 @@
 			}
 			&.meanclose {
 				&+ .mean-nav {
-					display: block;
+					display: inline;
 					transition: display $base-duration ease;
 				}
 			}
