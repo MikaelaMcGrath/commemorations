@@ -1245,10 +1245,10 @@ body {
     background: #531b21; }
     /* line 65, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
     .mean-container .mean-bar a.meanmenu-reveal + .mean-nav {
-      display: none !important; }
+      display: none; }
     /* line 69, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */
     .mean-container .mean-bar a.meanmenu-reveal.meanclose + .mean-nav {
-      display: block !important;
+      display: block;
       transition: display 200ms ease; }
 
 /* line 77, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_main-menu.scss */

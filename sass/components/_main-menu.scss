@@ -63,11 +63,11 @@
 			background: $base;
 			&.meanmenu-reveal {
 			&+ .mean-nav {
-				display: none !important;
+				display: none;
 			}
 			&.meanclose {
 				&+ .mean-nav {
-					display: block !important;
+					display: block;
 					transition: display $base-duration ease;
 				}
 			}
