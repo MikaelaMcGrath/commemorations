@@ -97,6 +97,9 @@
 									li {
 										background-color: darken($dark-base, 10%);
 										display: none;
+										&.active-trail {
+											display: none;
+										}
 										a {
 											padding-left: $vert-spacing-unit*2;
 										}

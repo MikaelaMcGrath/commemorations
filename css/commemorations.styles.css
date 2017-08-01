@@ -2305,17 +2305,20 @@ ul.breadcrumb {
           background-color: black;
           display: none; }
           /* line 100, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+          .left-sidebar-wrapper .left-menu ul > li > ul > li ul li ul li.active-trail {
+            display: none; }
+          /* line 103, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
           .left-sidebar-wrapper .left-menu ul > li > ul > li ul li ul li a {
             padding-left: 2rem; }
 
-/* line 116, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 119, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 .left-sidebar-wrapper .conflicts-menu ul li.active-trail > ul > li {
   display: list-item; }
 
-/* line 121, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 124, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail > a, .left-sidebar-wrapper .conflicts-menu ul li.expanded.active-trail > a {
   padding-right: 2rem; }
-  /* line 123, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 126, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail > a:after, .left-sidebar-wrapper .conflicts-menu ul li.expanded.active-trail > a:after {
     content: '\025BE';
     position: absolute;
@@ -2324,14 +2327,14 @@ ul.breadcrumb {
     color: #FFFFFF;
     font-size: 1.2em; }
 
-/* line 132, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 135, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 .left-sidebar-wrapper .conflicts-menu ul li.has-children.active-trail.active-trail, .left-sidebar-wrapper .conflicts-menu ul li.expanded.active-trail.active-trail {
   font-weight: 600; }
 
-/* line 137, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 140, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 .left-sidebar-wrapper .conflicts-menu ul li.collapsed > a, .left-sidebar-wrapper .conflicts-menu ul li.has-children > a, .left-sidebar-wrapper .conflicts-menu ul li.expanded > a {
   padding-right: 2rem; }
-  /* line 139, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 142, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   .left-sidebar-wrapper .conflicts-menu ul li.collapsed > a:after, .left-sidebar-wrapper .conflicts-menu ul li.has-children > a:after, .left-sidebar-wrapper .conflicts-menu ul li.expanded > a:after {
     content: '\025B8';
     position: absolute;
@@ -2340,32 +2343,32 @@ ul.breadcrumb {
     color: #FFFFFF;
     font-size: 1.2em; }
 
-/* line 150, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 153, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 .left-sidebar-wrapper .conflicts-menu ul li ul li {
   display: none; }
-  /* line 152, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 155, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   .left-sidebar-wrapper .conflicts-menu ul li ul li a {
     padding: 0.5rem 1rem 0.5rem 2rem; }
-  /* line 157, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 160, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   .left-sidebar-wrapper .conflicts-menu ul li ul li ul li a {
     padding: 0.5rem 1rem 0.5rem 3rem; }
-  /* line 161, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 164, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   .left-sidebar-wrapper .conflicts-menu ul li ul li ul li ul li a {
     padding: 0.5rem 1rem 0.5rem 4rem; }
 
-/* line 171, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 174, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 .left-sidebar-wrapper .sf-accordion > li {
   display: none; }
 
-/* line 174, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 177, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 .left-sidebar-wrapper .sf-accordion li.active-trail {
   display: list-item; }
 
-/* line 177, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 180, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 .left-sidebar-wrapper .sf-accordion .sf-clone-parent {
   display: none; }
 
-/* line 182, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 185, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 #collapsed-menu-button {
   margin: 0;
   border-radius: 0;
@@ -2376,42 +2379,42 @@ ul.breadcrumb {
   width: 100%;
   text-decoration: none;
   font-weight: 300; }
-  /* line 192, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 195, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   #collapsed-menu-button:before {
     content: '\025B8';
     font-size: 1.2em;
     padding-right: 1rem; }
-  /* line 198, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 201, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   #collapsed-menu-button.active:before {
     content: '\025BE'; }
 
-/* line 206, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 209, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 #mobile-menu-wrapper #mobile-menu ul {
   padding: 0; }
-  /* line 208, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 211, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   #mobile-menu-wrapper #mobile-menu ul li {
     border: none;
     border-top: 1px solid #e6e6e6;
     height: 100%; }
-    /* line 212, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+    /* line 215, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
     #mobile-menu-wrapper #mobile-menu ul li.first {
       border-top: none; }
-    /* line 215, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+    /* line 218, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
     #mobile-menu-wrapper #mobile-menu ul li ul {
       border-top: 1px solid #e6e6e6; }
-      /* line 218, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+      /* line 221, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
       #mobile-menu-wrapper #mobile-menu ul li ul li a {
         padding-left: 1.5rem; }
-      /* line 222, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+      /* line 225, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
       #mobile-menu-wrapper #mobile-menu ul li ul li li a {
         padding-left: 3rem; }
-      /* line 226, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+      /* line 229, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
       #mobile-menu-wrapper #mobile-menu ul li ul li li li a {
         padding-left: 4.5rem; }
-      /* line 230, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+      /* line 233, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
       #mobile-menu-wrapper #mobile-menu ul li ul li li li li a {
         padding-left: 6rem; }
-    /* line 238, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+    /* line 241, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
     #mobile-menu-wrapper #mobile-menu ul li div.submenu-title {
       border-bottom: none;
       background-image: none;
@@ -2419,7 +2422,7 @@ ul.breadcrumb {
       display: -ms-flexbox;
       display: flex;
       height: 100%; }
-      /* line 243, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+      /* line 246, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
       #mobile-menu-wrapper #mobile-menu ul li div.submenu-title:after {
         content: '\025B8';
         -ms-flex-item-align: center;
@@ -2427,35 +2430,35 @@ ul.breadcrumb {
             align-self: center;
         font-size: 1.2em;
         padding: 0 2.5%; }
-    /* line 252, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+    /* line 255, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
     #mobile-menu-wrapper #mobile-menu ul li.active > div.submenu-title:after {
       content: '\025BE';
       padding: 0 2.2%; }
-    /* line 258, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+    /* line 261, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
     #mobile-menu-wrapper #mobile-menu ul li a {
       width: 95%;
       padding: 0.3333333333rem;
       display: inline-block;
       border-right: none; }
 
-/* line 269, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+/* line 272, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
 .node-type-book .left-sidebar-wrapper {
   padding-top: 40px;
   position: relative; }
-  /* line 272, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 275, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   .node-type-book .left-sidebar-wrapper #collapsed-menu-button {
     position: absolute;
     top: 0; }
-  /* line 276, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 279, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   .node-type-book .left-sidebar-wrapper #mobile-menu-inner {
     position: absolute;
     top: 0; }
 
 @media (min-width: 768px) {
-  /* line 285, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 288, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   .node-type-book .left-sidebar-wrapper {
     padding-top: 0; }
-  /* line 290, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
+  /* line 293, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
   .left-sidebar-wrapper .left-menu, .left-sidebar-wrapper .conflicts-menu, .left-sidebar-wrapper .left-menu-footer, .left-sidebar-wrapper .left-book-menu {
     display: block; } }
 
