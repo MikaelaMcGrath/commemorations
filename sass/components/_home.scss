@@ -164,7 +164,6 @@
 			}
 			.target-content {
 				background-color: $kokoda;
-				margin-top: $vert-spacing-unit;
 				position: relative;
 				h2 {
 					margin: 0;
@@ -235,6 +234,7 @@
 			}
 			.run-event {
 				background-color: $seasia;
+				margin-bottom: $vert-spacing-unit;
 				p {
 					margin-bottom: 0;
 				}
