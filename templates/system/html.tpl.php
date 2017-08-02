@@ -62,6 +62,12 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <link href="<?php print base_path() . path_to_theme() . '/fonts/open-sans.css' ?>" rel="stylesheet">
+  <script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0067/5679.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
 </head>
 <body<?php print $attributes;?>>
   <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
