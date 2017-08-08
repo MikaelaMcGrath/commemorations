@@ -211,5 +211,6 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
+
 })(jQuery);
 
