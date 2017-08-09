@@ -4085,17 +4085,20 @@ ul.breadcrumb {
 
 /* line 2, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
 .video-gallery .views-slideshow-cycle-main-frame {
-  padding-bottom: 70%;
+  padding-bottom: 1rem;
   width: 100% !important; }
   /* line 5, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+  .video-gallery .views-slideshow-cycle-main-frame.multi-gallery {
+    padding-bottom: 70%; }
+  /* line 9, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
   .video-gallery .views-slideshow-cycle-main-frame .views-slideshow-cycle-main-frame-row {
     width: 100% !important;
     height: auto !important; }
-    /* line 8, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+    /* line 12, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
     .video-gallery .views-slideshow-cycle-main-frame .views-slideshow-cycle-main-frame-row .full-video {
       margin: 0 auto; }
 
-/* line 13, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+/* line 18, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
 .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4103,7 +4106,7 @@ ul.breadcrumb {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 1rem; }
-  /* line 17, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+  /* line 22, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
   .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item {
     border: 1px solid #e6e6e6;
     -webkit-box-flex: 0;
@@ -4111,44 +4114,44 @@ ul.breadcrumb {
             flex: 0 1 30%;
     padding-left: 0;
     margin: 0.375em; }
-    /* line 24, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+    /* line 29, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
     .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item:hover a, .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item:focus a {
       color: #9e0b0f; }
-    /* line 28, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+    /* line 33, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
     .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item.active {
       border: 1px solid #000000;
       text-decoration: none; }
-      /* line 31, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+      /* line 36, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
       .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item.active img {
         border: none; }
-    /* line 36, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+    /* line 41, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
     .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item .views-content-field-image img {
       width: 100%;
       height: auto;
       max-width: none;
       max-height: none; }
-    /* line 43, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+    /* line 48, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
     .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item .views-field-title {
       padding: 0 0.375em 0.375em;
       text-align: center;
       display: block; }
-      /* line 47, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+      /* line 52, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
       .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item .views-field-title a {
         font-size: 0.7em;
         text-decoration: none; }
 
 @media (min-width: 768px) {
-  /* line 62, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+  /* line 67, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
   .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 22%;
             flex: 0 1 22%; } }
 
 @media (min-width: 1120px) {
-  /* line 70, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
-  .video-gallery .views-slideshow-cycle-main-frame {
+  /* line 76, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+  .video-gallery .views-slideshow-cycle-main-frame.multi-gallery {
     padding-bottom: 58%; }
-  /* line 74, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
+  /* line 82, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_video-gallery.scss */
   .video-gallery #widget_pager_bottom_video_gallery-panel_pane_1_1 .views-slideshow-pager-field-item {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 18.4%;

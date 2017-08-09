@@ -1,7 +1,11 @@
 .video-gallery {
 	.views-slideshow-cycle-main-frame  {
-		padding-bottom: 70%;
+		padding-bottom: $horz-spacing-unit;
 		width: 100% !important;
+		&.multi-gallery {
+			padding-bottom: 70%;
+		}
+		
 		.views-slideshow-cycle-main-frame-row {
 			width: 100% !important;
 			height: auto !important;
@@ -10,6 +14,7 @@
 			}
 		}
 	}
+
 	#widget_pager_bottom_video_gallery-panel_pane_1_1 {
 		display: flex;
 		flex-wrap: wrap;
@@ -68,7 +73,10 @@
 @include breakpoint(desktop) {
 	.video-gallery {
 	.views-slideshow-cycle-main-frame  {
-		padding-bottom: 58%;
+		&.multi-gallery {
+			padding-bottom: 58%;
+		}
+		
 	}
 	#widget_pager_bottom_video_gallery-panel_pane_1_1 {
 		.views-slideshow-pager-field-item {
