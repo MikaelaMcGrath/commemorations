@@ -2295,7 +2295,7 @@ ul.breadcrumb {
         .left-sidebar-wrapper .left-menu ul > li > ul > li ul li a:after {
           display: none; }
         /* line 87, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
-        .left-sidebar-wrapper .left-menu ul > li > ul > li ul li.menu-mlid-1637 li:first-child {
+        .left-sidebar-wrapper .left-menu ul > li > ul > li ul li.menu-mlid-1637 li:first-child, .left-sidebar-wrapper .left-menu ul > li > ul > li ul li.menu-mlid-1637 li:nth-child(2) {
           display: list-item; }
         /* line 91, Users/dvauser/Sites/devdesktop/Anzac-Portal/sites/all/themes/custom/commemorations/sass/components/_left-menu.scss */
         .left-sidebar-wrapper .left-menu ul > li > ul > li ul li.menu-mlid-1637 a:after {
