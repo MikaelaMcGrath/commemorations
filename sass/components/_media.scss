@@ -101,6 +101,10 @@
     .media-thumbnail {
         max-width: 170px;
         width: 50%;
+        img + br {
+            display: none;
+            visibility: hidden;
+        }
     }
     .document {
         display: flex;
