@@ -2,15 +2,29 @@
   "name": "commemorations",
   "version": "1.0.0",
   "scripts": {
-    "sass:dev": "./node_modules/.bin/gulp",
-    "sass:prod": "./node_modules/.bin/gulp sass:prod"
+    "sass:dev": "gulp",
+    "sass:prod": "gulp sass:prod",
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^2.3.1",
-    "gulp-sass": "^2.0.4",
+    "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-watch": "^4.3.3"
-  }
+  },
+  "description": "Gulp theme for Anzac Portal",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://MikaelaMcGrath@github.com/MikaelaMcGrath/commemorations.git"
+  },
+  "author": "Mikaela McGrath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikaelaMcGrath/commemorations/issues"
+  },
+  "homepage": "https://github.com/MikaelaMcGrath/commemorations#readme"
 }
