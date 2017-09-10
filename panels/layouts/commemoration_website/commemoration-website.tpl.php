@@ -18,6 +18,9 @@
 		<div class="right-sidebar-wrapper">
 			<?php print $content['right-sidebar']; ?>
 		</div>
+		<div class="middle">
+			<?php print $content['middle']; ?>
+		</div>
 	</div>
 </div>
 <div class="sub-footer-wrapper">
