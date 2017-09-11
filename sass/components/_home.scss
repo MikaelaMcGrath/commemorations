@@ -31,7 +31,7 @@
 				}
 			}
 		}
-		.center-wrapper {
+		.center-wrapper, .middle-lower {
 			padding: $all-round;
 			 .conflicts-content {
 				.view-content {
@@ -51,6 +51,7 @@
 				text-transform: uppercase;
 				overflow: hidden;
 				box-shadow: 0px 1px 10px 0px #000;
+				margin-bottom: $vert-spacing-unit;
 				&:hover, &:focus {
 						opacity: 0.8;
 
@@ -100,7 +101,7 @@
 				}
 			}
 		}
-		.middle-wrapper {
+		.middle-wrapper, .middle-lower {
 			padding: 0 $horz-spacing-unit $vert-spacing-unit;
 			h2 {
 				text-transform: uppercase;
@@ -124,6 +125,7 @@
 				margin: 0 auto;
 				width: 100%;
 				max-width: none;
+				margin-bottom: $vert-spacing-unit; 
 				.caption, .read-more, .button {
 					display: none;
 					visibility: hidden;
@@ -237,7 +239,6 @@
 			}
 			.run-event {
 				background-color: $seasia;
-				margin-bottom: $vert-spacing-unit;
 				p {
 					margin-bottom: 0;
 				}
@@ -264,7 +265,7 @@
 					height: 300px;
 				}
 			}
-			.center-wrapper {
+			.center-wrapper, .middle-lower {
 				.conflicts-content {
 					.view-content {
 
@@ -289,6 +290,23 @@
 						visibility: visible;
 					}
 					
+				}
+			}
+			.middle-lower {
+				display: flex;
+				flex-wrap: wrap;
+				.pane-block-4 {
+					flex: 1 0 100%;
+				}
+				.subscribe, .run-event {
+					flex: 1 0 48%;
+				}
+				.subscribe {
+					margin-bottom: 0;
+					margin-right: $horz-spacing-unit/2;
+				}
+				.run-event {
+					margin-left: $horz-spacing-unit/2;
 				}
 			}
 			.middle-wrapper {
@@ -318,7 +336,7 @@
 @include breakpoint(desktop) {
 	.front {
 		.l-content {
-			.center-wrapper {
+			.center-wrapper, .middle-lower {
 				.veterans-story {
 					h3 {
 						width: 25%;
