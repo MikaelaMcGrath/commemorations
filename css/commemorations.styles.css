@@ -313,7 +313,7 @@ sub {
     .l-content ol ol ol {
       list-style-type: lower-roman; }
 
-.l-content .font-small {
+.l-content .font-small, .l-content .small-font {
   font-size: 0.7em; }
 
 .l-content a {
@@ -328,7 +328,7 @@ sub {
   border-left: 4px solid #e6e6e6;
   padding-left: 1rem;
   overflow: hidden; }
-  .l-content blockquote .font-normal, .l-content cite .font-normal {
+  .l-content blockquote .font-normal, .l-content blockquote .normal-font, .l-content cite .font-normal, .l-content cite .normal-font {
     font-style: normal; }
   .l-content blockquote p:last-child, .l-content cite p:last-child {
     margin-bottom: 0; }
