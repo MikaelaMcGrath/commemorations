@@ -1500,6 +1500,8 @@ ul.breadcrumb {
           left: 0;
           width: 45px;
           height: 2px; }
+  .front .l-content .middle-wrapper .latest-publications .publication:nth-child(2) > div, .front .l-content .middle-lower .latest-publications .publication:nth-child(2) > div {
+    padding-bottom: 0; }
   .front .l-content .middle-wrapper .target-content, .front .l-content .middle-lower .target-content {
     background-color: #80765c;
     position: relative; }

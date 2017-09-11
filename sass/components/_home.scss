@@ -132,6 +132,7 @@
 				}
 			}
 			.latest-publications {
+
 				.publication > div {
 					display: flex;
 					padding-bottom: $vert-spacing-unit;
@@ -166,6 +167,12 @@
 						}	
 					}
 				}
+				.publication:nth-child(2) {
+					&> div {
+						padding-bottom: 0;
+					}
+				}
+
 			}
 			.target-content {
 				background-color: $kokoda;
