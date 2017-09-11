@@ -1596,8 +1596,8 @@ ul.breadcrumb {
               flex: 1 0 100%; }
     .front .l-content .middle-lower .subscribe, .front .l-content .middle-lower .run-event {
       -webkit-box-flex: 1;
-          -ms-flex: 1 0 46%;
-              flex: 1 0 46%; }
+          -ms-flex: 1 0 44%;
+              flex: 1 0 44%; }
     .front .l-content .middle-lower .subscribe {
       margin-bottom: 0;
       margin-right: 0.5rem; }
