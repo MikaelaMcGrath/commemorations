@@ -652,6 +652,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logo-anzac.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-anzac.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/logo-gov.png": {
 		"ft": 32768,
 		"iS": 36498,
@@ -799,6 +809,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/min\/gulpfile-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/min\/gulpfile-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/node_modules": {
 		"ft": 65536,
@@ -1688,6 +1708,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/sass\/components\/_content.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_content.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/sass\/components\/_education.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2012,6 +2045,17 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/screenshot.png": {
+		"ft": 32768,
+		"iS": 4603,
+		"oA": 0,
+		"oAP": "\/screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/template.php": {
 		"ft": 8192,

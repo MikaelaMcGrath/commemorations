@@ -3390,3 +3390,124 @@ ul.breadcrumb {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 18.2%;
             flex: 0 1 18.2%; } }
+
+.views-slideshow-controls-top {
+  width: 100%; }
+  .views-slideshow-controls-top a, .views-slideshow-controls-top .active {
+    text-decoration: none; }
+    .views-slideshow-controls-top a:focus, .views-slideshow-controls-top a:hover, .views-slideshow-controls-top .active:focus, .views-slideshow-controls-top .active:hover {
+      text-decoration: none; }
+  .views-slideshow-controls-top div.views-slideshow-pager-fields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .views-slideshow-controls-top div.views-slideshow-pager-fields .button-secondary {
+      max-width: none;
+      width: auto;
+      margin: 0.25rem 0;
+      display: block; }
+    .views-slideshow-controls-top div.views-slideshow-pager-fields #views_slideshow_pager_field_item_top_video_gallery-panel_pane_2_1_0 {
+      display: none;
+      visibility: hidden; }
+
+.activities .views-slideshow-controls-top {
+  width: 100%; }
+  .activities .views-slideshow-controls-top a, .activities .views-slideshow-controls-top .active {
+    text-decoration: none; }
+    .activities .views-slideshow-controls-top a:focus, .activities .views-slideshow-controls-top a:hover, .activities .views-slideshow-controls-top .active:focus, .activities .views-slideshow-controls-top .active:hover {
+      text-decoration: none; }
+  .activities .views-slideshow-controls-top div.views-slideshow-pager-fields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .activities .views-slideshow-controls-top div.views-slideshow-pager-fields > div {
+      padding: 0 5px; }
+    .activities .views-slideshow-controls-top div.views-slideshow-pager-fields .button-secondary {
+      max-width: none;
+      width: auto;
+      margin: 0.25rem 0;
+      display: block; }
+    .activities .views-slideshow-controls-top div.views-slideshow-pager-fields #views_slideshow_pager_field_item_top_video_gallery-panel_pane_2_1_0 {
+      display: none;
+      visibility: hidden; }
+
+.activities .views-field-field-subtitle {
+  text-transform: uppercase;
+  font-weight: 300; }
+
+.activities .ui-corner-all, .activities .ui-corner-bottom, .activities .ui-corner-right {
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 0; }
+
+.activities .ui-corner-br, .activities .ui-corner-left, .activities .ui-corner-bl, .activities .ui-corner-top, .activities .ui-corner-tr, .activities .ui-corner-tl {
+  border-bottom: 0;
+  border-top: 0; }
+
+.activities .ui-accordion .ui-accordion-icons:after {
+  left: 1rem;
+  right: auto; }
+
+.activities .ui-accordion .ui-accordion-icons {
+  padding-left: 2em; }
+
+.activities .jquery-ui-filter {
+  margin-bottom: 1rem; }
+
+.activities .views_slideshow_cycle_main div {
+  margin: 0 auto; }
+  .activities .views_slideshow_cycle_main div img {
+    max-height: 400px;
+    width: auto; }
+
+.activities .webform-client-form {
+  width: 100%; }
+  .activities .webform-client-form > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+    .activities .webform-client-form > div div {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 100%;
+              flex: 1 0 100%; }
+    .activities .webform-client-form > div .webform-component--email {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 35%;
+              flex: 0 1 35%; }
+      .activities .webform-client-form > div .webform-component--email [type='email'] {
+        margin-bottom: 0; }
+    .activities .webform-client-form > div .form-actions {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 20%;
+              flex: 0 1 20%;
+      margin-bottom: 0; }
+      .activities .webform-client-form > div .form-actions .webform-submit {
+        margin: 0 0 1rem 1rem;
+        padding: 0.8rem 0.75rem; }
+
+.activities table tbody tr {
+  background-color: transparent; }
+  .activities table tbody tr .webform-grid-question {
+    min-width: 100px; }
+    .activities table tbody tr .webform-grid-question img {
+      display: block; }
+
+@media (min-width: 768px) {
+  .activities .webform-component--email {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 45%;
+            flex: 1 0 45%; } }
