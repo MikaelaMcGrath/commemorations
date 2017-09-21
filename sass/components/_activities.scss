@@ -31,6 +31,9 @@
 	}
 }
 .activities {
+	.contextual-links-region {
+		width: 100%;
+	}
 	.views-slideshow-controls-top {
 	width: 100%;
 	a, .active {
@@ -94,6 +97,8 @@
 		img {
 			max-height: 400px;
 			width: auto;
+			display: block;
+			margin: $vert-spacing-unit*0.5 auto;
 		}
 	}
 	.webform-client-form {
@@ -125,6 +130,7 @@
 		
 	}
 	table {
+		margin: 0 auto;
 		th {
 			font-size: $base-font-size *0.5;
 		}

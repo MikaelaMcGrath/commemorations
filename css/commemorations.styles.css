@@ -3415,6 +3415,9 @@ ul.breadcrumb {
       display: none;
       visibility: hidden; }
 
+.activities .contextual-links-region {
+  width: 100%; }
+
 .activities .views-slideshow-controls-top {
   width: 100%; }
   .activities .views-slideshow-controls-top a, .activities .views-slideshow-controls-top .active {
@@ -3467,7 +3470,9 @@ ul.breadcrumb {
   margin: 0 auto; }
   .activities .views_slideshow_cycle_main div img {
     max-height: 400px;
-    width: auto; }
+    width: auto;
+    display: block;
+    margin: 0.5rem auto; }
 
 .activities .webform-client-form {
   width: 100%; }
@@ -3499,16 +3504,17 @@ ul.breadcrumb {
         margin: 0 0 1rem 1rem;
         padding: 0.8rem 0.75rem; }
 
-.activities table th {
-  font-size: 0.5em; }
-
-.activities table tbody tr {
-  background-color: transparent; }
-  .activities table tbody tr .webform-grid-question {
-    min-width: 50px; }
-    .activities table tbody tr .webform-grid-question img {
-      display: block;
-      max-width: 50px; }
+.activities table {
+  margin: 0 auto; }
+  .activities table th {
+    font-size: 0.5em; }
+  .activities table tbody tr {
+    background-color: transparent; }
+    .activities table tbody tr .webform-grid-question {
+      min-width: 50px; }
+      .activities table tbody tr .webform-grid-question img {
+        display: block;
+        max-width: 50px; }
 
 @media (min-width: 768px) {
   .activities .webform-component--email {
