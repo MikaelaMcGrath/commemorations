@@ -125,12 +125,16 @@
 		
 	}
 	table {
+		th {
+			font-size: $base-font-size *0.5;
+		}
 		tbody tr {
 			background-color: transparent;
 			.webform-grid-question {
-				min-width: 100px;
+				min-width: 50px;
 				img {
 					display: block;
+					max-width: 50px;
 				}
 			}
 		}
@@ -142,6 +146,20 @@
 		.webform-component--email {
 			flex: 1 0 45%;
 		}
+		table {
+		th {
+			font-size: $base-font-size;
+		}
+		tbody tr {
+			.webform-grid-question {
+				min-width: 100px;
+				img {
+					max-width: 100px;
+				}
+			}
+		}
 	}
+	}
+
 	}
 

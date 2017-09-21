@@ -3499,15 +3499,25 @@ ul.breadcrumb {
         margin: 0 0 1rem 1rem;
         padding: 0.8rem 0.75rem; }
 
+.activities table th {
+  font-size: 0.5em; }
+
 .activities table tbody tr {
   background-color: transparent; }
   .activities table tbody tr .webform-grid-question {
-    min-width: 100px; }
+    min-width: 50px; }
     .activities table tbody tr .webform-grid-question img {
-      display: block; }
+      display: block;
+      max-width: 50px; }
 
 @media (min-width: 768px) {
   .activities .webform-component--email {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 45%;
-            flex: 1 0 45%; } }
+            flex: 1 0 45%; }
+  .activities table th {
+    font-size: 1em; }
+  .activities table tbody tr .webform-grid-question {
+    min-width: 100px; }
+    .activities table tbody tr .webform-grid-question img {
+      max-width: 100px; } }
