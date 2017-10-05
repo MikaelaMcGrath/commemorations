@@ -3411,9 +3411,6 @@ ul.breadcrumb {
       width: auto;
       margin: 0.25rem 0;
       display: block; }
-    .views-slideshow-controls-top div.views-slideshow-pager-fields #views_slideshow_pager_field_item_top_video_gallery-panel_pane_2_1_0 {
-      display: none;
-      visibility: hidden; }
 
 .activities .contextual-links-region {
   width: 100%; }
@@ -3440,9 +3437,6 @@ ul.breadcrumb {
       width: auto;
       margin: 0.25rem 0;
       display: block; }
-    .activities .views-slideshow-controls-top div.views-slideshow-pager-fields #views_slideshow_pager_field_item_top_video_gallery-panel_pane_2_1_0 {
-      display: none;
-      visibility: hidden; }
 
 .activities .pane-video-gallery-panel-pane-2 {
   width: 100%; }
