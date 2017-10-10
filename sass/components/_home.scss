@@ -132,10 +132,8 @@
 				}
 			}
 			.latest-publications {
-				.publication {
-					width: 100%;
-				}
 				.publication > div, .view-content > div {
+					width: 100%;
 					display: flex;
 					padding-bottom: $vert-spacing-unit;
 					.publication-image, .education-image {

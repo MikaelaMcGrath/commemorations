@@ -1462,9 +1462,8 @@ ul.breadcrumb {
     .front .l-content .middle-wrapper .full-video .caption, .front .l-content .middle-wrapper .full-video .read-more, .front .l-content .middle-wrapper .full-video .button, .front .l-content .middle-wrapper .middle-video .caption, .front .l-content .middle-wrapper .middle-video .read-more, .front .l-content .middle-wrapper .middle-video .button, .front .l-content .middle-lower .full-video .caption, .front .l-content .middle-lower .full-video .read-more, .front .l-content .middle-lower .full-video .button, .front .l-content .middle-lower .middle-video .caption, .front .l-content .middle-lower .middle-video .read-more, .front .l-content .middle-lower .middle-video .button {
       display: none;
       visibility: hidden; }
-  .front .l-content .middle-wrapper .latest-publications .publication, .front .l-content .middle-lower .latest-publications .publication {
-    width: 100%; }
   .front .l-content .middle-wrapper .latest-publications .publication > div, .front .l-content .middle-wrapper .latest-publications .view-content > div, .front .l-content .middle-lower .latest-publications .publication > div, .front .l-content .middle-lower .latest-publications .view-content > div {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
