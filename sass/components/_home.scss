@@ -132,7 +132,9 @@
 				}
 			}
 			.latest-publications {
-
+				.publication {
+					width: 100%;
+				}
 				.publication > div, .view-content > div {
 					display: flex;
 					padding-bottom: $vert-spacing-unit;
