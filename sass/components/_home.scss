@@ -125,7 +125,7 @@
 				margin: 0 auto;
 				width: 100%;
 				max-width: none;
-				margin-bottom: $vert-spacing-unit; 
+				margin-bottom: 0; 
 				.caption, .read-more, .button {
 					display: none;
 					visibility: hidden;
@@ -133,10 +133,10 @@
 			}
 			.latest-publications {
 
-				.publication > div {
+				.publication > div, .view-content > div {
 					display: flex;
 					padding-bottom: $vert-spacing-unit;
-					.publication-image {
+					.publication-image, .education-image {
 						flex: 0 1 30%;
 						padding: 0 $horz-spacing-unit 0 0;
 						img {
@@ -144,7 +144,7 @@
 							height: auto;
 						}
 					}
-					.publication-content {
+					.publication-content, .education-body {
 						flex: 0 1 70%;
 						display: flex;
 						flex-direction: column;
@@ -166,6 +166,66 @@
 							}
 						}	
 					}
+					.education-body {
+							ul {
+				margin: 0;
+				padding: 0;
+				li {
+					display: flex;
+					align-items: flex-start;
+					justify-content: space-between;
+					margin-bottom: $small-spacing/2;
+					position: relative;
+					font-size: $base-font-size * 0.8;
+				}
+						}
+						.link a, .file > a {
+				            appearance: none;
+				            background-color: $ww1;
+				            border: 1px solid $white;
+				            color: $white;
+				            cursor: pointer;
+				            display: inline-block;
+				            -webkit-font-smoothing: antialiased;
+				            font-weight: 500;
+				            line-height: 1;
+				            padding: $small-spacing;
+				            text-align: center;
+				            text-decoration: none;
+				            transition: background-color $base-duration $base-timing;
+				            user-select: none;
+				            vertical-align: middle;
+				            white-space: nowrap;
+				            text-transform: uppercase;
+				            &:hover,
+				            &:focus {
+				                background-color: lighten($ww1, 10%);
+				            }
+				            &:active {
+				                box-shadow: inset 0 0 10px $black;
+				            }
+				            &:disabled {
+				                cursor: not-allowed;
+				                opacity: 0.5;
+
+				                &:hover {
+				                    background-color: $action-color;
+				                }
+				            }
+        				}
+        				.field--type-text {
+								font-weight: $bold-font-weight;
+								margin: 0 auto 0 0;
+								padding-right: $small-spacing;
+							}
+							.file-size, .file-icon {
+								display: none;
+								visibility: hidden;
+							}
+							.field--name-field-accessible-alternative {
+								margin-left: $small-spacing/1.5;
+							}
+					}
 				}
 				.publication:nth-child(2) {
 					&> div {
@@ -175,7 +235,7 @@
 
 			}
 			.target-content {
-				background-color: $kokoda;
+				background-color: $remembrance-day;
 				position: relative;
 				h2 {
 					margin: 0;
@@ -237,7 +297,7 @@
 			.subscribe {
 				background: url('../images/subscribe-background.png') no-repeat;
 				background-size: 100% auto;
-				margin-bottom: $vert-spacing-unit;
+				margin-bottom: 0;
 				.email {
 					max-width: none;
 					width: 100%;
@@ -246,6 +306,7 @@
 			}
 			.run-event {
 				background-color: $seasia;
+				margin-bottom: $vert-spacing-unit;
 				p {
 					margin-bottom: 0;
 				}

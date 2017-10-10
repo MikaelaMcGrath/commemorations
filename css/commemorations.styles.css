@@ -1458,24 +1458,24 @@ ul.breadcrumb {
     margin: 0 auto;
     width: 100%;
     max-width: none;
-    margin-bottom: 1rem; }
+    margin-bottom: 0; }
     .front .l-content .middle-wrapper .full-video .caption, .front .l-content .middle-wrapper .full-video .read-more, .front .l-content .middle-wrapper .full-video .button, .front .l-content .middle-wrapper .middle-video .caption, .front .l-content .middle-wrapper .middle-video .read-more, .front .l-content .middle-wrapper .middle-video .button, .front .l-content .middle-lower .full-video .caption, .front .l-content .middle-lower .full-video .read-more, .front .l-content .middle-lower .full-video .button, .front .l-content .middle-lower .middle-video .caption, .front .l-content .middle-lower .middle-video .read-more, .front .l-content .middle-lower .middle-video .button {
       display: none;
       visibility: hidden; }
-  .front .l-content .middle-wrapper .latest-publications .publication > div, .front .l-content .middle-lower .latest-publications .publication > div {
+  .front .l-content .middle-wrapper .latest-publications .publication > div, .front .l-content .middle-wrapper .latest-publications .view-content > div, .front .l-content .middle-lower .latest-publications .publication > div, .front .l-content .middle-lower .latest-publications .view-content > div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding-bottom: 1rem; }
-    .front .l-content .middle-wrapper .latest-publications .publication > div .publication-image, .front .l-content .middle-lower .latest-publications .publication > div .publication-image {
+    .front .l-content .middle-wrapper .latest-publications .publication > div .publication-image, .front .l-content .middle-wrapper .latest-publications .publication > div .education-image, .front .l-content .middle-wrapper .latest-publications .view-content > div .publication-image, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-image, .front .l-content .middle-lower .latest-publications .publication > div .publication-image, .front .l-content .middle-lower .latest-publications .publication > div .education-image, .front .l-content .middle-lower .latest-publications .view-content > div .publication-image, .front .l-content .middle-lower .latest-publications .view-content > div .education-image {
       -webkit-box-flex: 0;
           -ms-flex: 0 1 30%;
               flex: 0 1 30%;
       padding: 0 1rem 0 0; }
-      .front .l-content .middle-wrapper .latest-publications .publication > div .publication-image img, .front .l-content .middle-lower .latest-publications .publication > div .publication-image img {
+      .front .l-content .middle-wrapper .latest-publications .publication > div .publication-image img, .front .l-content .middle-wrapper .latest-publications .publication > div .education-image img, .front .l-content .middle-wrapper .latest-publications .view-content > div .publication-image img, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-image img, .front .l-content .middle-lower .latest-publications .publication > div .publication-image img, .front .l-content .middle-lower .latest-publications .publication > div .education-image img, .front .l-content .middle-lower .latest-publications .view-content > div .publication-image img, .front .l-content .middle-lower .latest-publications .view-content > div .education-image img {
         width: 100%;
         height: auto; }
-    .front .l-content .middle-wrapper .latest-publications .publication > div .publication-content, .front .l-content .middle-lower .latest-publications .publication > div .publication-content {
+    .front .l-content .middle-wrapper .latest-publications .publication > div .publication-content, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body, .front .l-content .middle-wrapper .latest-publications .view-content > div .publication-content, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body, .front .l-content .middle-lower .latest-publications .publication > div .publication-content, .front .l-content .middle-lower .latest-publications .publication > div .education-body, .front .l-content .middle-lower .latest-publications .view-content > div .publication-content, .front .l-content .middle-lower .latest-publications .view-content > div .education-body {
       -webkit-box-flex: 0;
           -ms-flex: 0 1 70%;
               flex: 0 1 70%;
@@ -1486,13 +1486,13 @@ ul.breadcrumb {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; }
-      .front .l-content .middle-wrapper .latest-publications .publication > div .publication-content p, .front .l-content .middle-lower .latest-publications .publication > div .publication-content p {
+      .front .l-content .middle-wrapper .latest-publications .publication > div .publication-content p, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body p, .front .l-content .middle-wrapper .latest-publications .view-content > div .publication-content p, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body p, .front .l-content .middle-lower .latest-publications .publication > div .publication-content p, .front .l-content .middle-lower .latest-publications .publication > div .education-body p, .front .l-content .middle-lower .latest-publications .view-content > div .publication-content p, .front .l-content .middle-lower .latest-publications .view-content > div .education-body p {
         font-size: 0.8em; }
-      .front .l-content .middle-wrapper .latest-publications .publication > div .publication-content .title, .front .l-content .middle-lower .latest-publications .publication > div .publication-content .title {
+      .front .l-content .middle-wrapper .latest-publications .publication > div .publication-content .title, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .title, .front .l-content .middle-wrapper .latest-publications .view-content > div .publication-content .title, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .title, .front .l-content .middle-lower .latest-publications .publication > div .publication-content .title, .front .l-content .middle-lower .latest-publications .publication > div .education-body .title, .front .l-content .middle-lower .latest-publications .view-content > div .publication-content .title, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .title {
         font-size: 1em;
         position: relative;
         padding-top: 0.5rem; }
-        .front .l-content .middle-wrapper .latest-publications .publication > div .publication-content .title:before, .front .l-content .middle-lower .latest-publications .publication > div .publication-content .title:before {
+        .front .l-content .middle-wrapper .latest-publications .publication > div .publication-content .title:before, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .title:before, .front .l-content .middle-wrapper .latest-publications .view-content > div .publication-content .title:before, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .title:before, .front .l-content .middle-lower .latest-publications .publication > div .publication-content .title:before, .front .l-content .middle-lower .latest-publications .publication > div .education-body .title:before, .front .l-content .middle-lower .latest-publications .view-content > div .publication-content .title:before, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .title:before {
           content: '';
           background: #474747;
           position: absolute;
@@ -1500,10 +1500,67 @@ ul.breadcrumb {
           left: 0;
           width: 45px;
           height: 2px; }
+    .front .l-content .middle-wrapper .latest-publications .publication > div .education-body ul, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body ul, .front .l-content .middle-lower .latest-publications .publication > div .education-body ul, .front .l-content .middle-lower .latest-publications .view-content > div .education-body ul {
+      margin: 0;
+      padding: 0; }
+      .front .l-content .middle-wrapper .latest-publications .publication > div .education-body ul li, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body ul li, .front .l-content .middle-lower .latest-publications .publication > div .education-body ul li, .front .l-content .middle-lower .latest-publications .view-content > div .education-body ul li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 0.375em;
+        position: relative;
+        font-size: 0.8em; }
+    .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .link a, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .file > a, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .link a, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .file > a, .front .l-content .middle-lower .latest-publications .publication > div .education-body .link a, .front .l-content .middle-lower .latest-publications .publication > div .education-body .file > a, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .link a, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .file > a {
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      background-color: #727966;
+      border: 1px solid #FFFFFF;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      -webkit-font-smoothing: antialiased;
+      font-weight: 500;
+      line-height: 1;
+      padding: 0.75em;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 200ms ease;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+      text-transform: uppercase; }
+      .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .link a:hover, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .link a:focus, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .file > a:hover, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .file > a:focus, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .link a:hover, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .link a:focus, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .file > a:hover, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .file > a:focus, .front .l-content .middle-lower .latest-publications .publication > div .education-body .link a:hover, .front .l-content .middle-lower .latest-publications .publication > div .education-body .link a:focus, .front .l-content .middle-lower .latest-publications .publication > div .education-body .file > a:hover, .front .l-content .middle-lower .latest-publications .publication > div .education-body .file > a:focus, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .link a:hover, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .link a:focus, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .file > a:hover, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .file > a:focus {
+        background-color: #8c937f; }
+      .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .link a:active, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .file > a:active, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .link a:active, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .file > a:active, .front .l-content .middle-lower .latest-publications .publication > div .education-body .link a:active, .front .l-content .middle-lower .latest-publications .publication > div .education-body .file > a:active, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .link a:active, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .file > a:active {
+        box-shadow: inset 0 0 10px #000000; }
+      .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .link a:disabled, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .file > a:disabled, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .link a:disabled, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .file > a:disabled, .front .l-content .middle-lower .latest-publications .publication > div .education-body .link a:disabled, .front .l-content .middle-lower .latest-publications .publication > div .education-body .file > a:disabled, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .link a:disabled, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .file > a:disabled {
+        cursor: not-allowed;
+        opacity: 0.5; }
+        .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .link a:disabled:hover, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .file > a:disabled:hover, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .link a:disabled:hover, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .file > a:disabled:hover, .front .l-content .middle-lower .latest-publications .publication > div .education-body .link a:disabled:hover, .front .l-content .middle-lower .latest-publications .publication > div .education-body .file > a:disabled:hover, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .link a:disabled:hover, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .file > a:disabled:hover {
+          background-color: #33645c; }
+    .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .field--type-text, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .field--type-text, .front .l-content .middle-lower .latest-publications .publication > div .education-body .field--type-text, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .field--type-text {
+      font-weight: 600;
+      margin: 0 auto 0 0;
+      padding-right: 0.75em; }
+    .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .file-size, .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .file-icon, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .file-size, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .file-icon, .front .l-content .middle-lower .latest-publications .publication > div .education-body .file-size, .front .l-content .middle-lower .latest-publications .publication > div .education-body .file-icon, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .file-size, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .file-icon {
+      display: none;
+      visibility: hidden; }
+    .front .l-content .middle-wrapper .latest-publications .publication > div .education-body .field--name-field-accessible-alternative, .front .l-content .middle-wrapper .latest-publications .view-content > div .education-body .field--name-field-accessible-alternative, .front .l-content .middle-lower .latest-publications .publication > div .education-body .field--name-field-accessible-alternative, .front .l-content .middle-lower .latest-publications .view-content > div .education-body .field--name-field-accessible-alternative {
+      margin-left: 0.5em; }
   .front .l-content .middle-wrapper .latest-publications .publication:nth-child(2) > div, .front .l-content .middle-lower .latest-publications .publication:nth-child(2) > div {
     padding-bottom: 0; }
   .front .l-content .middle-wrapper .target-content, .front .l-content .middle-lower .target-content {
-    background-color: #80765c;
+    background-color: #566876;
     position: relative; }
     .front .l-content .middle-wrapper .target-content h2, .front .l-content .middle-lower .target-content h2 {
       margin: 0; }
@@ -1549,12 +1606,13 @@ ul.breadcrumb {
   .front .l-content .middle-wrapper .subscribe, .front .l-content .middle-lower .subscribe {
     background: url("../images/subscribe-background.png") no-repeat;
     background-size: 100% auto;
-    margin-bottom: 1rem; }
+    margin-bottom: 0; }
     .front .l-content .middle-wrapper .subscribe .email, .front .l-content .middle-lower .subscribe .email {
       max-width: none;
       width: 100%; }
   .front .l-content .middle-wrapper .run-event, .front .l-content .middle-lower .run-event {
-    background-color: #40534d; }
+    background-color: #40534d;
+    margin-bottom: 1rem; }
     .front .l-content .middle-wrapper .run-event p, .front .l-content .middle-lower .run-event p {
       margin-bottom: 0; }
     .front .l-content .middle-wrapper .run-event .button-secondary, .front .l-content .middle-lower .run-event .button-secondary {
