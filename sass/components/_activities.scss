@@ -70,7 +70,6 @@
 	}
 	.child-activities {
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
 		.button-secondary {
 			max-width: none;
@@ -78,7 +77,6 @@
 			a {
 			color: $white;
 			text-decoration: none;
-			
 			&:focus, &:hover, &.active {
 				color: $white;
 			}
