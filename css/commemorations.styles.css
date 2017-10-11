@@ -3507,22 +3507,47 @@ ul.breadcrumb {
   font-weight: 300; }
 
 .activities .ui-corner-all, .activities .ui-corner-bottom, .activities .ui-corner-right {
-  border-bottom: 1px solid #e6e6e6;
   border-top: 0; }
+
+.activities .jquery-ui-filter-header {
+  padding: 0; }
 
 .activities .ui-corner-br, .activities .ui-corner-left, .activities .ui-corner-bl, .activities .ui-corner-top, .activities .ui-corner-tr, .activities .ui-corner-tl {
   border-bottom: 0;
   border-top: 0; }
 
 .activities .ui-accordion .ui-accordion-icons:after {
-  left: 1rem;
-  right: auto; }
+  left: 0.5px;
+  right: auto;
+  content: ''; }
 
-.activities .ui-accordion .ui-accordion-icons {
-  padding-left: 2em; }
+.activities .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  left: 0;
+  top: auto;
+  margin-top: 0;
+  position: relative; }
+
+.activities .ui-accordion .ui-accordion-content {
+  padding: 1rem 0; }
 
 .activities .jquery-ui-filter {
   margin-bottom: 1rem; }
+  .activities .jquery-ui-filter p {
+    line-height: 1.5;
+    font-size: 1em;
+    color: #474747; }
+  .activities .jquery-ui-filter .jquery-ui-filter-header {
+    max-width: 265px; }
+    .activities .jquery-ui-filter .jquery-ui-filter-header a {
+      font-size: 0.83333em;
+      display: block;
+      background-color: #6c2e37;
+      padding: 0.5rem 0.5rem;
+      max-width: 265px;
+      text-align: center;
+      color: #FFFFFF;
+      font-weight: 300;
+      border: 1px solid #FFFFFF; }
 
 .activities .views_slideshow_cycle_main div {
   margin: 0 auto; }
@@ -3581,6 +3606,9 @@ ul.breadcrumb {
   margin: 0;
   padding: 0;
   border: none; }
+
+.activities .activities-investigation .subtitle {
+  text-transform: uppercase; }
 
 @media (min-width: 768px) {
   .activities .webform-component--email {

@@ -68,22 +68,55 @@
 	}
 	.ui-corner-all, .ui-corner-bottom, .ui-corner-right, 
 	{
-		border-bottom: 1px solid $light-grey;
+		//border-bottom: 1px solid $light-grey;
 		border-top: 0;
+	}
+	.jquery-ui-filter-header {
+		padding: 0;
 	}
 	.ui-corner-br, .ui-corner-left, .ui-corner-bl, .ui-corner-top, .ui-corner-tr, .ui-corner-tl {
 		border-bottom: 0;
 		border-top: 0;
 	}
 	.ui-accordion .ui-accordion-icons:after {
-		left: 1rem;
+		left: 0.5px;
 		right: auto;
+		content: '';
+	}
+	.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+		left: 0;
+		top: auto;
+		margin-top: 0;
+		position: relative;
 	}
 	.ui-accordion .ui-accordion-icons {
-		padding-left: 2em;
+		//padding-left: 2em;
+	}
+	.ui-accordion .ui-accordion-content {
+		padding: $vert-spacing-unit 0;
 	}
 	.jquery-ui-filter {
 		margin-bottom: $vert-spacing-unit;
+		//max-width: 265px;
+		p {
+			line-height: $base-line-height;
+			font-size: $base-font-size;
+			color: $base-font-color;
+		}
+		.jquery-ui-filter-header {
+			max-width: 265px;
+			a {
+			font-size: $base-font-size / 1.2;
+			display: block;
+			background-color: $light-base;
+			padding: $vert-spacing-unit /2 $horz-spacing-unit /2;
+			max-width: 265px;
+			text-align: center;
+			color: $white;
+			font-weight: $light-font-weight;
+			border: 1px solid $white;
+		}
+	}
 	}
 	.views_slideshow_cycle_main div {
 		margin: 0 auto;
@@ -148,6 +181,11 @@
 			margin: 0;
 			padding: 0;
 			border: none;
+		}
+	}
+	.activities-investigation {
+		.subtitle {
+			text-transform: uppercase;
 		}
 	}
 }
