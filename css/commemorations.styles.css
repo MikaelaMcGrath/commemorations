@@ -3499,6 +3499,32 @@ ul.breadcrumb {
       margin: 0.25rem 0;
       display: block; }
 
+.activities .views_slideshow_main .views-slideshow-cycle-main-frame {
+  max-width: 645px !important;
+  width: 100%;
+  text-align: center;
+  display: block;
+  position: static;
+  height: auto; }
+
+.activities .child-activities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .activities .child-activities .button-secondary {
+    max-width: none;
+    margin-bottom: 0.75em; }
+    .activities .child-activities .button-secondary a {
+      color: #FFFFFF;
+      text-decoration: none; }
+      .activities .child-activities .button-secondary a:focus, .activities .child-activities .button-secondary a:hover, .activities .child-activities .button-secondary a.active {
+        color: #FFFFFF; }
+
 .activities .pane-video-gallery-panel-pane-2 {
   width: 100%; }
 
@@ -3548,9 +3574,28 @@ ul.breadcrumb {
       color: #FFFFFF;
       font-weight: 300;
       border: 1px solid #FFFFFF; }
+      .activities .jquery-ui-filter .jquery-ui-filter-header a:hover, .activities .jquery-ui-filter .jquery-ui-filter-header a:focus {
+        background-color: #974d57; }
+
+.activities .pane-node-body .jquery-ui-filter-header a {
+  background-color: #123731; }
+  .activities .pane-node-body .jquery-ui-filter-header a:hover, .activities .pane-node-body .jquery-ui-filter-header a:focus {
+    background-color: #33645c; }
+
+.activities .pane-node-body #jquery-ui-filter a {
+  background-color: #6c2e37; }
+  .activities .pane-node-body #jquery-ui-filter a:hover, .activities .pane-node-body #jquery-ui-filter a:focus {
+    background-color: #974d57; }
 
 .activities .views_slideshow_cycle_main div {
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%; }
+  .activities .views_slideshow_cycle_main div .views_slideshow_slide {
+    width: 100% !important; }
+  .activities .views_slideshow_cycle_main div .views-slideshow-cycle-main-frame-row-item {
+    margin: 2rem 0 0; }
+    .activities .views_slideshow_cycle_main div .views-slideshow-cycle-main-frame-row-item .views-field-field-text {
+      font-size: 1.5em; }
   .activities .views_slideshow_cycle_main div img {
     max-height: 400px;
     width: auto;
@@ -3609,6 +3654,10 @@ ul.breadcrumb {
 
 .activities .activities-investigation .subtitle {
   text-transform: uppercase; }
+
+.activities .right-sidebar-wrapper .subtitle {
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
 
 @media (min-width: 768px) {
   .activities .webform-component--email {
