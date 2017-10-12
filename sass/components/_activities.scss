@@ -74,7 +74,10 @@
 		.button-secondary {
 			max-width: none;
 			margin-bottom: $small-spacing;
+			padding: 0;
 			a {
+			padding: $vert-spacing-unit/2 $horz-spacing-unit/2;
+			display: block;
 			color: $white;
 			text-decoration: none;
 			&:focus, &:hover, &.active {

@@ -3516,8 +3516,11 @@ ul.breadcrumb {
           justify-content: center; }
   .activities .child-activities .button-secondary {
     max-width: none;
-    margin-bottom: 0.75em; }
+    margin-bottom: 0.75em;
+    padding: 0; }
     .activities .child-activities .button-secondary a {
+      padding: 0.5rem 0.5rem;
+      display: block;
       color: #FFFFFF;
       text-decoration: none; }
       .activities .child-activities .button-secondary a:focus, .activities .child-activities .button-secondary a:hover, .activities .child-activities .button-secondary a.active {
