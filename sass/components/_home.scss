@@ -132,6 +132,7 @@
 				}
 			}
 			.latest-publications {
+
 				.publication > div, .view-content > div {
 					width: 100%;
 					display: flex;
@@ -142,6 +143,7 @@
 						img {
 							width: 100%;
 							height: auto;
+							display: block;
 						}
 					}
 					.publication-content, .education-body {
@@ -213,6 +215,9 @@
 				                }
 				            }
         				}
+        				.subtitle {
+        					margin:0;
+        				}
         				.field--type-text {
 								font-weight: $bold-font-weight;
 								margin: 0 auto 0 0;
@@ -227,7 +232,7 @@
 							}
 					}
 				}
-				.publication:nth-child(2) {
+				.publication {
 					&> div {
 						padding-bottom: 0;
 					}
@@ -237,6 +242,7 @@
 			.target-content {
 				background-color: $remembrance-day;
 				position: relative;
+				margin-bottom: $vert-spacing-unit;
 				h2 {
 					margin: 0;
 				}
