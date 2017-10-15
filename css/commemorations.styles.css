@@ -3675,3 +3675,13 @@ ul.breadcrumb {
     min-width: 100px; }
     .activities table tbody tr .webform-grid-question img {
       max-width: 100px; } }
+
+#popup-message-background {
+  z-index: 10; }
+
+#popup-message-window {
+  border: none;
+  height: 260px !important; }
+  #popup-message-window h1 {
+    display: none;
+    visibility: hidden; }
