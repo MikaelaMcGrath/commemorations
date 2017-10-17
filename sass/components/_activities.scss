@@ -195,9 +195,10 @@
 			div {
 				flex: 1 0 100%;
 			}
-			.webform-component--email {
+			.webform-component--email, .webform-component--name {
 				flex: 0 1 35%;
-				[type='email'] {
+				margin-right: $horz-spacing-unit;
+				[type='email'], [type='text'] {
 					margin-bottom: 0;
 				}
 			}
@@ -205,7 +206,7 @@
 				flex: 0 1 20%;
 				margin-bottom: 0;
 				.webform-submit {
-					margin: 0 0 $vert-spacing-unit $horz-spacing-unit;
+					margin: 0 0 $vert-spacing-unit 0;
 					padding:  $vert-spacing-unit*0.8 $horz-spacing-unit * 0.75;
 				}
 				
