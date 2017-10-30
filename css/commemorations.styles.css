@@ -3015,7 +3015,8 @@ ul.breadcrumb {
     -o-border-image: none;
        border-image: none;
     border-radius: 0 !important;
-    border: 1px solid #c7c7c7; }
+    border: 1px solid #c7c7c7;
+    -moz-appearance: none; }
     .views-exposed-form .form-type-select select::-ms-expand {
       display: none; }
   .views-exposed-form [type='text'] {
