@@ -66,7 +66,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/sites/all/themes/custom/commemorations/images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/sites/all/themes/custom/commemorations/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/sites/all/themes/custom/commemorations/images/favicon/manifest.json">
-  <link rel="mask-icon" href="/sites/all/themes/custom/commemorations/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="mask-icon" href="/sites/all/themes/custom/commemorations/images/favicon/safari-pinned-tab.svg" color="#602e2d">
   <link rel="shortcut icon" href="/sites/all/themes/custom/commemorations/images/favicon/favicon.ico">
   <meta name="msapplication-config" content="/sites/all/themes/custom/commemorations/images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
