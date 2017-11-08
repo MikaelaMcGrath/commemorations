@@ -62,11 +62,13 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <link href="<?php print base_path() . path_to_theme() . '/fonts/open-sans.css' ?>" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/faviconfavicon-16x16.png">
-  <link rel="manifest" href="images/favicon/manifest.json">
-  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="<?php print base_path() . path_to_theme() . '/images/favicon/apple-touch-icon.png' ?>">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php print base_path() . path_to_theme() . '/images/favicon/favicon-32x32.png' ?>">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php print base_path() . path_to_theme() . '/images/favicon/favicon-16x16.png' ?>">
+  <link rel="manifest" href="<?php print base_path() . path_to_theme() . '/images/favicon/manifest.json' ?>">
+  <link rel="mask-icon" href="<?php print base_path() . path_to_theme() . '/images/favicon/safari-pinned-tab.svg' ?>" color="#5bbad5">
+  <link rel="shortcut icon" href="<?php print base_path() . path_to_theme() . '/images/favicon/favicon.ico' ?>">
+  <meta name="msapplication-config" content="<?php print base_path() . path_to_theme() . '/images/favicon/browserconfig.xml' ?>">
   <meta name="theme-color" content="#ffffff">
   <script type="text/javascript">
     setTimeout(function(){var a=document.createElement("script");
