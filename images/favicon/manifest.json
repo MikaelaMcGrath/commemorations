@@ -2,12 +2,12 @@
     "name": "",
     "icons": [
         {
-            "src": "/images/favicon/android-chrome-192x192.png",
+            "src": "/sites/all/themes/custom/commemorations/images/favicon/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/images/favicon/android-chrome-256x256.png",
+            "src": "/sites/all/themes/custom/commemorations/images/favicon/android-chrome-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         }
