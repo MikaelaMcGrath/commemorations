@@ -227,7 +227,7 @@ Drupal.behaviors.commemorationsReadMore = {
 Drupal.behaviors.ccommemorationsEventDownloads = {
     attach: function (context, settings) {
 // Create a list of extensions. Add to this to track other file downloads.
-var extensionList = ['.pdf','.doc','.docx','.xls','.xslx','.rtf','.mp4','.srt','.ppt','.pptx'];
+var extensionList = ['.pdf','.doc','.docx','.xls','.xslx','.rtf','.mp4','.srt','.ppt','.pptx','.zip'];
 
 // Iterate over the list of extensions.
 $.each(extensionList, function(index, extension) {
@@ -245,7 +245,8 @@ $.each(extensionList, function(index, extension) {
     e.currentTarget.title ? eventLabel = event.currentTarget.title : eventLabel = decodeURI(pathName.substr(pathName.lastIndexOf('/') +1));
     
     // Send the data to Google Analytics using the GA function.
-    ga('send', 'event', eventCategory, 'Download', eventLabel);
+    ga('send', 'event', 'Downloads', eventCategory, eventLabel, '0');
+    console.log(eventCategory + ' ' + eventLabel);
   });
 });
 }
