@@ -224,5 +224,31 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
+Drupal.behaviors.ccommemorationsEventDownloads = {
+    attach: function (context, settings) {
+// Create a list of extensions. Add to this to track other file downloads.
+var extensionList = ['.pdf','.doc','.docx','.xls','.xslx','.rtf','.mp4','.srt','.ppt','.pptx'];
+
+// Iterate over the list of extensions.
+$.each(extensionList, function(index, extension) {
+  
+  // Place click event listeners on links to files with one of the extensions.
+  $('a[href$="' + extension + '"]').click(function(event) {
+    
+    // Get the path from the click event object.
+    var pathName = event.currentTarget.pathname;
+    
+    // Create the Event Category from the file name without the extension.
+    var eventCategory = pathName.substr(pathName.lastIndexOf('.') +1).toUpperCase();
+    
+    // Get the Event Label from the existing title attribute. Otherwise, create the label from the pathName variable.
+    e.currentTarget.title ? eventLabel = event.currentTarget.title : eventLabel = decodeURI(pathName.substr(pathName.lastIndexOf('/') +1));
+    
+    // Send the data to Google Analytics using the GA function.
+    ga('send', 'event', eventCategory, 'Download', eventLabel);
+  });
+});
+}
+};
 })(jQuery);
 
