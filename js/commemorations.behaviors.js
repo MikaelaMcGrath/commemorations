@@ -238,10 +238,21 @@ Drupal.behaviors.commemorationsEventDownloads = {
 
     // Get the Event Label from the button text
     var eventLabel = $(this).text().toUpperCase();
+    if(eventLabel.length > 4) {
+      if (eventLabel.indexOf('PDF') >= 0) {
+        eventLabel='PDF';
+      }
+      else if(eventLabel.indexOf('DOCX') >= 0) {
+        eventLabel='DOCX';
+      }
+      else if(eventLabel.indexOf('DOC') >= 0) {
+        eventLabel='DOC';
+      }
+      
+    }
 
     // Send the data to Google Analytics using the GA function.
     ga('send', 'event', 'Downloads', eventLabel, eventCategory);
-
   });
 
 }
