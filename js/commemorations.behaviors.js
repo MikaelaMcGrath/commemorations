@@ -174,7 +174,7 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
-   Drupal.behaviors.ccommemorationsSearch = {
+   Drupal.behaviors.commemorationsSearch = {
     attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
       // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
@@ -211,7 +211,7 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
-   Drupal.behaviors.ccommemorationsVideoGallery = {
+   Drupal.behaviors.commemorationsVideoGallery = {
     attach: function (context, settings) {
       // By using the 'context' variable we make sure that our code only runs on
       // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
@@ -224,31 +224,32 @@ Drupal.behaviors.commemorationsReadMore = {
       });
     }
   };
-Drupal.behaviors.ccommemorationsEventDownloads = {
+Drupal.behaviors.commemorationsEventDownloads = {
     attach: function (context, settings) {
 // Create a list of extensions. Add to this to track other file downloads.
-var extensionList = ['.pdf','.doc','.docx','.xls','.xslx','.rtf','.mp4','.srt','.ppt','.pptx','.zip'];
+var extensionList = ['.pdf','.doc','.docx','.xls','.xslx','.rtf','.mp4','.srt','.ppt','.pptx'];
 
 // Iterate over the list of extensions.
-$.each(extensionList, function(index, extension) {
   
   // Place click event listeners on links to files with one of the extensions.
-  $('a[href$="' + extension + '"]').click(function(event) {
-    
+  $('a[href*="download"]').click(function(event) {
+
     // Get the path from the click event object.
     var pathName = event.currentTarget.pathname;
-    
+
     // Create the Event Category from the file name without the extension.
     var eventCategory = pathName.substr(pathName.lastIndexOf('.') +1).toUpperCase();
-    
+
+
+    var eventLabel = $(this).text();
     // Get the Event Label from the existing title attribute. Otherwise, create the label from the pathName variable.
-    e.currentTarget.title ? eventLabel = event.currentTarget.title : eventLabel = decodeURI(pathName.substr(pathName.lastIndexOf('/') +1));
+    //e.currentTarget.title ? eventLabel = event.currentTarget.title : eventLabel = decodeURI(pathName.substr(pathName.lastIndexOf('/') +1));
     
     // Send the data to Google Analytics using the GA function.
-    ga('send', 'event', 'Downloads', eventCategory, eventLabel, '0');
-    console.log(eventCategory + ' ' + eventLabel);
+    ga('send', 'event', 'Downloads', eventCategory, eventLabel);
+
   });
-});
+
 }
 };
 })(jQuery);
