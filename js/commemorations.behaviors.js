@@ -226,10 +226,6 @@ Drupal.behaviors.commemorationsReadMore = {
   };
 Drupal.behaviors.commemorationsEventDownloads = {
     attach: function (context, settings) {
-// Create a list of extensions. Add to this to track other file downloads.
-var extensionList = ['.pdf','.doc','.docx','.xls','.xslx','.rtf','.mp4','.srt','.ppt','.pptx'];
-
-// Iterate over the list of extensions.
   
   // Place click event listeners on links to files with one of the extensions.
   $('a[href*="download"]').click(function(event) {
@@ -240,11 +236,9 @@ var extensionList = ['.pdf','.doc','.docx','.xls','.xslx','.rtf','.mp4','.srt','
     // Create the Event Category from the file name without the extension.
     var eventCategory = pathName.substr(pathName.lastIndexOf('.') +1);
 
-
+    // Get the Event Label from the button text
     var eventLabel = $(this).text();
-    // Get the Event Label from the existing title attribute. Otherwise, create the label from the pathName variable.
-    //e.currentTarget.title ? eventLabel = event.currentTarget.title : eventLabel = decodeURI(pathName.substr(pathName.lastIndexOf('/') +1));
-    
+
     // Send the data to Google Analytics using the GA function.
     ga('send', 'event', 'Downloads', eventLabel, eventCategory);
 
