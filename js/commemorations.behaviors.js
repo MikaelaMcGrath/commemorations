@@ -238,7 +238,7 @@ var extensionList = ['.pdf','.doc','.docx','.xls','.xslx','.rtf','.mp4','.srt','
     var pathName = event.currentTarget.pathname;
 
     // Create the Event Category from the file name without the extension.
-    var eventCategory = pathName.substr(pathName.lastIndexOf('.') +1).toUpperCase();
+    var eventCategory = pathName.substr(pathName.lastIndexOf('.') +1);
 
 
     var eventLabel = $(this).text();
