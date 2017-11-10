@@ -246,7 +246,7 @@ var extensionList = ['.pdf','.doc','.docx','.xls','.xslx','.rtf','.mp4','.srt','
     //e.currentTarget.title ? eventLabel = event.currentTarget.title : eventLabel = decodeURI(pathName.substr(pathName.lastIndexOf('/') +1));
     
     // Send the data to Google Analytics using the GA function.
-    ga('send', 'event', 'Downloads', eventCategory, eventLabel);
+    ga('send', 'event', 'Downloads', eventLabel, eventCategory);
 
   });
 
