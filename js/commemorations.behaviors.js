@@ -237,7 +237,7 @@ Drupal.behaviors.commemorationsEventDownloads = {
     var eventCategory = pathName.substr(pathName.lastIndexOf('.') +1);
 
     // Get the Event Label from the button text
-    var eventLabel = $(this).text();
+    var eventLabel = $(this).text().toUpperCase();
 
     // Send the data to Google Analytics using the GA function.
     ga('send', 'event', 'Downloads', eventLabel, eventCategory);
