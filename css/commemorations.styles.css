@@ -3387,6 +3387,21 @@ ul.breadcrumb {
   margin: 0 auto;
   background-color: #FFFFFF; }
 
+.page-node-2853 .fieldset-legend {
+  font-size: 1.7em;
+  font-weight: 300; }
+
+.page-node-2853 .form-type-radio {
+  display: inline;
+  padding-right: 2rem; }
+
+.page-node-2853 select {
+  border-color: #e6e6e6;
+  background-color: #FFFFFF;
+  height: 40px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06); }
+
 @media (min-width: 768px) {
   .node-type-webform .right-sidebar-wrapper .pane-node-content {
     -webkit-box-flex: 1;
