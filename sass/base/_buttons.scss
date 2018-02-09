@@ -44,3 +44,12 @@
     background-color: $light-secondary;
   }
 }
+a.button-secondary {
+  text-decoration: none;
+  &:hover, 
+  &:focus,
+  &:active,
+  &:visited {
+    color: $white;
+  }
+}

@@ -443,6 +443,10 @@
         font-size: $base-font-size * 0.8;
     }
 }
+.entry-form {
+    margin-top: 0;
+    padding-top: $vert-spacing-unit;
+}
 .page-search, .node-type-flash.page-node-443, .node-type-flash.page-node-1377 {
     .content-wrapper {
         padding: $all-round;
@@ -463,6 +467,10 @@
     }
 }
 @include breakpoint(tablet) {
+    .entry-form {
+    margin-top: $vert-spacing-unit;
+    padding-top: 0;
+}
     .links-portal {
         .view-content {
 
@@ -489,6 +497,7 @@
     }
 }
 @include breakpoint(desktop) {
+    
     .links-portal {
         .view-content {
 
