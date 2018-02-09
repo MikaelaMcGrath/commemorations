@@ -44,6 +44,11 @@ button, [type='button'], [type='reset'], [type='submit'], .button, .button-secon
   .button-secondary:hover, .button-secondary:focus {
     background-color: #33645c; }
 
+.l-content a.button-secondary {
+  text-decoration: none; }
+  .l-content a.button-secondary:hover, .l-content a.button-secondary:focus, .l-content a.button-secondary:active, .l-content a.button-secondary:visited {
+    color: #FFFFFF; }
+
 fieldset {
   background-color: transparent;
   border: 0;
@@ -778,6 +783,10 @@ body {
   .run-ceremony .education-body {
     font-size: 0.8em; }
 
+.entry-form {
+  margin-top: 0;
+  padding-top: 1rem; }
+
 .page-search .content-wrapper, .node-type-flash.page-node-443 .content-wrapper, .node-type-flash.page-node-1377 .content-wrapper {
   padding: 1rem 1rem; }
 
@@ -792,6 +801,9 @@ body {
             flex: 1 0 100%; } }
 
 @media (min-width: 768px) {
+  .entry-form {
+    margin-top: 1rem;
+    padding-top: 0; }
   .links-portal .view-content div {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 45%;
@@ -1427,23 +1439,19 @@ ul.breadcrumb {
       vertical-align: middle; }
     .front .l-content .center-wrapper .veterans-story h3, .front .l-content .middle-lower .veterans-story h3 {
       position: absolute;
-      right: 1rem;
-      width: 60%;
+      left: 1rem;
+      width: 28%;
       margin: 0.75em 0;
       padding: 0;
-      font-size: 2em;
-      top: 40%;
-      text-align: right; }
+      font-size: 1.2em;
+      top: 20%; }
       .front .l-content .center-wrapper .veterans-story h3 .veteran, .front .l-content .middle-lower .veterans-story h3 .veteran {
-        font-size: 2.1em;
+        font-size: 1.9em;
         line-height: 1; }
       .front .l-content .center-wrapper .veterans-story h3 a, .front .l-content .middle-lower .veterans-story h3 a {
-        color: #000000;
+        color: #FFFFFF;
         text-decoration: none;
         border-bottom: none; }
-      .front .l-content .center-wrapper .veterans-story h3 .adsa-large, .front .l-content .middle-lower .veterans-story h3 .adsa-large {
-        display: block;
-        font-size: 1.7em; }
 
 .front .l-content .middle-wrapper, .front .l-content .middle-lower {
   padding: 0 1rem 1rem; }
@@ -1634,12 +1642,6 @@ ul.breadcrumb {
       display: block; }
       .front .l-content .middle-wrapper .run-event .button-secondary:hover, .front .l-content .middle-wrapper .run-event .button-secondary:focus, .front .l-content .middle-lower .run-event .button-secondary:hover, .front .l-content .middle-lower .run-event .button-secondary:focus {
         color: #FFFFFF; }
-
-.front .l-content .middle-lower {
-  padding: 0; }
-
-.front .l-content .middle-wrapper {
-  padding-bottom: 0; }
 
 @media (min-width: 768px) {
   .front .l-content .full-width .header-home {
