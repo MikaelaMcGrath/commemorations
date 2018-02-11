@@ -100,6 +100,45 @@
 						}
 				}
 			}
+			.adsa-banner {
+				h3 {
+					width: 70%;
+					right: $vert-spacing-unit;
+					left: auto;
+					top: 22%;
+					a {
+						color: $black;
+						display: block;
+						text-align: right;
+						font-size: 140%;
+						.adsa-large {
+							font-size: 170%;
+							display: block;
+						}
+					}	
+				}
+				img.veterans-banner-mobile {
+					max-height: 175px;
+				}
+				p {
+					position: absolute;
+					bottom: 2px;
+					left: 0;
+					color: $black;
+					font-size: 70%;
+					background-color: #efc719;
+					line-height: 2.3em;
+					padding-left: $horz-spacing-unit * 3;
+					padding-right: $horz-spacing-unit;
+
+				}
+				&:hover, &:focus {
+					p {
+						
+					}
+					
+				}
+			}
 		}
 		.middle-wrapper, .middle-lower {
 			padding: 0 $horz-spacing-unit $vert-spacing-unit;
@@ -331,6 +370,7 @@
 		}
 	}
 }
+
 @include breakpoint(tablet) {
 	.front {
 		.l-content {
@@ -364,6 +404,25 @@
 						visibility: visible;
 					}
 					
+				}
+				.adsa-banner {
+					h3 {
+						width: 400px;
+						left: auto;
+						right: $horz-spacing-unit;
+						top: auto;
+						bottom: 1rem;
+					}
+					p {
+						left: 43%;
+						bottom: 14%;
+						padding-left: 0;
+						padding-right: 0;
+						margin-bottom: 0;
+						line-height: 1em;
+						font-size:90%;
+
+					}
 				}
 			}
 			.middle-lower {
@@ -420,6 +479,20 @@
 							font-size: $base-font-size * 2.2;
 						}
 					}
+				}
+				.adsa-banner {
+					h3 {
+						width: 40%;
+						top: auto;
+						bottom: 1rem;
+						font-size: 1.8em
+					}
+					p {
+						font-size: 110%;
+						bottom: 45px;
+						left: 47%;
+					}
+					
 				}
 			}
 			.middle-wrapper {

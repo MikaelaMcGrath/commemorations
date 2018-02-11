@@ -1452,6 +1452,31 @@ ul.breadcrumb {
         color: #FFFFFF;
         text-decoration: none;
         border-bottom: none; }
+  .front .l-content .center-wrapper .adsa-banner h3, .front .l-content .middle-lower .adsa-banner h3 {
+    width: 70%;
+    right: 1rem;
+    left: auto;
+    top: 22%; }
+    .front .l-content .center-wrapper .adsa-banner h3 a, .front .l-content .middle-lower .adsa-banner h3 a {
+      color: #000000;
+      display: block;
+      text-align: right;
+      font-size: 140%; }
+      .front .l-content .center-wrapper .adsa-banner h3 a .adsa-large, .front .l-content .middle-lower .adsa-banner h3 a .adsa-large {
+        font-size: 170%;
+        display: block; }
+  .front .l-content .center-wrapper .adsa-banner img.veterans-banner-mobile, .front .l-content .middle-lower .adsa-banner img.veterans-banner-mobile {
+    max-height: 175px; }
+  .front .l-content .center-wrapper .adsa-banner p, .front .l-content .middle-lower .adsa-banner p {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    color: #000000;
+    font-size: 70%;
+    background-color: #efc719;
+    line-height: 2.3em;
+    padding-left: 3rem;
+    padding-right: 1rem; }
 
 .front .l-content .middle-wrapper, .front .l-content .middle-lower {
   padding: 0 1rem 1rem; }
@@ -1661,6 +1686,20 @@ ul.breadcrumb {
   .front .l-content .center-wrapper .veterans-story .veterans-banner, .front .l-content .middle-lower .veterans-story .veterans-banner {
     display: block;
     visibility: visible; }
+  .front .l-content .center-wrapper .adsa-banner h3, .front .l-content .middle-lower .adsa-banner h3 {
+    width: 400px;
+    left: auto;
+    right: 1rem;
+    top: auto;
+    bottom: 1rem; }
+  .front .l-content .center-wrapper .adsa-banner p, .front .l-content .middle-lower .adsa-banner p {
+    left: 43%;
+    bottom: 14%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    line-height: 1em;
+    font-size: 90%; }
   .front .l-content .middle-lower {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1702,6 +1741,15 @@ ul.breadcrumb {
     font-size: 2em; }
     .front .l-content .center-wrapper .veterans-story h3 .veteran, .front .l-content .middle-lower .veterans-story h3 .veteran {
       font-size: 2.2em; }
+  .front .l-content .center-wrapper .adsa-banner h3, .front .l-content .middle-lower .adsa-banner h3 {
+    width: 40%;
+    top: auto;
+    bottom: 1rem;
+    font-size: 1.8em; }
+  .front .l-content .center-wrapper .adsa-banner p, .front .l-content .middle-lower .adsa-banner p {
+    font-size: 110%;
+    bottom: 45px;
+    left: 47%; }
   .front .l-content .middle-wrapper .target-content .field--name-field-image .odd {
     width: 265px;
     right: 2rem; } }
