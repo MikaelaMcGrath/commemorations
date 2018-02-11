@@ -1668,6 +1668,12 @@ ul.breadcrumb {
       .front .l-content .middle-wrapper .run-event .button-secondary:hover, .front .l-content .middle-wrapper .run-event .button-secondary:focus, .front .l-content .middle-lower .run-event .button-secondary:hover, .front .l-content .middle-lower .run-event .button-secondary:focus {
         color: #FFFFFF; }
 
+.front .l-content .middle-lower {
+  padding: 0; }
+
+.front .l-content .middle-wrapper {
+  padding-bottom: 0; }
+
 @media (min-width: 768px) {
   .front .l-content .full-width .header-home {
     height: 300px; }
