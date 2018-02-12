@@ -101,6 +101,7 @@
 				}
 			}
 			.adsa-banner {
+				max-height: 175px;
 				h3 {
 					width: 70%;
 					right: $vert-spacing-unit;
@@ -117,9 +118,8 @@
 						}
 					}	
 				}
-				img.veterans-banner-mobile {
-					max-height: 175px;
-				}
+				
+
 				p {
 					position: absolute;
 					bottom: 2px;
@@ -412,6 +412,7 @@
 					
 				}
 				.adsa-banner {
+					max-height: none;
 					h3 {
 						width: 400px;
 						left: auto;
