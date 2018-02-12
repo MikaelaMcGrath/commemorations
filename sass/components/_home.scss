@@ -342,7 +342,7 @@
 			.subscribe {
 				background: url('../images/subscribe-background.png') no-repeat;
 				background-size: 100% auto;
-				margin-bottom: 0;
+				margin-bottom: $vert-spacing-unit;
 				.email {
 					max-width: none;
 					width: 100%;
@@ -504,6 +504,9 @@
 			}
 			.middle-wrapper {
 				.target-content {
+					.subscribe {
+						margin-bottom: 0;
+					}					}
 					.field--name-field-image {
 						.odd {
 							width: 265px;
