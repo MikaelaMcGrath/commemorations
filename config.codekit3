@@ -331,6 +331,102 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/favicon\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 28021,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 47200,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/android-chrome-256x256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 24910,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/favicon\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/images\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 850,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1565,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/favicon\/favicon.ico",
+		"oF": 0
+		},
+	"\/images\/favicon\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/images\/favicon\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/images\/favicon\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 15746,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/favicon\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/filter.png": {
 		"ft": 32768,
 		"iS": 1871,
@@ -870,6 +966,37 @@
 		"oA": 2,
 		"oAP": "\/panels\/layouts\/commemoration_website\/Thumbs.db",
 		"oF": 0
+		},
+	"\/popup_message_styles\/mystyle\/img\/close.png": {
+		"ft": 32768,
+		"iS": 15175,
+		"oA": 0,
+		"oAP": "\/popup_message_styles\/mystyle\/img\/close.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/popup_message_styles\/mystyle\/popup-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/popup_message_styles\/mystyle\/popup-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/popup_message_styles\/mystyle\/popup.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/popup_message_styles\/mystyle\/popup-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/preprocess\/page.preprocess.inc": {
 		"ft": 8192,
@@ -1630,6 +1757,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/sass\/components\/_activities.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_activities.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/sass\/components\/_alertbox.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1886,6 +2026,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_page.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/sass\/components\/_popup.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_popup.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

@@ -1,0 +1,53 @@
+#popup-message-background {
+  display: none !important;
+  position: fixed;
+  height: 0;
+  width: 0;
+  top: auto;
+  left: auto;
+  border: 1px solid #cecece;
+  z-index: 1;
+}
+
+#popup-message-window {
+  display: none;
+  position: fixed !important;
+  overflow: auto;
+  background: #474747;
+  color: #fff;
+  border: 10px solid #000000;
+  border-radius: 10px 10px 10px 10px;
+  z-index: 200;
+  padding: 12px;
+  font-size: 13px;
+  height: auto !important;
+  top: auto !important;
+  left: auto !important;
+  right: 1em !important;
+  bottom: 1em !important;
+}
+#popup-message-window p {
+	color: #fff;
+}
+#popup-message-window a {
+	color: #82C0BC;
+	text-decoration: underline;
+	font-weight: 600;
+
+}
+#popup-message-window h1.popup-message-title {
+  display: none;
+}
+
+#popup-message-close {
+  background: transparent url(img/close.png) no-repeat top left;
+  text-indent: -1000px;
+  width: 16px;
+  height: 16px;
+  font-size: 0px;
+  right: 6px;
+  top: 4px;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+}
