@@ -28,12 +28,19 @@
 }
 #popup-message-window p {
 	color: #fff;
+	padding-bottom: 1em;
 }
-#popup-message-window a {
+#popup-message-window a.do-it {
 	color: #82C0BC;
 	text-decoration: underline;
 	font-weight: 600;
-
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-left: 1em;
+	padding-top: 5em;
 }
 #popup-message-window h1.popup-message-title {
   display: none;
@@ -50,4 +57,5 @@
   position: absolute;
   display: block;
   cursor: pointer;
+  z-index: 1000000;
 }
