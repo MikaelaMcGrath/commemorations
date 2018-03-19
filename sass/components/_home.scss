@@ -32,7 +32,7 @@
 			}
 		}
 		.center-wrapper, .middle-lower {
-			padding: $all-round;
+			padding: $vert-spacing-unit $horz-spacing-unit 0;
 			 .conflicts-content {
 				.view-content {
 
@@ -102,6 +102,7 @@
 			}
 			.adsa-banner {
 				max-height: 175px;
+				margin-bottom: $vert-spacing-unit;
 				h3 {
 					width: 70%;
 					right: $vert-spacing-unit;
@@ -156,6 +157,13 @@
 			}
 			.media {
 				margin-bottom: 0;
+			}
+			.media-full {
+				margin: 0;
+				img {
+					width: 100%;
+					height: auto;
+				}
 			}
 			.right-sidebar-wrapper {
 				padding: $vert-spacing-unit 0 0;
@@ -254,6 +262,9 @@
 				                }
 				            }
         				}
+        				.link {
+        					margin-bottom: 0;
+        				}
         				.subtitle {
         					margin:0;
         				}
@@ -342,7 +353,7 @@
 			.subscribe {
 				background: url('../images/subscribe-background.png') no-repeat;
 				background-size: 100% auto;
-				margin-bottom: $vert-spacing-unit;
+				margin-bottom: 0;
 				.email {
 					max-width: none;
 					width: 100%;
@@ -369,7 +380,12 @@
 			}
 		}
 		.middle-lower {
-			padding: 0;
+			padding: $vert-spacing-unit $horz-spacing-unit;
+			.resource-survey {
+				img {
+					display: block;
+				}
+			}
 		}
 		.middle-wrapper {
 			padding-bottom: 0;
@@ -435,6 +451,7 @@
 			.middle-lower {
 				display: flex;
 				flex-wrap: wrap;
+				justify-content: space-between;
 				.pane-block-4 {
 					flex: 1 0 100%;
 				}
@@ -447,6 +464,13 @@
 				}
 				.run-event {
 					margin-left: $horz-spacing-unit/2;
+				}
+				.pane-education-panel-pane-8 {
+					flex: 1 0 70%;
+				}
+				.pane-block-7 {
+					flex: 1 0 27%;
+					margin-left: $horz-spacing-unit;
 				}
 			}
 			.middle-wrapper {
