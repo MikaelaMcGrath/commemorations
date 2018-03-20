@@ -1,4 +1,4 @@
-ð(function ($) {
+(function ($) {
 
   /**
    * The recommended way for producing HTML markup through JavaScript is to write
