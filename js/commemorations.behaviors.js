@@ -1,4 +1,4 @@
-(function ($) {
+ð(function ($) {
 
   /**
    * The recommended way for producing HTML markup through JavaScript is to write
@@ -171,43 +171,6 @@ Drupal.behaviors.commemorationsReadMore = {
         });
         
 
-      });
-    }
-  };
-   Drupal.behaviors.commemorationsSearch = {
-    attach: function (context, settings) {
-      // By using the 'context' variable we make sure that our code only runs on
-      // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
-      // we don't run the same piece of code for an HTML snippet that we already
-      // processed previously. By using .once('foo') all processed elements will
-      // get tagged with a 'foo-processed' class, causing all future invocations
-      // of this behavior to ignore them.
-      $('.search', context).once('search-dropdown', function () {
-        $(window).on('resize', function(e) {
-          checkScreenSize();
-        });
-        checkScreenSize();
-        function checkScreenSize(){
-          var newWindowWidth= $(window).width();
-          if(newWindowWidth < 767) {
-            $('.search-function').slideUp();
-            $('.search-icon').click(function(){
-              if($(this).hasClass('collapsed')) {
-               $(this).addClass('expanded').removeClass('collapsed').next('.search-function').slideDown().prev('.search-icon');
-              }
-              else if ($(this).hasClass('expanded')){
-                $(this).addClass('collapsed').removeClass('expanded').next('.search-function').slideUp().prev('.search-icon');
-              }
-          });
-            $('.meanmenu-reveal').click(function() {
-                $(this).parent().toggleClass('close');
-             
-            });
-          }
-        
-
-        }
-        
       });
     }
   };
